@@ -1,0 +1,11 @@
+{
+  "metrics": "focus_classifier/artifacts/metrics.json",
+  "speed": "focus_classifier/artifacts/speed.json",
+  "original_feature_audit": "research/audit_results.json",
+  "example_files": [
+    "14_08_2026_11_38_03_117.png",
+    "12_08_2026_11_56_31_172.png",
+    "12_08_2026_12_36_05_6.png"
+  ],
+  "predictions": "patient-held-out OOF predictions, not final training-set predictions"
+}

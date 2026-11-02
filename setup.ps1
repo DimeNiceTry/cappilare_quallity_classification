@@ -7,8 +7,10 @@ if (-not (Test-Path -LiteralPath $environmentPython)) {
     $pythonPrefix = @()
     if (Get-Command py -ErrorAction SilentlyContinue) {
         foreach ($version in @('-3.11','-3.10')) {
-            & py $version -c 'import sys; assert sys.version_info[:2] in [(3,10),(3,11)]' 2>$null
-            if ($LASTEXITCODE -eq 0) { $pythonCommand = 'py'; $pythonPrefix = @($version); break }
+            try {
+                & py $version -c 'import sys; assert sys.version_info[:2] in [(3,10),(3,11)]' 2>$null
+                if ($LASTEXITCODE -eq 0) { $pythonCommand = 'py'; $pythonPrefix = @($version); break }
+            } catch {}
         }
     }
     if (-not $pythonCommand -and (Get-Command python -ErrorAction SilentlyContinue)) {

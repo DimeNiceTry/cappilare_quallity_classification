@@ -6,7 +6,7 @@ try {
     $reviewHealthy = $reply.app -eq 'capillary-cross-review'
 } catch {}
 if (-not $reviewHealthy) {
-    $reviewPython = Join-Path $env:LOCALAPPDATA 'Programs\Python\Python310\python.exe'
+    $reviewPython = Join-Path (Split-Path $PSScriptRoot -Parent) '.venv\Scripts\python.exe'
     if (-not (Test-Path -LiteralPath $reviewPython)) {
         $reviewPython = (Get-Command python -ErrorAction Stop).Source
     }

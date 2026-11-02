@@ -21,6 +21,21 @@ class Handler(BaseHTTPRequestHandler):
     def json_response(self,value,status=200):
         self.respond(json.dumps(value,ensure_ascii=False,allow_nan=False).encode('utf-8'),'application/json',status=status)
 
+    def reject_upload(self,message,status=403):
+        # Drain bounded uploads before closing: Windows otherwise may reset the
+        # connection while the client is still sending, losing the JSON error.
+        try:
+            remaining=int(self.headers.get('Content-Length','0'))
+            if 0<remaining<=MAX_UPLOAD and not self.headers.get('Transfer-Encoding'):
+                self.connection.settimeout(5)
+                while remaining:
+                    chunk=self.rfile.read(min(remaining,64*1024))
+                    if not chunk:break
+                    remaining-=len(chunk)
+            self.json_response({'error':message},status)
+        except (OSError,ValueError):pass
+        self.close_connection=True
+
     def do_GET(self):
         if not self.valid_host():
             self.send_error(403);return
@@ -50,9 +65,9 @@ class Handler(BaseHTTPRequestHandler):
         if not self.valid_host():self.send_error(403);return
         origin=self.headers.get('Origin')
         allowed={f'http://127.0.0.1:{self.server.server_port}',f'http://localhost:{self.server.server_port}'}
-        if origin is not None and origin not in allowed:self.json_response({'error':'Недопустимый источник запроса.'},403);return
+        if origin is not None and origin not in allowed:self.reject_upload('Недопустимый источник запроса.');return
         if not secrets.compare_digest(self.headers.get('X-Inference-Token',''),self.server.inference_token):
-            self.json_response({'error':'Обнови страницу перед оценкой фотографий.'},403);return
+            self.reject_upload('Обнови страницу перед оценкой фотографий.');return
         parsed=urlsplit(self.path)
         if parsed.path!='/api/inference/predict':self.send_error(404);return
         try:
