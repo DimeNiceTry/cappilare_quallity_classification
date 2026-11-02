@@ -1,0 +1,46 @@
+{
+  "counts": {
+    "pending": 0,
+    "agreed_binary": 565,
+    "uncertain_agreement": 20,
+    "disagreement": 415,
+    "agreed_ok": 62,
+    "agreed_not_ok": 503
+  },
+  "class_order": [
+    "ok",
+    "not_ok",
+    "uncertain"
+  ],
+  "matrix_human_rows_assistant_columns": [
+    [
+      62,
+      58,
+      42
+    ],
+    [
+      90,
+      503,
+      91
+    ],
+    [
+      41,
+      93,
+      20
+    ]
+  ],
+  "agreement_rate": 0.585,
+  "kappa": 0.16639214520444467,
+  "progress": {
+    "human": {
+      "total": 500,
+      "done": 500
+    },
+    "assistant": {
+      "total": 500,
+      "done": 500
+    },
+    "complete": true
+  },
+  "note": "Перекрёстная проверка исторических меток по уточнённым критериям. Совпадение не доказывает истинность метки; отбор исключает трудные случаи."
+}

@@ -1,0 +1,35 @@
+{
+  "tag": "data-v1",
+  "repository": "DimeNiceTry/cappilare_quallity_classification",
+  "images": 1000,
+  "patients": 93,
+  "videos": 500,
+  "assets": [
+    {
+      "name": "capillary-data-part-01.zip",
+      "bytes": 451842747,
+      "sha256": "0c8b723f69ff46fd12104cc29402d62e8328e9377de39f533444ef1f3f30e531",
+      "images": 250
+    },
+    {
+      "name": "capillary-data-part-02.zip",
+      "bytes": 424909295,
+      "sha256": "a08cbec8ea47474c610b42a3a9a582e93f539a86393139938212b40b58849349",
+      "images": 250
+    },
+    {
+      "name": "capillary-data-part-03.zip",
+      "bytes": 411473061,
+      "sha256": "74877fa3f0d065b1669111b24199b73573e76c69a0068f7c24d324ca884e554c",
+      "images": 250
+    },
+    {
+      "name": "capillary-data-part-04.zip",
+      "bytes": 416739345,
+      "sha256": "8969840c1fc24c5bb3c36916e81750814db3fb7e5ea8ca7156e26cd269b992e5",
+      "images": 250
+    }
+  ],
+  "annotation_sha256": "8dda82d546c39d0cfa5b6fee9ee472c9fcfe7f4cbdaed5c750ffbdd2be09b27a",
+  "note": "Extract all four independent ZIP files into the repository root."
+}

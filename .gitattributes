@@ -1,0 +1,14 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.png binary
+*.pt binary
+*.joblib binary
+*.npz binary
+*.sqlite3 binary
+*.pptx binary
+# Preserve bytes used by dataset snapshots and artifact SHA-256 checks.
+capillary_quality_1000/* -text
+data/annotations/* -text
+deployment/review_snapshot/* -text
+focus_classifier/artifacts/* -text

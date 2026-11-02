@@ -1,0 +1,124 @@
+{
+  "scope": "Exploratory ranking on all available data; no trained classifier, independent test, or calibration claim.",
+  "images": 1000,
+  "image_files": 1000,
+  "videos": 500,
+  "patients": 93,
+  "classes": {
+    "not_ok": 509,
+    "doubtful": 210,
+    "ok": 281
+  },
+  "annotation_sources": {
+    "human": 500,
+    "assistant": 500
+  },
+  "classes_by_annotation_source": {
+    "human": {
+      "not_ok": 293,
+      "doubtful": 104,
+      "ok": 103
+    },
+    "assistant": {
+      "ok": 178,
+      "doubtful": 106,
+      "not_ok": 216
+    }
+  },
+  "image_sizes": {
+    "(1024, 768)": 1000
+  },
+  "image_modes": {
+    "RGB": 1000
+  },
+  "frames_per_video_histogram": {
+    "2": 500
+  },
+  "frames_per_patient_min_median_max": [
+    2,
+    12.0,
+    12
+  ],
+  "duplicate_annotation_names": 0,
+  "duplicate_video_map_rows": 0,
+  "duplicate_image_hash_groups": [],
+  "manifest_mismatches": [],
+  "annotation_sha256_matches_manifest": true,
+  "unannotated_image_files": [],
+  "clear_label_ranking_n": 790,
+  "bootstrap_repetitions": 1000,
+  "scores": {
+    "laplacian_raw": {
+      "auc_ok_vs_not_ok": 0.42694838109753963,
+      "patient_bootstrap_percentile_ci95": [
+        0.3839793550038258,
+        0.47301818157867387
+      ],
+      "auc_by_annotation_source": {
+        "human": 0.4124391132906988,
+        "assistant": 0.42883895131086147
+      },
+      "median_by_class": {
+        "not_ok": 0.03972102329134941,
+        "doubtful": 0.0370030514895916,
+        "ok": 0.028444437310099602
+      }
+    },
+    "laplacian_smooth": {
+      "auc_ok_vs_not_ok": 0.4699816121206189,
+      "patient_bootstrap_percentile_ci95": [
+        0.42818406682288157,
+        0.5134915964988263
+      ],
+      "auc_by_annotation_source": {
+        "human": 0.46661585870969885,
+        "assistant": 0.4679567207657095
+      },
+      "median_by_class": {
+        "not_ok": 0.00023684639018028975,
+        "doubtful": 0.00021732973254984245,
+        "ok": 0.00019175675697624683
+      }
+    },
+    "tenengrad_smooth": {
+      "auc_ok_vs_not_ok": 0.6443238783743156,
+      "patient_bootstrap_percentile_ci95": [
+        0.600327323052935,
+        0.6924660570836509
+      ],
+      "auc_by_annotation_source": {
+        "human": 0.6387885615825575,
+        "assistant": 0.6558208489388265
+      },
+      "median_by_class": {
+        "not_ok": 0.007442311849445105,
+        "doubtful": 0.010754847433418036,
+        "ok": 0.010569732636213303
+      }
+    },
+    "local_tenengrad_p75": {
+      "auc_ok_vs_not_ok": 0.6660397541757266,
+      "patient_bootstrap_percentile_ci95": [
+        0.6211456401784629,
+        0.7129680713055865
+      ],
+      "auc_by_annotation_source": {
+        "human": 0.6650982471254846,
+        "assistant": 0.6769402829796088
+      },
+      "median_by_class": {
+        "not_ok": 0.008594394428655505,
+        "doubtful": 0.013114832108840346,
+        "ok": 0.01341092656366527
+      }
+    }
+  },
+  "median_decode_ms": 15.386900000521564,
+  "median_all_four_scores_ms_excluding_decode_io_hash": 19.71590000175638,
+  "environment": {
+    "python": "3.10.0",
+    "opencv": "4.11.0",
+    "numpy": "2.0.2",
+    "opencv_threads": 1
+  }
+}

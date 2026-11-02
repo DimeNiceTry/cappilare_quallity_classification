@@ -1,0 +1,12 @@
+# Tested CPU inference environment, Python 3.10 or 3.11.
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy==2.0.2
+scipy==1.14.1
+opencv-python-headless==4.11.0.86
+Pillow==11.0.0
+scikit-learn==1.5.2
+joblib==1.4.2
+torch==2.5.1+cpu; platform_system != "Darwin"
+torchvision==0.20.1+cpu; platform_system != "Darwin"
+torch==2.5.1; platform_system == "Darwin"
+torchvision==0.20.1; platform_system == "Darwin"

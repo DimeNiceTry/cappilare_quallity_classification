@@ -1,0 +1,34 @@
+# Local environments and generated runtime state
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+server-error.log
+.env
+.env.*
+!.env.example
+
+# Original images are distributed in a GitHub Release, not in Git history.
+capillary_quality_1000/pictures/
+review_client/data/
+
+# Large derivative caches are reproducible from the data archive.
+focus_classifier/artifacts/neural_embeddings.npz
+focus_classifier/artifacts/notebook_comparison_preview.png
+focus_classifier/artifacts/*verification.json
+
+# Packaging, local downloads and presentation intermediate files
+dist/
+downloads/
+presentation/.build/
+*.tmp
+*.zip
+*.tar
+*.tar.gz
+
+# OS files
+Thumbs.db
+.DS_Store

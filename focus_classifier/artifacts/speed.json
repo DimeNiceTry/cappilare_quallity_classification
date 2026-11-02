@@ -1,0 +1,62 @@
+{
+  "models": {
+    "logistic_basic": {
+      "n": 50,
+      "end_to_end_ms_p50": 63.45694999981788,
+      "end_to_end_ms_p95": 140.75117499960467,
+      "analysis_only_ms_p50": 31.288000000131433,
+      "analysis_only_ms_p95": 67.81511500012128,
+      "png_read_decode_ms_p50": 31.19880000122066,
+      "head_only_ms_p50": 0.9747999993123813,
+      "throughput_sequential_fps": 13.36221174537263
+    },
+    "trees_basic": {
+      "n": 50,
+      "end_to_end_ms_p50": 73.19654999992053,
+      "end_to_end_ms_p95": 146.67166499730226,
+      "analysis_only_ms_p50": 48.992050000379095,
+      "analysis_only_ms_p95": 97.68461999774445,
+      "png_read_decode_ms_p50": 24.536700002499856,
+      "head_only_ms_p50": 20.647299999836832,
+      "throughput_sequential_fps": 11.531503872556147
+    },
+    "logistic_extended": {
+      "n": 50,
+      "end_to_end_ms_p50": 232.16260000117472,
+      "end_to_end_ms_p95": 418.6122799987059,
+      "analysis_only_ms_p50": 208.21464999971795,
+      "analysis_only_ms_p95": 374.972884998533,
+      "png_read_decode_ms_p50": 27.62340000117547,
+      "head_only_ms_p50": 0.8551499995519407,
+      "throughput_sequential_fps": 3.8051749801361576
+    },
+    "trees_extended": {
+      "n": 50,
+      "end_to_end_ms_p50": 202.99325000087265,
+      "end_to_end_ms_p95": 302.9533799999626,
+      "analysis_only_ms_p50": 179.8799499993038,
+      "analysis_only_ms_p95": 274.9935150008241,
+      "png_read_decode_ms_p50": 21.922750000157976,
+      "head_only_ms_p50": 16.912150000280235,
+      "throughput_sequential_fps": 4.706033920444814
+    },
+    "neural": {
+      "n": 50,
+      "end_to_end_ms_p50": 59.17374999808089,
+      "end_to_end_ms_p95": 90.8636850012044,
+      "analysis_only_ms_p50": 31.970349999028258,
+      "analysis_only_ms_p95": 59.84784999927794,
+      "png_read_decode_ms_p50": 25.680149999971036,
+      "head_only_ms_p50": 0.8743500002310611,
+      "throughput_sequential_fps": 9.297035524962258
+    }
+  },
+  "processor": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+  "device": "CPU",
+  "batch": 1,
+  "opencv_threads": 1,
+  "pytorch_threads": 2,
+  "tree_inference_threads": 1,
+  "note": "Serial warm-process timing; PNG read/decode included; OS file cache may be warm; 5 warmup + 50 images each. Model load excluded. No concurrent training.",
+  "processor_model": "Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz"
+}

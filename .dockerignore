@@ -1,0 +1,12 @@
+.git
+.venv
+__pycache__
+**/__pycache__
+dist
+downloads
+review_client
+capillary_quality_1000
+presentation
+*.log
+focus_classifier/CAPILLARY_COMPARISON_RU.*
+focus_classifier/artifacts/neural_embeddings.npz

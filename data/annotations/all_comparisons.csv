@@ -1,0 +1,1001 @@
+﻿id,file,video,patient_id,original_source,original_label,assigned_to,human_label,assistant_label,new_label,review_reason,review_comment,status
+46d311a4cccc142149b5,11_08_2026_11_22_52_58.png,11_08_2026_11_22_52.avi,14385,human,not_ok,assistant,not_ok,not_ok,not_ok,,Основная сеть по всему полю размыта; тонкие ветви и их границы неразличимы.,agreed_binary
+5e2388d7b8e05fbb2ef7,14_08_2026_08_55_27_115.png,14_08_2026_08_55_27.avi,14436,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Короткие участки тонкого диагонального сосуда различимы, но остальные тонкие ветви и продолжение сети нерезкие.",disagreement
+ee6ebb55fd60c5fb2d39,12_08_2026_11_33_02_4.png,12_08_2026_11_33_02.avi,14406,human,ok,assistant,ok,not_ok,not_ok,,Основная тонкая сеть чёткая только в левой части; её продолжение к центру и вправо расплывается.,disagreement
+100ec60fa743aa7bd3c1,14_08_2026_11_38_25_117.png,14_08_2026_11_38_25.avi,14446,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Тонкие центральные ветви видны, но их границы на длинных участках и в нижней половине неразличимы.",agreed_binary
+e6efa598f9501ef69597,12_08_2026_10_36_46_61.png,12_08_2026_10_36_46.avi,14403,human,ok,assistant,ok,not_ok,not_ok,,"Крупная диагональная структура контрастна, но тонкие сосуды на её фоне размыты и сливаются с шумом.",disagreement
+28131d1d41d875a4aa09,14_08_2026_12_18_55_2.png,14_08_2026_12_18_55.avi,14450,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Большая часть поля перекрыта тёмными нерезкими структурами, пригодной тонкой сосудистой сети не видно.",agreed_binary
+2290327eb75ece52517e,12_08_2026_10_30_31_206.png,12_08_2026_10_30_31.avi,14402,human,not_ok,assistant,not_ok,uncertain,uncertain,,"Правая сеть и левая верхняя петля различимы, но границы тонких участков неодинаково отчётливы; не уверен в достаточности для измерения.",disagreement
+8375f59724c37defdbfb,15_08_2026_08_07_37_102.png,15_08_2026_08_07_37.avi,14456,human,not_ok,assistant,not_ok,uncertain,uncertain,,Два диагональных тонких сосуда различимы; у более слабых верхних ветвей границы на пределе видимости.,disagreement
+6a6b567f0d3b2e4e4e25,12_08_2026_08_50_27_124.png,12_08_2026_08_50_27.avi,14398,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Тонкие центральные сосуды теряются в шуме, чёткой основной сети по полю нет.",agreed_binary
+b3357094dfb124dd74f2,12_08_2026_11_41_10_25.png,12_08_2026_11_41_10.avi,14407,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+d6b021620766c6852611,14_08_2026_11_49_59_46.png,14_08_2026_11_49_59.avi,15200,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+3d48899e07196572e213,13_08_2026_11_45_29_123.png,13_08_2026_11_45_29.avi,14425,human,uncertain,assistant,uncertain,uncertain,uncertain,,"В верхней части тонкая сеть различима, но часть её центральных и правых ветвей мягкая; не уверен в пригодности всей основной сети.",uncertain_agreement
+a7525ab1fc7fed3e3bea,14_08_2026_13_34_07_20.png,14_08_2026_13_34_07.avi,14451,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+d3f61d3e967fd5072c78,13_08_2026_09_57_47_124.png,13_08_2026_09_57_47.avi,14420,human,ok,assistant,ok,not_ok,not_ok,,"Центральный контрастный сосуд резкий, но множество тонких правых ветвей основной сети имеют размытые границы.",disagreement
+4d403e5b5fb7c5d1cd0a,14_08_2026_09_58_31_76.png,14_08_2026_09_58_31.avi,14439,human,ok,assistant,ok,uncertain,uncertain,,"Тонкие центральные сегменты различимы, однако нижние и левые продолжения недостаточно отчётливы для уверенной оценки.",disagreement
+48882ec8799186d87911,14_08_2026_11_46_46_48.png,14_08_2026_11_46_46.avi,14448,human,not_ok,assistant,not_ok,not_ok,not_ok,,Общая сильная расфокусировка: видны только широкие тени сосудов.,agreed_binary
+3a85f39db5545a262e9a,14_08_2026_13_38_21_69.png,14_08_2026_13_38_21.avi,14452,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+53f1594a16532c2eb618,12_08_2026_15_21_23_75.png,12_08_2026_15_21_23.avi,3807,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+dfb55ea4be2a002e0b2b,12_08_2026_14_25_08_86.png,12_08_2026_14_25_08.avi,14414,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основная сеть чётче справа, а её левые и нижние участки теряют различимые границы.",agreed_binary
+8c9e8bfc94a77bc56d89,12_08_2026_11_28_43_63.png,12_08_2026_11_28_43.avi,5943,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+bb5b41bf469dca6eee8f,13_08_2026_11_56_14_34.png,13_08_2026_11_56_14.avi,14426,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+bee97b4b5bd591a1079c,12_08_2026_08_13_56_85.png,12_08_2026_08_13_56.avi,14395,assistant,uncertain,human,ok,uncertain,ok,,,disagreement
+a31bfc64dfc1f0c3d6a9,14_08_2026_12_03_50_124.png,14_08_2026_12_03_50.avi,14449,assistant,ok,human,ok,ok,ok,,,agreed_binary
+da876a166eaf2bdddc30,12_08_2026_11_33_02_160.png,12_08_2026_11_33_02.avi,14406,assistant,ok,human,ok,ok,ok,,,agreed_binary
+19087a6290902a9d330e,14_08_2026_13_38_00_93.png,14_08_2026_13_38_00.avi,14452,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+e952234e97b00bf5b369,12_08_2026_11_28_10_42.png,12_08_2026_11_28_10.avi,5943,human,not_ok,assistant,not_ok,not_ok,not_ok,,Основной центральный сосуд заметно теряет резкость к правому концу; мелкие ветви большей части поля неразличимы.,agreed_binary
+1be3b8acf7651b90535d,12_08_2026_08_21_04_196.png,12_08_2026_08_21_04.avi,14396,human,ok,assistant,ok,ok,ok,,Тонкие и более широкие сосуды основной диагональной сети имеют различимые границы. Размытые глубокие фоновые ветви не учитываю согласно уточнению.,agreed_binary
+1752e6d773302b792190,14_08_2026_09_58_04_59.png,14_08_2026_09_58_04.avi,14439,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная расфокусировка и засветка слева; мелкая сеть и границы основных сосудов неразличимы.,agreed_binary
+e9a54e02ae085f14d2ad,12_08_2026_11_22_53_100.png,12_08_2026_11_22_53.avi,14405,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+92f0bdfad5b2940a8f2e,11_08_2026_11_49_28_92.png,11_08_2026_11_49_28.avi,14387,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+1b0e690aa3a7234137ce,14_08_2026_10_17_53_53.png,14_08_2026_10_17_53.avi,14440,assistant,ok,human,ok,ok,ok,,,agreed_binary
+ef04fe4e210babb2cfd2,13_08_2026_08_44_33_22.png,13_08_2026_08_44_33.avi,14418,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+bfab38b038d2084165ab,14_08_2026_11_42_01_117.png,14_08_2026_11_42_01.avi,14447,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+665f0f648f1e012f9b60,12_08_2026_10_23_07_59.png,12_08_2026_10_23_07.avi,14401,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Один верхний сосуд различим, но основная тонкая сеть в центре и справа размыта и низкоконтрастна.",agreed_binary
+c19a2ed8c3d96f61bedd,13_08_2026_09_31_34_42.png,13_08_2026_09_31_34.avi,10236,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основные сосуды выглядят мягкими полосами, границы тонких ветвей неразличимы.",agreed_binary
+5fe2eb52e66b69197381,11_08_2026_10_40_10_107.png,11_08_2026_10_40_10.avi,5116,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Тонкая сеть едва различима на шумном фоне, уверенно проследить её границы нельзя.",agreed_binary
+2acfa8b7a2d27b4919be,13_08_2026_14_27_17_59.png,13_08_2026_14_27_17.avi,14430,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основная центральная и левая сеть расплывчата, справа различим только отдельный тонкий участок.",agreed_binary
+ceea99e21e21fe2b86b3,14_08_2026_11_45_46_86.png,14_08_2026_11_45_46.avi,14448,human,ok,assistant,ok,ok,ok,,Диагональный основной сосуд и тонкие петли по обе стороны различимы; размытая широкая поперечная структура относится к фону.,agreed_binary
+0d8f88389ad578c76f16,13_08_2026_12_44_41_88.png,13_08_2026_12_44_41.avi,14429,human,ok,assistant,ok,ok,ok,,"Разветвлённая основная сеть чёткая, границы тонких и более толстых ветвей различимы по полю; глубокий фон допустим.",agreed_binary
+7bae8477a2da75034244,11_08_2026_11_02_23_62.png,11_08_2026_11_02_23.avi,10070,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Сосуды основной сети имеют мягкие границы, включая тонкие центральные петли.",disagreement
+9cd018371f59d936eb80,14_08_2026_09_11_56_89.png,14_08_2026_09_11_56.avi,3179,human,ok,assistant,ok,ok,ok,,Основная тонкая сеть с чёткими развилками прослеживается по полю. Более глубокие размытые структуры не определяют оценку.,agreed_binary
+4948ec14075f638443ed,11_08_2026_11_53_12_25.png,11_08_2026_11_53_12.avi,14388,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+18c9cc19f4cee2208b76,14_08_2026_11_38_14_52.png,14_08_2026_11_38_14.avi,14446,assistant,ok,human,ok,ok,ok,,,agreed_binary
+aefa48d100a485464f6a,15_08_2026_08_24_31_41.png,15_08_2026_08_24_31.avi,14457,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+6f0befab9c9b93de8e29,12_08_2026_13_58_44_115.png,12_08_2026_13_58_44.avi,14413,human,ok,assistant,ok,uncertain,uncertain,,"Основные диагональные сосуды видны, но границы самых тонких ответвлений неодинаково отчётливы.",disagreement
+f097b3667c823a637a32,12_08_2026_13_37_26_30.png,12_08_2026_13_37_26.avi,14412,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная общая расфокусировка, тонкая сеть неразличима.",agreed_binary
+b76d55c0a628528a48d9,13_08_2026_10_18_36_59.png,13_08_2026_10_18_36.avi,8945,human,uncertain,assistant,uncertain,not_ok,not_ok,,Основная сосудистая сеть с мягкими границами по полю; многочисленные блики и засветка слева дополнительно мешают.,disagreement
+3d9ae1f173c2afe547f8,14_08_2026_09_50_24_63.png,14_08_2026_09_50_24.avi,14438,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+a4b2a6746c92cda1ff03,11_08_2026_14_23_15_89.png,11_08_2026_14_23_15.avi,14393,human,ok,assistant,ok,ok,ok,,"Основная сеть тонких ветвей различима слева и справа, несмотря на шум и глубокий размытый сосуд.",agreed_binary
+fbc3dc2d402fb502048b,14_08_2026_08_36_30_150.png,14_08_2026_08_36_30.avi,14435,assistant,ok,human,ok,ok,ok,,,agreed_binary
+be30902e07256cd086c8,12_08_2026_15_20_59_26.png,12_08_2026_15_20_59.avi,3807,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+7186d81a57082f32dd09,11_08_2026_11_53_24_123.png,11_08_2026_11_53_24.avi,14388,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Один правый сосуд различим, но левый тонкий сосуд и его ветви сливаются с шумом и не имеют чётких границ.",agreed_binary
+0f2c0523316caef797fb,12_08_2026_14_39_42_104.png,12_08_2026_14_39_42.avi,14415,assistant,uncertain,human,ok,uncertain,ok,,,disagreement
+efd64274ac02b5d14f8d,14_08_2026_11_09_22_101.png,14_08_2026_11_09_22.avi,14444,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+05d16a7c11c2e5bde17f,13_08_2026_14_33_11_110.png,13_08_2026_14_33_11.avi,14431,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Размыта вся основная сеть, крупные блики закрывают существенную часть поля.",agreed_binary
+745df243a9f5b3d6a18a,12_08_2026_10_23_29_21.png,12_08_2026_10_23_29.avi,14401,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+bc49a632ee8f0625b001,13_08_2026_09_32_32_202.png,13_08_2026_09_32_32.avi,10236,human,ok,assistant,ok,uncertain,uncertain,,"Центральные извилистые сосуды резкие, но часть переходов к нижней петле мягкая; не уверен, что вся основная сеть подходит.",disagreement
+e278c733a91714e26c5f,12_08_2026_10_29_31_7.png,12_08_2026_10_29_31.avi,14402,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+9a8a509045362aa700f4,13_08_2026_11_55_50_9.png,13_08_2026_11_55_50.avi,14426,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+7aa85c5dc93ae7d30e6e,13_08_2026_09_32_04_31.png,13_08_2026_09_32_04.avi,10236,human,not_ok,assistant,not_ok,not_ok,not_ok,,Крупные блики перекрывают верхнюю сеть; основной диагональный сосуд и часть тонких ветвей нерезкие.,agreed_binary
+20822a0604298dfcd83d,14_08_2026_09_58_04_99.png,14_08_2026_09_58_04.avi,14439,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+8f4a8639284129ea0b45,12_08_2026_15_21_37_181.png,12_08_2026_15_21_37.avi,3807,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+dbef2f53dd9171bceb1c,12_08_2026_13_37_26_174.png,12_08_2026_13_37_26.avi,14412,assistant,ok,human,ok,ok,ok,,,agreed_binary
+f8ad19bb238ba4c4c38e,12_08_2026_11_37_04_29.png,12_08_2026_11_37_04.avi,10502,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+b115e2983daa8c11459e,12_08_2026_11_32_23_25.png,12_08_2026_11_32_23.avi,14406,human,uncertain,assistant,uncertain,not_ok,not_ok,,Центральная тонкая сеть и несколько основных ветвей имеют размытые границы; отдельные резкие участки не покрывают поле.,disagreement
+c90f7222e1ea2f4ee59d,12_08_2026_11_23_08_50.png,12_08_2026_11_23_08.avi,14405,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Резче только нижний и правый участок; основная сеть слева и по центру размыта, сверху засветка.",agreed_binary
+e8fd91158f83b012b620,14_08_2026_11_09_57_22.png,14_08_2026_11_09_57.avi,14444,human,ok,assistant,ok,not_ok,not_ok,,"Тонкая центральная сеть мягкая и местами неотделима от фона, отчётлива лишь часть правых ветвей.",disagreement
+ef234b0035d595846e9f,14_08_2026_11_33_02_51.png,14_08_2026_11_33_02.avi,14445,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка по всему кадру, тонкая сеть не видна.",agreed_binary
+be0673d5e72af9c19552,14_08_2026_10_54_18_2.png,14_08_2026_10_54_18.avi,14442,human,uncertain,assistant,uncertain,uncertain,uncertain,,"Центральная извилистая ветвь чёткая; тонкие левые и нижние сегменты неодинаково отчётливы, уверенности в полной пригодности нет.",uncertain_agreement
+83338cf1a86533ba9831,12_08_2026_11_55_24_57.png,12_08_2026_11_55_24.avi,14408,human,not_ok,assistant,not_ok,not_ok,not_ok,,Тонкие ветви основной сети с размытыми границами; контраст крупных сосудов не компенсирует потерю мелких деталей.,agreed_binary
+c52bd95e890671e3d339,12_08_2026_11_37_28_3.png,12_08_2026_11_37_28.avi,10502,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная расфокусировка и неравномерная освещённость; сосудистая сеть неразличима.,agreed_binary
+8603289f4f808e496ca8,12_08_2026_14_24_26_108.png,12_08_2026_14_24_26.avi,14414,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Правая узкая область резче, но основная сеть при переходе к центру и влево расплывается.",agreed_binary
+db1486436c426941e9d0,12_08_2026_15_21_10_52.png,12_08_2026_15_21_10.avi,3807,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Общая нерезкость: даже основные контрастные сосуды имеют мягкие границы, тонкие ветви размыты.",disagreement
+cb69973020e24beb7526,13_08_2026_14_47_25_60.png,13_08_2026_14_47_25.avi,14432,human,not_ok,assistant,not_ok,not_ok,not_ok,,Основная сеть явно вне фокуса по всему полю.,agreed_binary
+e5dc279e16ffe9c7414a,12_08_2026_13_49_04_10.png,12_08_2026_13_49_04.avi,10088,human,not_ok,assistant,not_ok,not_ok,not_ok,,Видны лишь широкие размытые тени; мелкие сосуды неразличимы.,agreed_binary
+9db70e2dc99d96ac0786,14_08_2026_09_50_24_104.png,14_08_2026_09_50_24.avi,14438,human,ok,assistant,ok,uncertain,uncertain,,"Много тонких сегментов различимы, но слабые центральные и верхние ветви имеют пограничную отчётливость границ.",disagreement
+60071095c587628acf7d,14_08_2026_08_01_19_59.png,14_08_2026_08_01_19.avi,14434,assistant,uncertain,human,ok,uncertain,ok,,,disagreement
+925776c4d9e14da16cd3,13_08_2026_11_25_18_114.png,13_08_2026_11_25_18.avi,14424,human,ok,assistant,ok,not_ok,not_ok,,"Главная сеть местами резкая, но центральные тонкие участки расплывчаты, крупный блик закрывает нижнюю левую часть.",disagreement
+50f9231dd49b2063a7c4,11_08_2026_11_22_52_100.png,11_08_2026_11_22_52.avi,14385,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+da7e85d4bc4a82e418d8,13_08_2026_10_06_08_13.png,13_08_2026_10_06_08.avi,14421,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+8bceeb39ce859a0b8086,11_08_2026_14_07_02_74.png,11_08_2026_14_07_02.avi,14391,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Общая сильная расфокусировка, мелкая сеть неразличима.",agreed_binary
+9e787605b24a5b25bc68,14_08_2026_11_38_03_117.png,14_08_2026_11_38_03.avi,14446,human,ok,assistant,ok,ok,ok,,Границы тонких петель и более толстых ветвей основной сети различимы по всему полю.,agreed_binary
+f3f6dbcc83958668d7ce,12_08_2026_08_21_04_110.png,12_08_2026_08_21_04.avi,14396,assistant,ok,human,ok,ok,ok,,,agreed_binary
+74d83e1feb9426cc7188,11_08_2026_13_37_58_96.png,11_08_2026_13_37_58.avi,15197,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Большая засвеченная область и сильная расфокусировка, полезная сеть неразличима.",agreed_binary
+b6540b3225c3db025d20,14_08_2026_11_50_29_104.png,14_08_2026_11_50_29.avi,15200,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+1f4a907a3fce29988f04,13_08_2026_10_29_45_121.png,13_08_2026_10_29_45.avi,15198,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Видны отдельные тонкие сегменты, но основная сеть имеет размытые границы почти по всему полю.",agreed_binary
+06def2dd136eb70216fe,14_08_2026_12_19_41_175.png,14_08_2026_12_19_41.avi,14450,human,ok,assistant,ok,not_ok,not_ok,,Основная сеть резкая неравномерно: центральная петля и тонкие верхние и правые ветви имеют расплывчатые границы.,disagreement
+292805781234ac28060f,15_08_2026_08_08_31_59.png,15_08_2026_08_08_31.avi,14456,assistant,uncertain,human,ok,uncertain,ok,,,disagreement
+789e12774a7c3130fe70,12_08_2026_10_46_02_55.png,12_08_2026_10_46_02.avi,14404,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+75a5f0a32e647903dd9d,14_08_2026_11_50_57_159.png,14_08_2026_11_50_57.avi,15200,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+2eb5a12927c0443b4d56,11_08_2026_10_58_35_113.png,11_08_2026_10_58_35.avi,5702,human,uncertain,assistant,uncertain,not_ok,not_ok,,Все сосуды основной сети с мягкими границами; шум дополнительно мешает различать мелкие детали.,disagreement
+106fa68d26377efff3f7,12_08_2026_08_42_48_21.png,12_08_2026_08_42_48.avi,14397,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+a780999b7ad8b90fd8b9,14_08_2026_09_24_12_121.png,14_08_2026_09_24_12.avi,14437,assistant,ok,human,ok,ok,ok,,,agreed_binary
+8068ebfe2aa268fb1a79,11_08_2026_14_07_18_181.png,11_08_2026_14_07_18.avi,14391,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+46a3f5de72594b6dbeab,14_08_2026_13_34_30_44.png,14_08_2026_13_34_30.avi,14451,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+a988c85bf4d30ca0852a,13_08_2026_10_30_51_190.png,13_08_2026_10_30_51.avi,15198,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+863b533f0e972ed6fc6e,11_08_2026_14_39_45_4.png,11_08_2026_14_39_45.avi,14394,assistant,ok,human,ok,ok,ok,,,agreed_binary
+6c17c064ac3c785c84ce,12_08_2026_08_43_10_82.png,12_08_2026_08_43_10.avi,14397,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Контрастная верхняя петля видна, но тонкая сеть ниже и слева слабо различима и нерезкая.",disagreement
+958acf161f7b95183eb6,11_08_2026_10_40_35_121.png,11_08_2026_10_40_35.avi,5116,human,ok,assistant,ok,not_ok,not_ok,,"Много видимых ветвей, однако тонкие центральные и левые участки теряют границы в шуме и размытии.",disagreement
+da1d2d37a32d2028510e,12_08_2026_14_39_32_4.png,12_08_2026_14_39_32.avi,14415,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+fbb885a5cbc221655a6e,14_08_2026_08_35_39_4.png,14_08_2026_08_35_39.avi,14435,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+e0d4a0f87a91fc1a222e,11_08_2026_11_05_57_117.png,11_08_2026_11_05_57.avi,14383,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+2019edd4587995bc9e9a,14_08_2026_12_19_26_6.png,14_08_2026_12_19_26.avi,14450,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+372c823573192cd1a9fc,11_08_2026_10_58_46_95.png,11_08_2026_10_58_46.avi,5702,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+de27e229e3bcb99deeff,13_08_2026_12_05_56_65.png,13_08_2026_12_05_56.avi,15199,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+500ddf85f43ca139b863,15_08_2026_08_04_03_72.png,15_08_2026_08_04_03.avi,14455,human,ok,assistant,ok,not_ok,not_ok,,Основная сеть чётче справа; слева и снизу множество ветвей размыто.,disagreement
+41adad140b614d8a1c42,15_08_2026_08_23_53_32.png,15_08_2026_08_23_53.avi,14457,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+49822157401167605a55,12_08_2026_12_04_45_62.png,12_08_2026_12_04_45.avi,14410,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Общая сильная расфокусировка, мелкая сеть отсутствует в различимом виде.",agreed_binary
+4a79edc369be761fa016,14_08_2026_10_59_42_14.png,14_08_2026_10_59_42.avi,14443,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Вся сеть, включая контрастные извитые сосуды, сильно размыта.",agreed_binary
+910c48f0fd2210750afc,11_08_2026_11_02_12_45.png,11_08_2026_11_02_12.avi,10070,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основные сосуды нерезкие, мелкие ответвления неразличимы на шумном фоне.",agreed_binary
+813e9292afceb20130fb,12_08_2026_10_29_31_51.png,12_08_2026_10_29_31.avi,14402,human,not_ok,assistant,not_ok,not_ok,not_ok,,Тонкая поперечная сеть имеет слабые размытые границы и теряется в шуме.,agreed_binary
+a28b6b257e57f224691b,14_08_2026_09_23_16_94.png,14_08_2026_09_23_16.avi,14437,assistant,uncertain,human,uncertain,uncertain,uncertain,,,uncertain_agreement
+c6683ce36ed63bc88c83,14_08_2026_09_12_07_67.png,14_08_2026_09_12_07.avi,3179,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Видны сегменты мелкой сети, но их границы на большей части поля слишком слабые и расплывчатые.",agreed_binary
+843664e1b19eddd8c3ec,15_08_2026_08_04_18_63.png,15_08_2026_08_04_18.avi,14455,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+c57afa7a7e6b46c26743,13_08_2026_12_29_43_122.png,13_08_2026_12_29_43.avi,14428,assistant,ok,human,ok,ok,ok,,,agreed_binary
+fa7ca689665e0596be5d,14_08_2026_09_50_12_93.png,14_08_2026_09_50_12.avi,14438,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+8b75acb7093c03bc70fa,12_08_2026_10_36_31_39.png,12_08_2026_10_36_31.avi,14403,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основная сеть целиком с размытыми границами, слева засветка.",agreed_binary
+89f96aaeedaff8e4381d,11_08_2026_14_15_40_41.png,11_08_2026_14_15_40.avi,14392,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+f0b1bad0ed0c96dd7ceb,13_08_2026_14_27_41_29.png,13_08_2026_14_27_41.avi,14430,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+8eae57a2cd8c834843b5,13_08_2026_11_15_10_27.png,13_08_2026_11_15_10.avi,14934,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная общая расфокусировка, тонкие сосуды неразличимы.",agreed_binary
+542bc0e202c293c347a6,15_08_2026_08_58_18_8.png,15_08_2026_08_58_18.avi,14459,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основная сеть с размытыми границами, особенно слева и внизу; тонкие сосуды неотчётливы.",agreed_binary
+af3c60d190a47e7ea780,13_08_2026_10_56_08_2.png,13_08_2026_10_56_08.avi,14423,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+cb185c51ce06246ae1f9,11_08_2026_12_13_32_44.png,11_08_2026_12_13_32.avi,14390,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+1a94ba45a66ba99fbdd1,14_08_2026_10_39_35_92.png,14_08_2026_10_39_35.avi,14441,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+b1f6841a3587e23638f3,13_08_2026_12_45_00_122.png,13_08_2026_12_45_00.avi,14429,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+e5aaa9a80df45235cc97,11_08_2026_11_45_21_76.png,11_08_2026_11_45_21.avi,14386,assistant,uncertain,human,uncertain,uncertain,uncertain,,,uncertain_agreement
+accf3854124eaca35f4e,12_08_2026_11_55_45_43.png,12_08_2026_11_55_45.avi,14408,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+53508671b16568e626a8,13_08_2026_15_02_13_21.png,13_08_2026_15_02_13.avi,14433,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+777308387422c3651920,11_08_2026_14_22_12_108.png,11_08_2026_14_22_12.avi,14393,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+fae8e91f5afa56b1976f,11_08_2026_11_22_43_86.png,11_08_2026_11_22_43.avi,14385,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Контрастный поперечный сосуд различим, но мелкая сеть теряется в неоднородном шумном фоне.",disagreement
+e3b099a7e71da23a9acb,14_08_2026_11_32_53_180.png,14_08_2026_11_32_53.avi,14445,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+87970d468274ebd31d7a,14_08_2026_08_56_25_71.png,14_08_2026_08_56_25.avi,14436,human,not_ok,assistant,not_ok,not_ok,not_ok,,Общая нерезкость основной сети; мелкие ветви расплывчаты.,agreed_binary
+93ce7e0036ce26ed8c2d,14_08_2026_11_31_58_8.png,14_08_2026_11_31_58.avi,14445,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+ae937fc1ea62cc230d66,11_08_2026_12_08_40_60.png,11_08_2026_12_08_40.avi,14389,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+84cf600b3d320af32453,12_08_2026_12_04_29_36.png,12_08_2026_12_04_29.avi,14410,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основная сеть размыта по всему полю, заметны только её общие очертания.",agreed_binary
+a4cb7fa49059c681c0d2,12_08_2026_15_21_48_166.png,12_08_2026_15_21_48.avi,3807,human,ok,assistant,ok,ok,ok,,Тонкие вертикальные и извилистые сосуды основной сети имеют различимые границы по полю; широкие размытые фоновые ветви допустимы.,agreed_binary
+2382ed878b6acca0941f,13_08_2026_08_44_46_94.png,13_08_2026_08_44_46.avi,14418,human,ok,assistant,ok,not_ok,not_ok,,"Нижний сосуд резкий, но центральная восходящая ветвь и верхняя тонкая сеть теряют чёткость.",disagreement
+cd09a9aa6b23e3e02df1,12_08_2026_10_46_02_123.png,12_08_2026_10_46_02.avi,14404,human,ok,assistant,ok,uncertain,uncertain,,"Верхние тонкие сосуды чёткие, но у нижней петли и пересечения в центре границы мягче; не уверен в пригодности всей сети.",disagreement
+c925e41f01a9f077de6e,14_08_2026_08_36_02_60.png,14_08_2026_08_36_02.avi,14435,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильное размытие всех основных сосудов, тонкие ветви неразличимы.",agreed_binary
+74914a3f8896cd4b491a,14_08_2026_09_51_01_66.png,14_08_2026_09_51_01.avi,14438,human,not_ok,assistant,not_ok,not_ok,not_ok,,Тонкая сеть чёткая только в правом верхнем участке; к центру и влево она расплывается.,agreed_binary
+889612f5a95189b76819,13_08_2026_10_04_54_121.png,13_08_2026_10_04_54.avi,14421,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+ffb47537b0cfcb88cc18,13_08_2026_14_47_11_94.png,13_08_2026_14_47_11.avi,14432,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Почти всё поле вне фокуса, основная мелкая сеть неразличима.",agreed_binary
+aedc8d2381ad09dd189d,14_08_2026_10_53_15_10.png,14_08_2026_10_53_15.avi,14442,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+ca9c889d678ef134de58,14_08_2026_11_42_01_37.png,14_08_2026_11_42_01.avi,14447,human,not_ok,assistant,not_ok,not_ok,not_ok,,Общая нерезкость сети и блики; мелкие границы неразличимы.,agreed_binary
+25948b6a079de470d2ce,12_08_2026_10_06_36_190.png,12_08_2026_10_06_36.avi,14400,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Тонкие ветви на шумном фоне имеют слабые, размытые границы; крупные основные участки также нерезкие.",agreed_binary
+fa9e81609eaa81e558a0,12_08_2026_10_23_29_85.png,12_08_2026_10_23_29.avi,14401,human,uncertain,assistant,uncertain,not_ok,not_ok,,Мелкие ветви и развилки не имеют достаточно различимых границ из-за шума и размытия.,disagreement
+754dbeb953e19de93f05,14_08_2026_09_23_44_74.png,14_08_2026_09_23_44.avi,14437,assistant,ok,human,ok,ok,ok,,,agreed_binary
+d4c727e76fca7b1f71a1,13_08_2026_12_30_17_212.png,13_08_2026_12_30_17.avi,14428,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Крупный диагональный сосуд контрастен, но основная мелкая сеть вокруг него размыта и слабоконтрастна.",disagreement
+3bd9d768881dc5d43446,14_08_2026_11_00_21_109.png,14_08_2026_11_00_21.avi,14443,human,uncertain,assistant,uncertain,uncertain,uncertain,,"Большинство основных ветвей различимо, но самые тонкие нижние петли и верхние участки имеют пограничную резкость.",uncertain_agreement
+e0314f5dbcc2594869d9,15_08_2026_08_58_18_64.png,15_08_2026_08_58_18.avi,14459,assistant,ok,human,ok,ok,ok,,,agreed_binary
+4b3acbd9347050a12b51,14_08_2026_11_32_31_98.png,14_08_2026_11_32_31.avi,14445,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основная сеть размыта, резче только отдельные нижние левые участки.",agreed_binary
+03a6e7f2f23e59f5e093,14_08_2026_10_18_27_102.png,14_08_2026_10_18_27.avi,14440,human,ok,assistant,ok,not_ok,not_ok,,"Часть контрастных ветвей различима, но тонкая основная сеть по центру и снизу имеет мягкие границы.",disagreement
+e5a6c1b27acc93607462,14_08_2026_08_36_41_169.png,14_08_2026_08_36_41.avi,14435,human,ok,assistant,ok,not_ok,not_ok,,"Тонкая сеть в центре и справа с недостаточно чёткими границами, слева существенная засветка.",disagreement
+33784dc7003219141bdf,13_08_2026_08_03_29_24.png,13_08_2026_08_03_29.avi,14416,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сосудистая сеть не различима, почти однородное размытое поле.",agreed_binary
+94b9340efaced9122b3f,11_08_2026_14_15_30_57.png,11_08_2026_14_15_30.avi,14392,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка, видна только широкая тень крупного сосуда.",agreed_binary
+5a4b25f968a16b8fe289,14_08_2026_10_18_39_25.png,14_08_2026_10_18_39.avi,14440,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+c7fc7bf0bded7c8cdca3,13_08_2026_10_42_19_37.png,13_08_2026_10_42_19.avi,14422,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+2e08720838ac0ee3685b,11_08_2026_11_05_46_88.png,11_08_2026_11_05_46.avi,14383,human,not_ok,assistant,not_ok,not_ok,not_ok,,Общее размытие основной сети; тонкие сосуды не имеют различимых границ.,agreed_binary
+816c1734d9a73d5660ec,14_08_2026_11_09_47_141.png,14_08_2026_11_09_47.avi,14444,assistant,ok,human,ok,ok,ok,,,agreed_binary
+56939dd4523c4c603fe2,12_08_2026_10_24_05_76.png,12_08_2026_10_24_05.avi,14401,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+5c588d02d97732cfadce,11_08_2026_11_22_34_121.png,11_08_2026_11_22_34.avi,14385,human,not_ok,assistant,not_ok,uncertain,uncertain,,"Тонкая сеть прослеживается, но слабый контраст и шум делают оценку границ на части участков неуверенной.",disagreement
+9683ff6555896f6a1fb5,11_08_2026_11_10_31_135.png,11_08_2026_11_10_31.avi,14384,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+3407a161b85807fe039a,13_08_2026_11_45_17_51.png,13_08_2026_11_45_17.avi,14425,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Резче отдельный верхний левый участок, основная мелкая сеть ниже и в центре размыта.",agreed_binary
+33ec65cc4252b5bf7a54,13_08_2026_10_31_02_66.png,13_08_2026_10_31_02.avi,15198,human,ok,assistant,ok,not_ok,not_ok,,Почти левая половина пересвечена; справа основная сеть также частично размыта.,disagreement
+02088f7e1b27233bbbfc,13_08_2026_11_46_21_114.png,13_08_2026_11_46_21.avi,14425,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная общая расфокусировка, мелкая сеть неразличима.",agreed_binary
+aea6115099e3598ab854,12_08_2026_12_36_48_49.png,12_08_2026_12_36_48.avi,14411,human,ok,assistant,ok,uncertain,uncertain,,"Тонкие диагональные и вертикальные сегменты различимы, но часть слабых ветвей теряется на неоднородном фоне.",disagreement
+ee93df6728357444b7ec,12_08_2026_13_49_14_71.png,12_08_2026_13_49_14.avi,10088,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильно размытая сеть и блики в центре; границы мелких сосудов неразличимы.,agreed_binary
+daa00e9b858093782fef,11_08_2026_12_07_48_21.png,11_08_2026_12_07_48.avi,14389,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+807742b0a08aa4a78cd4,11_08_2026_14_39_35_4.png,11_08_2026_14_39_35.avi,14394,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+d88d0fe67bfb094ea6ca,13_08_2026_11_45_17_121.png,13_08_2026_11_45_17.avi,14425,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+de4fa59c88534015c43f,13_08_2026_15_02_24_32.png,13_08_2026_15_02_24.avi,14433,human,not_ok,assistant,not_ok,not_ok,not_ok,,Основная сеть по всему полю с мягкими размытыми границами.,agreed_binary
+dd37ff60ad731722bda7,13_08_2026_08_04_04_85.png,13_08_2026_08_04_04.avi,14416,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+606eab370a649b6e2910,13_08_2026_15_02_58_180.png,13_08_2026_15_02_58.avi,14433,assistant,ok,human,ok,ok,ok,,,agreed_binary
+5d234c865c5ac3f65fe9,11_08_2026_14_15_09_75.png,11_08_2026_14_15_09.avi,14392,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Тонкие сосуды едва различимы в шуме, края слабых сегментов проследить нельзя.",agreed_binary
+8c45b8054d89f69b75ad,13_08_2026_10_30_02_55.png,13_08_2026_10_30_02.avi,15198,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+974b2a935297b70316ba,13_08_2026_12_13_27_18.png,13_08_2026_12_13_27.avi,14427,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка и засветка, пригодной мелкой сети не видно.",agreed_binary
+629b674217b751da4c4b,12_08_2026_10_35_58_100.png,12_08_2026_10_35_58.avi,14403,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+3a66c04b020e61e4642f,13_08_2026_12_44_28_46.png,13_08_2026_12_44_28.avi,14429,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка, только широкая сосудистая тень без мелкой сети.",agreed_binary
+ec8d02f8791d6630c8af,12_08_2026_11_41_48_52.png,12_08_2026_11_41_48.avi,14407,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Границы основных нижних и правых сосудов размыты, тонкая сеть неразличима.",agreed_binary
+83ab864ca3a10c5b4227,12_08_2026_11_59_39_21.png,12_08_2026_11_59_39.avi,14409,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сосудистая сеть практически не видна; равномерно размытое поле.,agreed_binary
+96a211035ba3a026bfc9,14_08_2026_11_32_21_118.png,14_08_2026_11_32_21.avi,14445,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Основная сеть чёткая только отдельными сегментами, центральные тонкие ветви размыты.",disagreement
+cc33587690b35a2ba1c5,15_08_2026_09_24_31_16.png,15_08_2026_09_24_31.avi,14460,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная общая расфокусировка, мелкие сосуды неразличимы.",agreed_binary
+ca87f02a5f2bb01a313f,11_08_2026_14_39_35_125.png,11_08_2026_14_39_35.avi,14394,human,not_ok,assistant,not_ok,not_ok,not_ok,,Тонкая левая сеть имеет слабые мягкие границы и теряется в шуме; чёткой основной сети по полю нет.,agreed_binary
+22dd0cebaf211bd31aab,11_08_2026_13_37_47_36.png,11_08_2026_13_37_47.avi,15197,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+079de8c03a79f9aec3e4,11_08_2026_14_06_39_104.png,11_08_2026_14_06_39.avi,14391,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+a17f0e49ed2a207b11c4,11_08_2026_11_49_04_20.png,11_08_2026_11_49_04.avi,14387,human,not_ok,assistant,not_ok,not_ok,not_ok,,На шумном поле не удаётся различить сосудистую сеть и её границы.,agreed_binary
+e498612079c724971e7e,12_08_2026_08_21_14_82.png,12_08_2026_08_21_14.avi,14396,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основные сосуды сильно размыты, мелкая сеть неразличима.",agreed_binary
+ca9d354aa508b274550e,14_08_2026_09_57_55_79.png,14_08_2026_09_57_55.avi,14439,human,ok,assistant,ok,not_ok,not_ok,,"Нижний контрастный сосуд резче, но основная тонкая сеть в центре и справа размыта.",disagreement
+8a86bf8404160075d85e,11_08_2026_11_49_54_66.png,11_08_2026_11_49_54.avi,14387,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+a02da9310cc767c79df4,14_08_2026_09_12_20_53.png,14_08_2026_09_12_20.avi,3179,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сосудистая сеть неразличима; сильная расфокусировка.,agreed_binary
+e0f7e488e5cb81a40c73,11_08_2026_11_02_23_113.png,11_08_2026_11_02_23.avi,10070,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+0e66a76fb62de6b83723,14_08_2026_11_50_29_54.png,14_08_2026_11_50_29.avi,15200,human,not_ok,assistant,not_ok,not_ok,not_ok,,"По всему полю мягкие размытые полосы, границы мелких сосудов неразличимы.",agreed_binary
+78510c6c4fbbcc52ed5f,13_08_2026_14_28_17_105.png,13_08_2026_14_28_17.avi,14430,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+5bcdc0056128439ecbf9,11_08_2026_12_13_19_0.png,11_08_2026_12_13_19.avi,14390,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+b56c26764e68f8bb5ab2,15_08_2026_08_58_58_191.png,15_08_2026_08_58_58.avi,14459,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+65f558e63d461d4b41b7,12_08_2026_11_59_50_31.png,12_08_2026_11_59_50.avi,14409,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Только размытые фоновые структуры, чёткая сосудистая сеть отсутствует.",agreed_binary
+468baa83b902054cf836,13_08_2026_10_05_51_14.png,13_08_2026_10_05_51.avi,14421,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+f9c4e8e4a1506a951f86,13_08_2026_08_03_54_72.png,13_08_2026_08_03_54.avi,14416,human,ok,assistant,ok,ok,ok,,"Основная тонкая сеть прослеживается по полю, её границы и развилки различимы на фоне глубоких размытых сосудов.",agreed_binary
+3e023c10a918ebac8b46,11_08_2026_11_54_12_203.png,11_08_2026_11_54_12.avi,14388,assistant,ok,human,ok,ok,ok,,,agreed_binary
+17e74c92ae79fb64eeb8,14_08_2026_11_09_00_81.png,14_08_2026_11_09_00.avi,14444,human,ok,assistant,ok,uncertain,uncertain,,Верхняя сеть и основной извитой сосуд чёткие; не уверен в принадлежности мягких нижних ветвей к основной сети или глубокому фону.,disagreement
+cabe8b92629b8dd84288,12_08_2026_10_05_34_100.png,12_08_2026_10_05_34.avi,14400,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+7fb25a90981209342c57,14_08_2026_11_50_18_114.png,14_08_2026_11_50_18.avi,15200,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+a7b467dd13d1e2a0320e,12_08_2026_09_18_11_11.png,12_08_2026_09_18_11.avi,14399,human,not_ok,assistant,not_ok,not_ok,not_ok,,На шумном поле не различима сосудистая сеть.,agreed_binary
+7ec45034372690d18aca,12_08_2026_10_30_22_93.png,12_08_2026_10_30_22.avi,14402,assistant,ok,human,ok,ok,ok,,,agreed_binary
+f7cd3a0d0b6d5c0a51ab,11_08_2026_11_46_12_6.png,11_08_2026_11_46_12.avi,14386,human,ok,assistant,ok,uncertain,uncertain,,Крупный основной сосуд и множество тонких ветвей различимы; границы самых слабых сегментов на шумном фоне оцениваю неуверенно.,disagreement
+c141734dd2372f401316,13_08_2026_11_25_07_116.png,13_08_2026_11_25_07.avi,14424,human,uncertain,assistant,uncertain,not_ok,not_ok,,Чёткие верхние участки сочетаются с размытыми тонкими ветвями в центре и снизу; основная сеть неоднородна по резкости.,disagreement
+9577cf9b8aaab12eb804,14_08_2026_11_41_30_122.png,14_08_2026_11_41_30.avi,14447,assistant,ok,human,ok,ok,ok,,,agreed_binary
+374d1715ff835dfa0eec,14_08_2026_09_51_15_190.png,14_08_2026_09_51_15.avi,14438,human,ok,assistant,ok,uncertain,uncertain,,"Центральный основной сосуд чёткий, но у его тонких соседних петель и ответвлений границы погранично различимы.",disagreement
+5f4e206043425967bd7e,12_08_2026_08_14_20_98.png,12_08_2026_08_14_20.avi,14395,human,uncertain,assistant,uncertain,uncertain,uncertain,,"Основные тонкие ветви различимы, но шум и мягкие границы нижних участков мешают уверенно признать кадр пригодным.",uncertain_agreement
+5e95f9b3b9c7e79d3d5b,13_08_2026_09_56_57_7.png,13_08_2026_09_56_57.avi,14420,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+b8d358d17e0828b16bb0,13_08_2026_10_30_36_9.png,13_08_2026_10_30_36.avi,15198,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+33ced747f1cf711222f4,14_08_2026_09_11_56_37.png,14_08_2026_09_11_56.avi,3179,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+eef63a9ff8134e640320,13_08_2026_08_03_54_27.png,13_08_2026_08_03_54.avi,14416,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+348d635da9945944caf1,14_08_2026_10_38_40_53.png,14_08_2026_10_38_40.avi,14441,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+8d7ec82722438e0a1115,14_08_2026_13_45_29_50.png,14_08_2026_13_45_29.avi,3180,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Вся основная сеть размыта, мелкие детали неразличимы.",agreed_binary
+668bee35faccdbc0748b,14_08_2026_08_55_50_17.png,14_08_2026_08_55_50.avi,14436,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильное размытие по всему полю, тонкая сеть неразличима.",agreed_binary
+ee0dbe5d5a2223de0a3e,12_08_2026_09_18_42_119.png,12_08_2026_09_18_42.avi,14399,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+cd9fc47d2e1058084fc9,13_08_2026_10_06_08_85.png,13_08_2026_10_06_08.avi,14421,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сосуды размыты и смазаны, чётких мелких границ нет.",agreed_binary
+38d2bbd28bf81236e675,15_08_2026_08_58_02_122.png,15_08_2026_08_58_02.avi,14459,assistant,ok,human,ok,ok,ok,,,agreed_binary
+988e5bf8fa165f5e3555,12_08_2026_13_48_53_47.png,12_08_2026_13_48_53.avi,10088,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+387b73ec71495efe1f92,11_08_2026_14_39_45_103.png,11_08_2026_14_39_45.avi,14394,human,not_ok,assistant,not_ok,not_ok,not_ok,,Основная сеть с очень слабым контрастом и размытыми границами.,agreed_binary
+7595ade0440d6800453b,12_08_2026_08_49_48_60.png,12_08_2026_08_49_48.avi,14398,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Мелкие ответвления теряются в шуме, у основных поперечных сосудов мягкие границы.",disagreement
+af325a75ca2640d6dd4f,12_08_2026_08_43_34_99.png,12_08_2026_08_43_34.avi,14397,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Правые основные сосуды различимы, но тонкие левые ветви и центр нерезкие на шумном фоне.",disagreement
+ac5095d0aab1c34d3fc6,14_08_2026_11_41_52_53.png,14_08_2026_11_41_52.avi,14447,human,ok,assistant,ok,not_ok,not_ok,,"Сосудистые границы местами различимы, но крупные блики закрывают части основной сети, часть тонких ветвей размыта.",disagreement
+1470071e5d12391667ce,12_08_2026_13_37_15_208.png,12_08_2026_13_37_15.avi,14412,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+7f067ab7f6a09e86ce0e,14_08_2026_11_50_18_59.png,14_08_2026_11_50_18.avi,15200,human,not_ok,assistant,not_ok,not_ok,not_ok,,Основная сеть по полю имеет мягкие границы; тонкие центральные ветви слабоконтрастны и нерезкие.,agreed_binary
+90bd16de3dd1abfd00b1,12_08_2026_08_50_37_1.png,12_08_2026_08_50_37.avi,14398,assistant,uncertain,human,uncertain,uncertain,uncertain,,,uncertain_agreement
+f214c833646383eb757b,11_08_2026_11_05_22_98.png,11_08_2026_11_05_22.avi,14383,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+890b487d35df1bd26514,13_08_2026_09_32_16_7.png,13_08_2026_09_32_16.avi,10236,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+8b88460dcc2b411629d8,13_08_2026_10_41_46_112.png,13_08_2026_10_41_46.avi,14422,human,uncertain,assistant,uncertain,uncertain,uncertain,,"Тонкие петли прослеживаются, но у слабых центральных участков границы погранично различимы.",uncertain_agreement
+5560c9c90281689b43a2,12_08_2026_08_13_56_121.png,12_08_2026_08_13_56.avi,14395,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Контрастный нижний сосуд виден, но тонкая сеть в центре и сверху размыта и теряется в шуме.",disagreement
+e227e1ec17717a5ae40f,13_08_2026_08_44_57_27.png,13_08_2026_08_44_57.avi,14418,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Основные крупные ветви видны, но многие тонкие сосуды центра и нижней половины имеют размытые границы.",disagreement
+4a68281f1501bcbbc4d4,14_08_2026_11_37_48_106.png,14_08_2026_11_37_48.avi,14446,assistant,ok,human,ok,ok,ok,,,agreed_binary
+8655395d3489580b907a,11_08_2026_11_10_15_40.png,11_08_2026_11_10_15.avi,14384,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+65febaae77d864712635,12_08_2026_11_29_08_21.png,12_08_2026_11_29_08.avi,5943,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сосудистая сеть неразличима, почти однородное размытое поле.",agreed_binary
+fdcb05a68b79755c46ba,14_08_2026_09_57_55_117.png,14_08_2026_09_57_55.avi,14439,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+12a1ea8c1bcc1ee46e91,13_08_2026_08_17_12_71.png,13_08_2026_08_17_12.avi,14417,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Общая нерезкость основной сети, тонкие границы неразличимы.",agreed_binary
+95a159541463b65058ff,12_08_2026_08_13_33_61.png,12_08_2026_08_13_33.avi,14395,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Слабые тонкие полосы едва видны в шуме, различимых сосудистых границ нет.",agreed_binary
+4ed48ca094f31fdcd8c3,14_08_2026_13_37_49_106.png,14_08_2026_13_37_49.avi,14452,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+efcea59ef9b16360bfa0,14_08_2026_08_36_02_23.png,14_08_2026_08_36_02.avi,14435,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+9b92d47cb8ba4d8546f5,13_08_2026_14_46_57_52.png,13_08_2026_14_46_57.avi,14432,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+4c5d463eae60af9aea41,13_08_2026_11_25_26_92.png,13_08_2026_11_25_26.avi,14424,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Разветвлённая сеть видна, но сосуды и мелкие ответвления имеют размытые границы по всему полю.",disagreement
+7e9f7879abf904b2896b,12_08_2026_11_32_50_9.png,12_08_2026_11_32_50.avi,14406,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка, видны только широкие тени.",agreed_binary
+4a6f52121080f2a5f5bc,13_08_2026_11_45_50_66.png,13_08_2026_11_45_50.avi,14425,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+9d695bccfa38bd6cd381,14_08_2026_11_33_02_186.png,14_08_2026_11_33_02.avi,14445,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+1d261bfc3fc52c334c09,14_08_2026_10_17_53_92.png,14_08_2026_10_17_53.avi,14440,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Чёткая сосудистая сеть отсутствует, поле сильно размыто.",agreed_binary
+775ac1f7771af5cd72d1,13_08_2026_14_47_11_9.png,13_08_2026_14_47_11.avi,14432,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+8296bd09f222d174b7b3,12_08_2026_11_55_34_22.png,12_08_2026_11_55_34.avi,14408,human,uncertain,assistant,uncertain,not_ok,not_ok,,Большая размытая тень и засветка перекрывают поле; тонкая сеть неразличима.,disagreement
+148b56e9523ffc392b4f,13_08_2026_14_27_52_93.png,13_08_2026_14_27_52.avi,14430,assistant,uncertain,human,uncertain,uncertain,uncertain,,,uncertain_agreement
+f6aa6d502d70aa0119d8,12_08_2026_08_49_36_42.png,12_08_2026_08_49_36.avi,14398,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+8766fb0a9da584dbf638,12_08_2026_08_20_29_100.png,12_08_2026_08_20_29.avi,14396,assistant,ok,human,ok,ok,ok,,,agreed_binary
+8e0a9792413cb5ee1e66,12_08_2026_10_05_59_96.png,12_08_2026_10_05_59.avi,14400,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основная сеть размыта и зашумлена, границы мелких ветвей неотчётливы.",agreed_binary
+a384105a30cf27ee59bc,12_08_2026_09_29_21_89.png,12_08_2026_09_29_21.avi,10753,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+1c218e6f9feb3ea6b9f8,11_08_2026_10_58_35_11.png,11_08_2026_10_58_35.avi,5702,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+218a842271124864eb6b,14_08_2026_10_59_29_42.png,14_08_2026_10_59_29.avi,14443,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+878de595d32e0270c183,12_08_2026_12_04_20_28.png,12_08_2026_12_04_20.avi,14410,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Чёткие сосуды отсутствуют, сильная расфокусировка.",agreed_binary
+5d001899e4854bc786c6,14_08_2026_09_58_20_74.png,14_08_2026_09_58_20.avi,14439,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+e25e4d24f34bad953f11,12_08_2026_13_49_41_181.png,12_08_2026_13_49_41.avi,10088,human,uncertain,assistant,uncertain,not_ok,not_ok,,Один диагональный тонкий сосуд различим; соседние мелкие ветви и продолжения основной сети размыты.,disagreement
+ba3c9d615a8330f735bc,11_08_2026_11_22_43_29.png,11_08_2026_11_22_43.avi,14385,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+80a1f25ecbaeb1390f08,12_08_2026_13_37_00_78.png,12_08_2026_13_37_00.avi,14412,human,ok,assistant,ok,not_ok,not_ok,,"Поперечные крупные ветви резче, но тонкая основная сеть в центре и снизу не имеет чётких границ.",disagreement
+9f55081fd927d44fdc00,13_08_2026_08_03_41_18.png,13_08_2026_08_03_41.avi,14416,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+1259314c6f5611ba06e0,12_08_2026_11_28_32_4.png,12_08_2026_11_28_32.avi,5943,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+f71f3754a70d02e1e8b8,12_08_2026_11_32_50_76.png,12_08_2026_11_32_50.avi,14406,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+e8cf264b457d14e0046b,12_08_2026_08_20_17_90.png,12_08_2026_08_20_17.avi,14396,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+c3a9de183f41ce1e14a8,11_08_2026_11_10_42_119.png,11_08_2026_11_10_42.avi,14384,human,ok,assistant,ok,ok,ok,,"Основные тонкие сосуды и петли имеют различимые границы; шум не скрывает сеть, глубокие размытые ветви допустимы.",agreed_binary
+dfdf454f43cb42d13de4,11_08_2026_11_06_13_170.png,11_08_2026_11_06_13.avi,14383,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Основная центральная сеть с мягкими границами, мелкие ответвления размыты.",disagreement
+dfe433c5e7deb8f52594,13_08_2026_10_42_10_114.png,13_08_2026_10_42_10.avi,14422,human,ok,assistant,ok,uncertain,uncertain,,Контрастные ветви и часть тонкой сети чёткие; у слабых верхних и правых петель границы оцениваю неуверенно.,disagreement
+95032cd785da5b917db4,14_08_2026_09_51_01_213.png,14_08_2026_09_51_01.avi,14438,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+67660c2eba78046c9dd4,11_08_2026_14_39_10_86.png,11_08_2026_14_39_10.avi,14394,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Тонкая сеть слабоконтрастна и размыта, особенно сверху; шум скрывает мелкие границы.",disagreement
+e419ef3535ccca236fb0,14_08_2026_12_04_00_0.png,14_08_2026_12_04_00.avi,14449,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сосудистая сеть неразличима в сильно размытом шумном поле.,agreed_binary
+48013f9afbd176582a23,11_08_2026_11_05_46_121.png,11_08_2026_11_05_46.avi,14383,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+c01196c2f1ac8c453503,15_08_2026_08_04_03_32.png,15_08_2026_08_04_03.avi,14455,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+218fd9f9f2ec44d98c9e,14_08_2026_12_19_54_88.png,14_08_2026_12_19_54.avi,14450,assistant,ok,human,ok,ok,ok,,,agreed_binary
+2bc7909fc135e92727b3,12_08_2026_08_50_11_87.png,12_08_2026_08_50_11.avi,14398,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Крупный сосуд виден, но тонкая сеть имеет слабые размытые границы; сверху засветка.",agreed_binary
+deef192e77aa2ac9adba,12_08_2026_14_40_07_50.png,12_08_2026_14_40_07.avi,14415,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+1690a41f9f02b1ab1d3f,12_08_2026_11_23_18_31.png,12_08_2026_11_23_18.avi,14405,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка и неравномерная освещённость, мелкие сосуды неразличимы.",agreed_binary
+790c488082b7635978c1,14_08_2026_10_54_07_27.png,14_08_2026_10_54_07.avi,14442,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная общая расфокусировка, тонкие сосуды неразличимы.",agreed_binary
+c8ba98902d50e2651bdd,13_08_2026_11_56_32_122.png,13_08_2026_11_56_32.avi,14426,assistant,uncertain,human,uncertain,uncertain,uncertain,,,uncertain_agreement
+841cb2bf5298f78d99ea,12_08_2026_08_43_24_107.png,12_08_2026_08_43_24.avi,14397,human,ok,assistant,ok,not_ok,not_ok,,Крупные блики перекрывают верхнюю сеть; нижние тонкие ветви с мягкими границами на шумном фоне.,disagreement
+210b78561a68a31d5ebd,12_08_2026_11_32_23_119.png,12_08_2026_11_32_23.avi,14406,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+53d63f9b89c039a7b420,13_08_2026_12_29_53_58.png,13_08_2026_12_29_53.avi,14428,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основная сеть размыта, мелкие границы неразличимы по большей части поля.",agreed_binary
+b800b3af5bddb79aa6ed,12_08_2026_08_21_14_9.png,12_08_2026_08_21_14.avi,14396,assistant,ok,human,ok,ok,ok,,,agreed_binary
+f0bc7ba4e85f57bc80d1,12_08_2026_14_25_08_123.png,12_08_2026_14_25_08.avi,14414,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+00d9fcd91009425ed34d,13_08_2026_09_57_20_114.png,13_08_2026_09_57_20.avi,14420,human,ok,assistant,ok,not_ok,not_ok,,"Правая верхняя сеть резкая, но её продолжение влево и вниз резко теряет фокус.",disagreement
+ef06b5f6dbbe984a2bcb,14_08_2026_10_53_28_8.png,14_08_2026_10_53_28.avi,14442,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+9a262f66082a1e4679cb,13_08_2026_09_21_16_60.png,13_08_2026_09_21_16.avi,14419,human,uncertain,assistant,uncertain,not_ok,not_ok,,Основная тонкая сеть нерезкая в нескольких областях; блики и тёмное пятно перекрывают сосуды.,disagreement
+1d2e2c72d5d3bb3b7d40,14_08_2026_10_59_53_97.png,14_08_2026_10_59_53.avi,14443,human,ok,assistant,ok,not_ok,not_ok,,Чёткие отдельные центральные сегменты сочетаются с размытыми тонкими ветвями вокруг; сеть неравномерно резкая.,disagreement
+3d95f6508f156fcfaddd,14_08_2026_11_38_56_138.png,14_08_2026_11_38_56.avi,14446,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основная сеть очень слабоконтрастна, границы тонких сосудов слева и в центре расплываются.",agreed_binary
+9494b659a3bbf9637669,13_08_2026_14_33_43_60.png,13_08_2026_14_33_43.avi,14431,human,ok,assistant,ok,not_ok,not_ok,,Общая нерезкость и многочисленные блики с засветкой слева; тонкая сеть неотчётлива.,disagreement
+7cb834f7a208a3b83e7d,12_08_2026_11_36_53_44.png,12_08_2026_11_36_53.avi,10502,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная расфокусировка; тонкие центральные ветви с размытыми границами.,agreed_binary
+8d80a22ed8b3f7c85962,14_08_2026_13_38_49_17.png,14_08_2026_13_38_49.avi,14452,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Тонкая сеть едва различима, основные сосуды размыты по большей части поля.",disagreement
+4a7c9c54128ea79c1a92,12_08_2026_15_21_10_10.png,12_08_2026_15_21_10.avi,3807,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+b27cab42441e39418a1e,14_08_2026_10_38_27_65.png,14_08_2026_10_38_27.avi,14441,human,not_ok,assistant,not_ok,not_ok,not_ok,,Основная сеть сильно размыта; отдельные правые тонкие линии не обеспечивают пригодность всего кадра.,agreed_binary
+5b13542ed32cdaecd0c2,14_08_2026_11_32_31_31.png,14_08_2026_11_32_31.avi,14445,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+845fd1320c5e8540ecc1,14_08_2026_12_19_07_110.png,14_08_2026_12_19_07.avi,14450,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная общая расфокусировка, мелкие сосуды неразличимы.",agreed_binary
+15f10ed55f0e4f2d4202,12_08_2026_11_22_31_35.png,12_08_2026_11_22_31.avi,14405,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильное общее размытие; различим только крупный сосуд без мелких деталей.,agreed_binary
+a0a13d17f079341b4ce3,14_08_2026_10_59_53_54.png,14_08_2026_10_59_53.avi,14443,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+4664b8eb93342f51d9c0,13_08_2026_11_15_20_28.png,13_08_2026_11_15_20.avi,14934,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основная сеть размыта, мелкие сосуды не имеют отчётливых границ.",agreed_binary
+1d658e298573385a3ba4,15_08_2026_08_58_30_22.png,15_08_2026_08_58_30.avi,14459,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+5a3fef7812c9bd1eb4e8,13_08_2026_14_27_52_55.png,13_08_2026_14_27_52.avi,14430,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Много сосудов видно, но тонкие ветви основной сети мягкие и неравномерно резкие по полю.",disagreement
+33b1560d01d04d6aec85,14_08_2026_09_50_34_31.png,14_08_2026_09_50_34.avi,14438,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+a667118d79d01ca2206b,13_08_2026_09_21_16_92.png,13_08_2026_09_21_16.avi,14419,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+b5bb4edfae0120495986,15_08_2026_08_23_53_108.png,15_08_2026_08_23_53.avi,14457,human,not_ok,assistant,not_ok,not_ok,not_ok,,Крупная засветка и сильная расфокусировка; полезной сосудистой сети не видно.,agreed_binary
+84a671d2053fc902516f,11_08_2026_14_15_20_55.png,11_08_2026_14_15_20.avi,14392,human,uncertain,assistant,uncertain,not_ok,not_ok,,Основная сеть размыта и слабоконтрастна на шумном фоне.,disagreement
+b6be7a45127062fcf295,15_08_2026_08_24_31_77.png,15_08_2026_08_24_31.avi,14457,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Отдельные правые тонкие ветви резче, основная сеть в центре и слева значительно размыта.",agreed_binary
+da678c237544b7c12d50,13_08_2026_10_55_43_3.png,13_08_2026_10_55_43.avi,14423,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+0e9ff9555cd2d4fdc4db,12_08_2026_08_50_27_199.png,12_08_2026_08_50_27.avi,14398,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+d585189683e3575aef03,13_08_2026_08_44_33_53.png,13_08_2026_08_44_33.avi,14418,human,not_ok,assistant,not_ok,not_ok,not_ok,,Резче только тонкий нижний сосуд; остальная основная сеть размыта и слабоконтрастна.,agreed_binary
+0d58ed669f10f7f7ed09,11_08_2026_10_41_16_113.png,11_08_2026_10_41_16.avi,5116,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Тонкая сеть теряется в шуме и размытии, границы неотчётливы.",disagreement
+6676afe38798fdd53692,14_08_2026_08_56_15_66.png,14_08_2026_08_56_15.avi,14436,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+e5d3358a2e6f165fd624,14_08_2026_13_34_30_6.png,14_08_2026_13_34_30.avi,14451,human,not_ok,assistant,not_ok,not_ok,not_ok,,Основная сеть имеет размытые границы по всему полю.,agreed_binary
+9714b2edc7920afeb16e,14_08_2026_12_04_44_148.png,14_08_2026_12_04_44.avi,14449,human,ok,assistant,ok,not_ok,not_ok,,"Центр и правые сосуды резче, но мелкие ветви и продолжения основной сети слева размыты.",disagreement
+4d2d0bb016fd08524c7d,12_08_2026_10_45_28_50.png,12_08_2026_10_45_28.avi,14404,assistant,ok,human,ok,ok,ok,,,agreed_binary
+97b42634555e8dea3986,12_08_2026_11_22_42_40.png,12_08_2026_11_22_42.avi,14405,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка, мелкая сеть неразличима.",agreed_binary
+9003fe07f1083a3a4666,14_08_2026_11_09_10_73.png,14_08_2026_11_09_10.avi,14444,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+0f137ad3164ac4379c71,11_08_2026_11_54_00_107.png,11_08_2026_11_54_00.avi,14388,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+54a33b967f55af70d704,12_08_2026_14_39_57_15.png,12_08_2026_14_39_57.avi,14415,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+f923fa677d068107b8c8,15_08_2026_09_24_31_86.png,15_08_2026_09_24_31.avi,14460,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+5a8f6dfd844e47636340,13_08_2026_10_30_25_8.png,13_08_2026_10_30_25.avi,15198,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Все основные сосуды выглядят размытыми полосами, тонкие границы неразличимы.",agreed_binary
+696864a9fcd4ceef88cb,13_08_2026_12_30_27_52.png,13_08_2026_12_30_27.avi,14428,assistant,ok,human,ok,ok,ok,,,agreed_binary
+03ee68718714044036c0,14_08_2026_13_45_42_2.png,14_08_2026_13_45_42.avi,3180,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка, чёткая мелкая сеть отсутствует.",agreed_binary
+c88806f0466facbebc72,11_08_2026_10_59_12_215.png,11_08_2026_10_59_12.avi,5702,human,uncertain,assistant,uncertain,uncertain,uncertain,,Правая тонкая петля и центральные ветви различимы; слабые левые ответвления на шумном фоне оцениваю неуверенно.,uncertain_agreement
+738ffa89981bc22cc7b9,12_08_2026_08_43_00_82.png,12_08_2026_08_43_00.avi,14397,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основная сеть имеет размытые границы, мелкие участки теряются в шуме.",agreed_binary
+a11667ab16c2fa428219,13_08_2026_12_06_45_116.png,13_08_2026_12_06_45.avi,15199,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+c79f258c9944525ad5ae,11_08_2026_12_13_45_24.png,11_08_2026_12_13_45.avi,14390,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Сильная нерезкость сети; отдельная нижняя левая ветвь резче, но большая часть поля не подходит.",disagreement
+1ce5a4677e7dd480a3d1,11_08_2026_11_05_22_51.png,11_08_2026_11_05_22.avi,14383,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Большинство основных ветвей размыто, тонкая сеть неотчётлива.",agreed_binary
+34be74d6f6921896f3b4,13_08_2026_10_55_59_118.png,13_08_2026_10_55_59.avi,14423,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Крупный контрастный сосуд виден, но мелкая сеть в центре и сверху нерезкая.",disagreement
+218501d1aca9a0192ec6,13_08_2026_08_17_12_1.png,13_08_2026_08_17_12.avi,14417,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+d7f224efbd718b299375,13_08_2026_10_29_45_48.png,13_08_2026_10_29_45.avi,15198,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+7d3da33f64caff3bfab1,11_08_2026_14_15_20_8.png,11_08_2026_14_15_20.avi,14392,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+c275ccfd69481c282571,12_08_2026_10_23_39_67.png,12_08_2026_10_23_39.avi,14401,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основная мелкая сеть размыта и зашумлена, границы центральных ветвей неотчётливы.",agreed_binary
+9f60b0949a07d751dde5,11_08_2026_11_49_54_194.png,11_08_2026_11_49_54.avi,14387,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Левые сосуды резче, основная сеть при переходе в центр и вправо сильно размыта.",agreed_binary
+fed44ec17c0da4be1fb4,11_08_2026_10_58_09_29.png,11_08_2026_10_58_09.avi,5702,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+4436789f0de8bdd1579b,12_08_2026_14_39_57_188.png,12_08_2026_14_39_57.avi,14415,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Правая основная ветвь резкая, но тонкая сеть слева и её центральные продолжения неотчётливы.",agreed_binary
+c0a5a8b1be6274d2d177,14_08_2026_08_56_15_213.png,14_08_2026_08_56_15.avi,14436,human,uncertain,assistant,uncertain,uncertain,uncertain,,"Центральные тонкие ветви видны, но часть их границ мягкая; не уверен в пригодности всей основной сети.",uncertain_agreement
+50a043115ff8892aa964,13_08_2026_10_30_51_132.png,13_08_2026_10_30_51.avi,15198,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Резкая центральная пара сосудов, однако мелкие ветви вокруг неё размыты и слабоконтрастны.",agreed_binary
+a6c5606a96c64aaf837b,12_08_2026_11_42_15_9.png,12_08_2026_11_42_15.avi,14407,assistant,uncertain,human,ok,uncertain,ok,,,disagreement
+57afb2013331f93d7e20,12_08_2026_13_36_49_80.png,12_08_2026_13_36_49.avi,14412,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Контрастный толстый сосуд виден, тонкие верхние и нижние сети имеют мягкие границы.",agreed_binary
+0796910db45956936fc0,11_08_2026_14_38_57_6.png,11_08_2026_14_38_57.avi,14394,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сосудистая сеть не различима, только шум и размытые пятна.",agreed_binary
+aadbe411d3b6d95f315f,12_08_2026_10_36_31_94.png,12_08_2026_10_36_31.avi,14403,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+36c8e5c90a0902aef28b,12_08_2026_11_41_10_102.png,12_08_2026_11_41_10.avi,14407,human,ok,assistant,ok,ok,ok,,Границы основных диагональных тонких сосудов различимы; размытая широкая структура на другой глубине не мешает прослеживанию основной сети.,agreed_binary
+3df67c982dbe8f2ee47a,15_08_2026_08_08_03_5.png,15_08_2026_08_08_03.avi,14456,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+bb0fdd3740015404799c,11_08_2026_11_02_38_212.png,11_08_2026_11_02_38.avi,10070,human,ok,assistant,ok,uncertain,uncertain,,"Центральный извитой сосуд различим, но тонкие ответвления на шумном фоне оцениваю неуверенно.",disagreement
+06af0848c3ece5faccc1,13_08_2026_11_45_39_36.png,13_08_2026_11_45_39.avi,14425,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+7530561d6214848f6f36,12_08_2026_11_55_34_86.png,12_08_2026_11_55_34.avi,14408,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+9569f9ee4596088d7c44,11_08_2026_10_58_46_10.png,11_08_2026_10_58_46.avi,5702,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка, различимы лишь широкие полосы.",agreed_binary
+d384e8086b5ba00e8f66,11_08_2026_11_06_23_170.png,11_08_2026_11_06_23.avi,14383,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Контрастные основные сосуды видны, но мелкая центральная сеть размыта и сливается с шумом.",agreed_binary
+cf8b3b905b0468aaa415,13_08_2026_14_46_38_17.png,13_08_2026_14_46_38.avi,14432,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+da04eb03db8f1685bc41,11_08_2026_14_38_44_53.png,11_08_2026_14_38_44.avi,14394,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+95928df2857e2bc727c7,11_08_2026_11_45_47_122.png,11_08_2026_11_45_47.avi,14386,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная нерезкость и шум, границы мелких сосудов неразличимы.",agreed_binary
+6357951dbb13f7a132b6,15_08_2026_09_24_21_114.png,15_08_2026_09_24_21.avi,14460,human,ok,assistant,ok,uncertain,uncertain,,"Верхние тонкие ветви чёткие; у поперечной и нижней сети границы мягче, уверенной оценки всей сети нет.",disagreement
+643cc8abc85c569b2e62,11_08_2026_14_15_40_96.png,11_08_2026_14_15_40.avi,14392,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка и блик на основном сосуде, мелкая сеть неразличима.",agreed_binary
+05aa08a4d7ce9ffc8853,11_08_2026_14_06_28_107.png,11_08_2026_14_06_28.avi,14391,human,not_ok,assistant,not_ok,not_ok,not_ok,,Тонкие ветви почти теряются в шуме; справа большая засветка.,agreed_binary
+fff5d3bb109121dedded,14_08_2026_13_45_56_35.png,14_08_2026_13_45_56.avi,3180,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Много крупных бликов и сильное размытие, полезная мелкая сеть отсутствует.",agreed_binary
+147426a834f65fd374cc,14_08_2026_11_09_00_5.png,14_08_2026_11_09_00.avi,14444,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+890675e0fcbd9de92137,13_08_2026_12_06_24_32.png,13_08_2026_12_06_24.avi,15199,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+0569b5903092732a6e42,14_08_2026_11_42_18_69.png,14_08_2026_11_42_18.avi,14447,human,ok,assistant,ok,not_ok,not_ok,,"Слева тонкая сеть резкая, справа основная сеть размыта; сверху большая засветка.",disagreement
+144b716169e473bc1728,11_08_2026_11_54_12_32.png,11_08_2026_11_54_12.avi,14388,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сосудистая сеть неразличима, только шум и широкие размытые тени.",agreed_binary
+d0bb0557a4cac613f660,13_08_2026_12_06_35_17.png,13_08_2026_12_06_35.avi,15199,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильное общее размытие, границы мелких сосудов не различимы.",agreed_binary
+0de6f1fdca59799f18d9,13_08_2026_09_57_36_30.png,13_08_2026_09_57_36.avi,14420,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+ebb7321e96305593f7ac,13_08_2026_09_21_25_119.png,13_08_2026_09_21_25.avi,14419,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+2e2f1838a5f530f5e3e2,13_08_2026_11_56_14_84.png,13_08_2026_11_56_14.avi,14426,human,not_ok,assistant,not_ok,not_ok,not_ok,,Размыта основная сеть; крупный блик справа закрывает сосуды.,agreed_binary
+8630af828066d74f093e,12_08_2026_10_23_19_89.png,12_08_2026_10_23_19.avi,14401,human,not_ok,assistant,not_ok,not_ok,not_ok,,Шум и слабая резкость мешают различить границы тонких ветвей.,agreed_binary
+1ef83e81efd6edb3028a,13_08_2026_09_21_04_24.png,13_08_2026_09_21_04.avi,14419,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+0ab6c9098d52ac3302e0,12_08_2026_12_00_38_111.png,12_08_2026_12_00_38.avi,14409,human,not_ok,assistant,not_ok,not_ok,not_ok,,Границы тонкой основной сети мягкие и теряются на значительной части поля.,agreed_binary
+d086136e4a1474c937f7,14_08_2026_12_04_28_121.png,14_08_2026_12_04_28.avi,14449,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+a97399f9ae18a112ce6f,11_08_2026_14_07_02_113.png,11_08_2026_14_07_02.avi,14391,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+b3cdc65f6703d0360d4a,13_08_2026_14_46_38_81.png,13_08_2026_14_46_38.avi,14432,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Резкость неоднородна: верхние ветви видны лучше, нижние участки основной сети размыты.",disagreement
+12f1703177d1d80d0cbb,13_08_2026_08_03_29_59.png,13_08_2026_08_03_29.avi,14416,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+05bafb6c7e31bc9b3650,13_08_2026_11_56_45_72.png,13_08_2026_11_56_45.avi,14426,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+c209ea7290dad3cec3a9,13_08_2026_14_46_26_78.png,13_08_2026_14_46_26.avi,14432,human,ok,assistant,ok,uncertain,uncertain,,"Часть мелких ветвей чёткая; не уверен, что мягкие пересекающие ветви относятся только к глубокому фону.",disagreement
+86981e65c29cb3e72954,13_08_2026_10_41_59_59.png,13_08_2026_10_41_59.avi,14422,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка, вместо сети видны широкие тени.",agreed_binary
+33fb93c8b3c1a8f69942,12_08_2026_08_49_59_90.png,12_08_2026_08_49_59.avi,14398,human,not_ok,assistant,not_ok,not_ok,not_ok,,Общее размытие и шум; тонкие границы не различимы.,agreed_binary
+7c8fb88daf895293ec09,12_08_2026_10_24_05_170.png,12_08_2026_10_24_05.avi,14401,human,ok,assistant,ok,uncertain,uncertain,,"Главные тонкие ветви прослеживаются, но шум мешает уверенно оценить границы самых слабых участков.",disagreement
+874b53dd6cdfcd7122a1,12_08_2026_11_56_11_136.png,12_08_2026_11_56_11.avi,14408,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+94b8300562f8308ca0f6,12_08_2026_14_39_22_19.png,12_08_2026_14_39_22.avi,14415,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сосуды сильно размыты по всему кадру.,agreed_binary
+4b91ac4592d5c5c30903,14_08_2026_08_36_13_38.png,14_08_2026_08_36_13.avi,14435,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильное размытие и многочисленные пересвеченные блики.,agreed_binary
+7a0dfad6f1fdf4b83038,14_08_2026_09_57_31_98.png,14_08_2026_09_57_31.avi,14439,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+a59f183c5ae6d2b503c8,12_08_2026_11_41_48_84.png,12_08_2026_11_41_48.avi,14407,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+ca2a466ffff811e735c1,13_08_2026_12_29_30_14.png,13_08_2026_12_29_30.avi,14428,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+6dea80c3ef3453d62637,12_08_2026_10_45_37_68.png,12_08_2026_10_45_37.avi,14404,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Нижняя часть сети видна лучше, верхние основные ветви заметно размыты.",disagreement
+fa3a1224bc4bfd2afdc9,12_08_2026_08_42_38_34.png,12_08_2026_08_42_38.avi,14397,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+391ae03dc06ddb794a55,12_08_2026_10_36_22_70.png,12_08_2026_10_36_22.avi,14403,human,ok,assistant,ok,not_ok,not_ok,,Много бликов перекрывают основную сеть; часть тонких ветвей теряется в шуме.,disagreement
+17a62ec5c2ec32605ea7,11_08_2026_10_59_12_59.png,11_08_2026_10_59_12.avi,5702,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+0fdc28e6c56fc1189b91,12_08_2026_08_43_10_113.png,12_08_2026_08_43_10.avi,14397,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+19e88169ebd5ac5deb9f,12_08_2026_11_59_39_65.png,12_08_2026_11_59_39.avi,14409,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+1866817d9e9624f5d0a6,12_08_2026_11_23_08_158.png,12_08_2026_11_23_08.avi,14405,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+893bafe14b993623d94b,12_08_2026_13_36_38_9.png,12_08_2026_13_36_38.avi,14412,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+00463cc3c91c926ee933,15_08_2026_08_58_30_108.png,15_08_2026_08_58_30.avi,14459,human,ok,assistant,ok,ok,ok,,Мелкие петли и крупные сосуды основной сети различимы; мягкие глубокие тени не мешают.,agreed_binary
+69f3df284af224e6eb1a,13_08_2026_08_44_57_124.png,13_08_2026_08_44_57.avi,14418,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+de13cb32f87f14f05ff4,14_08_2026_10_18_27_50.png,14_08_2026_10_18_27.avi,14440,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+f5e7d06a6f3eac17aa72,14_08_2026_11_46_46_150.png,14_08_2026_11_46_46.avi,14448,assistant,ok,human,ok,ok,ok,,,agreed_binary
+2db3db882bb2b93af513,12_08_2026_09_18_58_159.png,12_08_2026_09_18_58.avi,14399,human,uncertain,assistant,uncertain,not_ok,not_ok,,Мелкая сеть в центре и справа слишком слабая и размытая на шумном фоне.,disagreement
+7c119385a782ee70e68e,13_08_2026_09_21_04_92.png,13_08_2026_09_21_04.avi,14419,human,ok,assistant,ok,not_ok,not_ok,,Нижние ветви резче верхних: основная сеть неравномерно в фокусе.,disagreement
+6d3cdbd8b6c3e3d0a66b,14_08_2026_13_38_37_64.png,14_08_2026_13_38_37.avi,14452,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+1af68c8885bf6bb36c4e,12_08_2026_13_48_53_109.png,12_08_2026_13_48_53.avi,10088,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Тонкие ветви с мягкими границами, блики и выраженное размытие.",agreed_binary
+522bc16703c881141022,12_08_2026_10_45_28_95.png,12_08_2026_10_45_28.avi,14404,human,ok,assistant,ok,uncertain,uncertain,,"Часть тонких ветвей хорошо различима, но не уверен в достаточности границ слабой центральной сети.",disagreement
+d6ca0c3d0690c8885773,11_08_2026_12_13_08_69.png,11_08_2026_12_13_08.avi,14390,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+ead85202b263ea322881,11_08_2026_13_37_58_6.png,11_08_2026_13_37_58.avi,15197,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+cf9667627e311ffc49e0,14_08_2026_08_01_29_136.png,14_08_2026_08_01_29.avi,14434,human,ok,assistant,ok,uncertain,uncertain,,"Чёткие петли справа и слева, но центральные слабые ветви трудно уверенно отделить от глубокого слоя.",disagreement
+f858880b08f41211a41d,11_08_2026_12_13_19_89.png,11_08_2026_12_13_19.avi,14390,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основная тонкая сеть теряется в шуме, большая часть поля нерезкая.",agreed_binary
+f81d6b32c4aac94caf1d,14_08_2026_12_03_50_0.png,14_08_2026_12_03_50.avi,14449,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная общая расфокусировка, сосудистые границы отсутствуют.",agreed_binary
+002f8084bf0bdd3877e7,11_08_2026_11_53_35_37.png,11_08_2026_11_53_35.avi,14388,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Размыты и крупные, и мелкие ветви основной сети.",disagreement
+614e1524c0a789760adb,12_08_2026_08_50_11_7.png,12_08_2026_08_50_11.avi,14398,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+62ea769207e8e36bb70c,12_08_2026_08_20_39_99.png,12_08_2026_08_20_39.avi,14396,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+9ff8ea6ba71b5e2bb758,13_08_2026_09_21_50_112.png,13_08_2026_09_21_50.avi,14419,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+e7f90b62b15403c4da76,14_08_2026_11_09_22_69.png,14_08_2026_11_09_22.avi,14444,human,not_ok,assistant,not_ok,not_ok,not_ok,,Неравномерная резкость: значительная часть тонкой сети и центральных ветвей размыта.,agreed_binary
+a6a48033fe0b11cc81b0,11_08_2026_11_10_05_104.png,11_08_2026_11_10_05.avi,14384,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+dc1375c8142919d06a8a,14_08_2026_08_55_38_122.png,14_08_2026_08_55_38.avi,14436,assistant,ok,human,ok,ok,ok,,,agreed_binary
+0a7a13225bd50ccd3365,12_08_2026_09_30_10_97.png,12_08_2026_09_30_10.avi,10753,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сосуды почти неразличимы из-за сильного размытия и засветки слева.,agreed_binary
+d34822341dc18250e19f,14_08_2026_11_38_25_14.png,14_08_2026_11_38_25.avi,14446,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+76cc9c7c32e5f02111cd,12_08_2026_10_30_03_43.png,12_08_2026_10_30_03.avi,14402,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Шум, размытие основной сети и большой блик сверху.",agreed_binary
+e2cc665e4a7ac4baf5fd,14_08_2026_12_19_26_51.png,14_08_2026_12_19_26.avi,14450,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная расфокусировка по всему полю и засветка сверху.,agreed_binary
+32eceeb46a6cab0549da,11_08_2026_14_22_34_7.png,11_08_2026_14_22_34.avi,14393,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+08c53defb22efc35f855,12_08_2026_10_05_34_55.png,12_08_2026_10_05_34.avi,14400,human,not_ok,assistant,not_ok,not_ok,not_ok,,Мелкие сосуды почти не различимы; видны лишь слабые размытые участки.,agreed_binary
+b9d7b048a0514f86eca2,12_08_2026_11_55_55_76.png,12_08_2026_11_55_55.avi,14408,assistant,uncertain,human,uncertain,uncertain,uncertain,,,uncertain_agreement
+c4916a2833972e29a8f8,14_08_2026_12_04_44_24.png,14_08_2026_12_04_44.avi,14449,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+c12681d064ef3857ca29,11_08_2026_11_53_24_51.png,11_08_2026_11_53_24.avi,14388,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+db9d7ddeddf13eeadbcc,12_08_2026_09_18_33_17.png,12_08_2026_09_18_33.avi,14399,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сеть неразличима на шумном, расфокусированном изображении.",agreed_binary
+34959b4f22f79aacc0be,11_08_2026_14_07_27_122.png,11_08_2026_14_07_27.avi,14391,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+0532d716557c02ce7176,11_08_2026_13_38_24_148.png,11_08_2026_13_38_24.avi,15197,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+0de1068d156db94eebc3,13_08_2026_14_28_07_153.png,13_08_2026_14_28_07.avi,14430,assistant,ok,human,ok,ok,ok,,,agreed_binary
+6907f46e75a5b2a65ef3,11_08_2026_11_09_42_85.png,11_08_2026_11_09_42.avi,14384,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Тонкие ветви теряются в сильном шуме, границы основной сети недостаточно различимы.",agreed_binary
+c3e000ee28d22c6444eb,14_08_2026_11_09_57_192.png,14_08_2026_11_09_57.avi,14444,assistant,ok,human,ok,ok,ok,,,agreed_binary
+76d91ced5b375b1f60bb,14_08_2026_11_42_18_133.png,14_08_2026_11_42_18.avi,14447,assistant,uncertain,human,ok,uncertain,ok,,,disagreement
+9f3713eaed67a18c68b8,12_08_2026_11_22_42_124.png,12_08_2026_11_22_42.avi,14405,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+5591d1da8425cfb74e6c,14_08_2026_10_18_17_99.png,14_08_2026_10_18_17.avi,14440,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Правая ветвь резче, центральная и левая мелкая сеть размыта.",disagreement
+598f06419ec4df018f60,14_08_2026_09_24_12_39.png,14_08_2026_09_24_12.avi,14437,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка, сосуды представлены широкими тенями.",agreed_binary
+212c0ddc9d1acbfea7c4,12_08_2026_11_55_45_95.png,12_08_2026_11_55_45.avi,14408,human,ok,assistant,ok,uncertain,uncertain,,"Некоторые петли и мелкие ветви различимы, но часть основных границ мягкая; уверенной оценки пригодности нет.",disagreement
+b4514b504aa0b05c4456,11_08_2026_12_13_45_78.png,11_08_2026_12_13_45.avi,14390,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+140e3a17d00a11b36d81,12_08_2026_11_42_05_56.png,12_08_2026_11_42_05.avi,14407,assistant,ok,human,ok,ok,ok,,,agreed_binary
+c591ca4a3253c05e0ab7,12_08_2026_11_59_50_73.png,12_08_2026_11_59_50.avi,14409,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+3fb135a6e914ec240d48,13_08_2026_14_27_31_105.png,13_08_2026_14_27_31.avi,14430,human,not_ok,assistant,not_ok,not_ok,not_ok,,Тонкая сеть в центре и слева слабо различима и размыта.,agreed_binary
+3115018d7f0feed0795c,15_08_2026_09_24_42_58.png,15_08_2026_09_24_42.avi,14460,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+e27eccd48d74f7f063e7,13_08_2026_09_57_09_84.png,13_08_2026_09_57_09.avi,14420,human,ok,assistant,ok,not_ok,not_ok,,Даже тонкие ветви основной сети имеют размытые границы на значительной части кадра.,disagreement
+7a6a22abda1210e6ea26,14_08_2026_11_49_44_42.png,14_08_2026_11_49_44.avi,15200,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильное общее размытие; границы сосудов не различимы.,agreed_binary
+29209e1d45ba6209ef59,14_08_2026_10_18_39_89.png,14_08_2026_10_18_39.avi,14440,human,not_ok,assistant,not_ok,not_ok,not_ok,,Нижняя диагональная ветвь резче остальных; тонкая сеть сверху и слева размыта.,agreed_binary
+a7c6bea67dba00c2ccc4,14_08_2026_08_55_50_88.png,14_08_2026_08_55_50.avi,14436,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+20f216a27b4688da20aa,13_08_2026_08_17_33_45.png,13_08_2026_08_17_33.avi,14417,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основная сеть размыта, несколько крупных бликов закрывают поле.",agreed_binary
+f041d1395b6dbcd03873,14_08_2026_08_56_25_155.png,14_08_2026_08_56_25.avi,14436,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+78e0b778e82e9b67f80c,12_08_2026_13_59_09_177.png,12_08_2026_13_59_09.avi,14413,human,ok,assistant,ok,ok,ok,,"Основные крупные и тонкие ветви с различимыми границами, в том числе центральные петли.",agreed_binary
+e3bc7f0099b1a2819109,13_08_2026_11_56_45_197.png,13_08_2026_11_56_45.avi,14426,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Общее размытие основной сети, особенно тонких ответвлений.",agreed_binary
+4e97ca03df170ce754e9,14_08_2026_10_54_07_143.png,14_08_2026_10_54_07.avi,14442,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+b09e2fc356a20b20aa3a,14_08_2026_09_23_44_40.png,14_08_2026_09_23_44.avi,14437,human,not_ok,assistant,not_ok,not_ok,not_ok,,Почти всё поле вне фокуса; одной более тёмной ветви недостаточно.,agreed_binary
+34373db92d8161c27463,11_08_2026_12_13_08_104.png,11_08_2026_12_13_08.avi,14390,human,not_ok,assistant,not_ok,not_ok,not_ok,,Шум и размытие скрывают мелкие границы на большей части поля.,agreed_binary
+9686399ad5a48b48c519,12_08_2026_13_49_26_72.png,12_08_2026_13_49_26.avi,10088,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+49fb67f3e4f28a13f544,12_08_2026_08_42_48_84.png,12_08_2026_08_42_48.avi,14397,human,not_ok,assistant,not_ok,not_ok,not_ok,,Тонкая сеть в центре и слева теряется в шуме; контуры плохо различимы.,agreed_binary
+2b188c959871e9ccdb90,12_08_2026_12_00_27_24.png,12_08_2026_12_00_27.avi,14409,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+6471a2db3f63e7e0ee0e,12_08_2026_14_39_22_116.png,12_08_2026_14_39_22.avi,14415,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+6f1c7c139efa7e3654f3,11_08_2026_12_08_00_44.png,11_08_2026_12_08_00.avi,14389,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сеть размыта и перекрыта крупными бликами.,agreed_binary
+7b876eddd5e89e06e836,13_08_2026_10_18_16_101.png,13_08_2026_10_18_16.avi,8945,assistant,uncertain,human,ok,uncertain,ok,,,disagreement
+509053ec0982dad15b93,15_08_2026_08_24_19_45.png,15_08_2026_08_24_19.avi,14457,human,uncertain,assistant,uncertain,not_ok,not_ok,,Общее размытие основных сосудов и сильные блики по краям.,disagreement
+37304c7a41826f12101c,11_08_2026_14_38_57_119.png,11_08_2026_14_38_57.avi,14394,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+97a7af459af644aa1077,13_08_2026_08_04_04_43.png,13_08_2026_08_04_04.avi,14416,human,not_ok,assistant,not_ok,not_ok,not_ok,,Границы сосудов мягкие по всему полю; выраженная засветка слева.,agreed_binary
+4f42adcd01014b1db416,13_08_2026_09_21_50_220.png,13_08_2026_09_21_50.avi,14419,human,ok,assistant,ok,not_ok,not_ok,,"Нижние участки чётче, верхняя и центральная мелкая сеть заметно размыта.",disagreement
+b0be75680c9fe7b9d5e4,11_08_2026_11_23_16_222.png,11_08_2026_11_23_16.avi,14385,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+7de3145ed6e699c37052,14_08_2026_11_09_32_30.png,14_08_2026_11_09_32.avi,14444,human,ok,assistant,ok,uncertain,uncertain,,"Многие мелкие петли различимы, но не уверен в достаточной резкости слабых ветвей слева и в центре.",disagreement
+f36225292c0643b29f75,13_08_2026_12_30_17_92.png,13_08_2026_12_30_17.avi,14428,assistant,uncertain,human,ok,uncertain,ok,,,disagreement
+50363a45b729c8acec48,14_08_2026_12_04_19_104.png,14_08_2026_12_04_19.avi,14449,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+d3542c1dcb3a5aa290d1,14_08_2026_08_00_52_101.png,14_08_2026_08_00_52.avi,14434,assistant,uncertain,human,uncertain,uncertain,uncertain,,,uncertain_agreement
+3f5a30c4ca2128c51a81,11_08_2026_14_15_30_88.png,11_08_2026_14_15_30.avi,14392,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+0379d14fb5edc086b465,14_08_2026_11_41_30_72.png,14_08_2026_11_41_30.avi,14447,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильное общее размытие, сосудистые границы неразличимы.",agreed_binary
+4b8120c72fe65baff4fd,12_08_2026_11_22_19_21.png,12_08_2026_11_22_19.avi,14405,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+01cd11e1332cf63f13d0,13_08_2026_15_02_58_70.png,13_08_2026_15_02_58.avi,14433,human,not_ok,assistant,not_ok,not_ok,not_ok,,Резкая ветвь слева соседствует с размытыми основными тонкими ветвями в верхней части.,agreed_binary
+5e510f0bdb5511c04bce,15_08_2026_09_24_42_8.png,15_08_2026_09_24_42.avi,14460,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильное общее размытие, границы сосудов не различимы.",agreed_binary
+ad2b0ab839d7d78a715a,12_08_2026_09_18_58_73.png,12_08_2026_09_18_58.avi,14399,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+cdafd8f1df0c8e6e6cb9,13_08_2026_08_18_00_112.png,13_08_2026_08_18_00.avi,14417,human,not_ok,assistant,not_ok,not_ok,not_ok,,Мелкая сеть тоже смазана; крупные тени и полосы затрудняют анализ.,agreed_binary
+82d12028889d7a901ecd,12_08_2026_13_49_41_121.png,12_08_2026_13_49_41.avi,10088,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+c8e8b4258e98f5719d4b,12_08_2026_10_30_22_212.png,12_08_2026_10_30_22.avi,14402,human,ok,assistant,ok,not_ok,not_ok,,"Центральная ветвь резкая лишь частично, её продолжения и соседние мелкие ветви размыты.",disagreement
+afd492fe81207b1d41a4,12_08_2026_10_29_53_122.png,12_08_2026_10_29_53.avi,14402,human,not_ok,assistant,not_ok,not_ok,not_ok,,Мелкие границы недостаточно различимы из-за размытия и сильного шума.,agreed_binary
+fb96e84b878fc304f1c2,15_08_2026_08_03_49_49.png,15_08_2026_08_03_49.avi,14455,human,not_ok,assistant,not_ok,not_ok,not_ok,,Все основные сосуды явно расфокусированы.,agreed_binary
+6174a4ee43f7e6343ccf,12_08_2026_15_20_59_120.png,12_08_2026_15_20_59.avi,3807,human,ok,assistant,ok,uncertain,uncertain,,"Тонкие вертикальные ветви прослеживаются, но не уверен в границах слабых участков нижней части поля.",disagreement
+c7a7d072f7cb2c63ee41,12_08_2026_10_06_36_116.png,12_08_2026_10_06_36.avi,14400,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+49431af30dd1b521706a,12_08_2026_10_36_56_93.png,12_08_2026_10_36_56.avi,14403,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+e95064af3b988652cb32,13_08_2026_11_56_32_37.png,13_08_2026_11_56_32.avi,14426,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Большая часть основной сети размыта, мелкие границы не различимы.",agreed_binary
+5b172a8f86004428cfb1,13_08_2026_09_31_53_102.png,13_08_2026_09_31_53.avi,10236,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+f3c99313cabfc78e3d7d,11_08_2026_13_37_47_106.png,11_08_2026_13_37_47.avi,15197,human,ok,assistant,ok,not_ok,not_ok,,Чётче отдельная центральная петля; окружающая мелкая сеть теряется в шуме.,disagreement
+78da4cc56da22992450b,11_08_2026_12_14_10_128.png,11_08_2026_12_14_10.avi,14390,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+68e22a13372a4a33538d,14_08_2026_10_53_15_100.png,14_08_2026_10_53_15.avi,14442,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная засветка снизу, шум и расфокусировка скрывают сеть.",agreed_binary
+ba442d5322ce3147c0b1,14_08_2026_13_38_21_13.png,14_08_2026_13_38_21.avi,14452,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильное размытие и обширные пересвеченные участки.,agreed_binary
+2622695060dc09d40f18,12_08_2026_10_45_06_122.png,12_08_2026_10_45_06.avi,14404,human,ok,assistant,ok,not_ok,not_ok,,"Центральная петля чёткая, но её нижнее продолжение и левые основные ветви размыты.",disagreement
+9c467392622342607fc8,15_08_2026_08_03_49_112.png,15_08_2026_08_03_49.avi,14455,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+c7bbfb0e43b1e036a04b,13_08_2026_09_32_44_7.png,13_08_2026_09_32_44.avi,10236,human,uncertain,assistant,uncertain,not_ok,not_ok,,Центральные тонкие ветви видны лучше; верхние участки и нижняя петля основной сети размыты.,disagreement
+efaca123580dfbbc5f90,15_08_2026_08_03_21_73.png,15_08_2026_08_03_21.avi,14455,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Резкость только у отдельных нижних тонких ветвей, остальная основная сеть размыта.",disagreement
+3f6e2af3f5e95af18ef2,13_08_2026_09_31_53_31.png,13_08_2026_09_31_53.avi,10236,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка, сеть почти неразличима.",agreed_binary
+9942d60b78c54f797b14,11_08_2026_10_40_10_53.png,11_08_2026_10_40_10.avi,5116,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+94310ef193b6ef0703b9,11_08_2026_14_39_10_52.png,11_08_2026_14_39_10.avi,14394,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+4bbf7667d4d2cd9f71d9,13_08_2026_11_45_50_98.png,13_08_2026_11_45_50.avi,14425,human,not_ok,assistant,not_ok,not_ok,not_ok,,Мелкая основная сеть с мягкими границами по большей части поля.,agreed_binary
+544cd22d4f133a6102ea,13_08_2026_08_04_30_192.png,13_08_2026_08_04_30.avi,14416,human,ok,assistant,ok,ok,ok,,"Мелкие ветви и петли основной сети различимы по полю, границы видимых участков достаточно чёткие.",agreed_binary
+27a686fff1710d16d289,15_08_2026_08_04_18_179.png,15_08_2026_08_04_18.avi,14455,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Чёткая нижняя петля, но верхние и левые продолжения основных сосудов размыты.",disagreement
+e64030be97478441205b,12_08_2026_08_43_34_221.png,12_08_2026_08_43_34.avi,14397,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+9fcd465959fffbdb6631,12_08_2026_08_20_29_38.png,12_08_2026_08_20_29.avi,14396,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сеть практически не различима из-за шума и сильного размытия.,agreed_binary
+123fee00898bc00c5a49,13_08_2026_12_07_01_67.png,13_08_2026_12_07_01.avi,15199,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+abde21963b31c99489ff,11_08_2026_10_41_16_202.png,11_08_2026_10_41_16.avi,5116,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+c8b39a1830a803a686cb,13_08_2026_12_30_27_213.png,13_08_2026_12_30_27.avi,14428,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Верхние правые ветви резче, центральная и левая основная сеть размыта.",disagreement
+9c296207b40d1fc6e183,11_08_2026_13_38_08_27.png,11_08_2026_13_38_08.avi,15197,human,ok,assistant,ok,not_ok,not_ok,,Размытая мелкая сеть и крупные блики перекрывают существенные участки поля.,disagreement
+b8cc1ff64a45c6d265be,12_08_2026_09_29_21_49.png,12_08_2026_09_29_21.avi,10753,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильное размытие и шум, сосудистые границы не различимы.",agreed_binary
+70f0523824e5301dc25e,12_08_2026_09_19_09_111.png,12_08_2026_09_19_09.avi,14399,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Отдельные тонкие ветви видны, но большая часть мелкой сети теряется в шуме и размытии.",agreed_binary
+6b74463ed549159290d5,13_08_2026_12_45_00_83.png,13_08_2026_12_45_00.avi,14429,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Мелкие петли основной сети с мягкими, размытыми границами по полю.",disagreement
+6f4cc5424815cb01a2c9,13_08_2026_10_56_22_98.png,13_08_2026_10_56_22.avi,14423,human,ok,assistant,ok,not_ok,not_ok,,"Резкая нижняя петля, но основные ветви справа и сверху размыты.",disagreement
+b25d19851477dc3584ea,12_08_2026_10_29_53_45.png,12_08_2026_10_29_53.avi,14402,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+5ae9178d5c82dd4693c9,12_08_2026_11_41_22_59.png,12_08_2026_11_41_22.avi,14407,human,uncertain,assistant,uncertain,not_ok,not_ok,,Резкость лишь справа внизу; продолжения основной сети слева и сверху размыты.,disagreement
+8b2072b86326ba22bdef,13_08_2026_12_13_17_6.png,13_08_2026_12_13_17.avi,14427,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+5aa82c742ad2613be493,12_08_2026_09_18_42_54.png,12_08_2026_09_18_42.avi,14399,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильное общее размытие и шум, мелкая сеть не различима.",agreed_binary
+893c3dfab6fbb772ec3d,11_08_2026_11_46_02_120.png,11_08_2026_11_46_02.avi,14386,assistant,ok,human,ok,ok,ok,,,agreed_binary
+a3f87a6a8ddbfff38b65,14_08_2026_12_18_55_46.png,14_08_2026_12_18_55.avi,14450,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+4b5b7a7ce1378f46acbf,13_08_2026_15_02_33_55.png,13_08_2026_15_02_33.avi,14433,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+a7c30ef310de5a3fdc50,14_08_2026_08_01_03_106.png,14_08_2026_08_01_03.avi,14434,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Большая часть основной сети расфокусирована, особенно справа.",disagreement
+5c3b215cd0309c13adea,14_08_2026_10_19_06_76.png,14_08_2026_10_19_06.avi,14440,human,ok,assistant,ok,uncertain,uncertain,,"Основные тёмные ветви чёткие, но не уверен в пригодности слабых центральных петель.",disagreement
+708c63ccbd5abe4e8168,15_08_2026_08_08_14_46.png,15_08_2026_08_08_14.avi,14456,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+1ff971151e8269b11212,14_08_2026_09_57_43_19.png,14_08_2026_09_57_43.avi,14439,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+efb34114d551d4d0ea5c,11_08_2026_14_06_28_14.png,11_08_2026_14_06_28.avi,14391,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+7873d75a2b4c59eba047,13_08_2026_10_42_43_174.png,13_08_2026_10_42_43.avi,14422,assistant,ok,human,ok,ok,ok,,,agreed_binary
+71fa000393b187e7d6a7,12_08_2026_08_49_36_73.png,12_08_2026_08_49_36.avi,14398,human,not_ok,assistant,not_ok,not_ok,not_ok,,Тонкая сеть теряется в шуме и размытии по всему полю.,agreed_binary
+6e67622dc9cb11df95e4,12_08_2026_12_00_02_26.png,12_08_2026_12_00_02.avi,14409,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+13320b29f5d86a10609a,13_08_2026_10_30_36_84.png,13_08_2026_10_30_36.avi,15198,human,ok,assistant,ok,not_ok,not_ok,,"Слева основная сеть размыта, справа резче лишь отдельные участки; присутствует блик.",disagreement
+074d6479719050207387,11_08_2026_11_50_06_78.png,11_08_2026_11_50_06.avi,14387,human,not_ok,assistant,not_ok,not_ok,not_ok,,Размытие и шум скрывают границы тонких сосудов.,agreed_binary
+bbca0a4c288e6b81389e,14_08_2026_09_12_20_108.png,14_08_2026_09_12_20.avi,3179,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+6b938a23a9aeded278a4,13_08_2026_10_30_02_108.png,13_08_2026_10_30_02.avi,15198,human,ok,assistant,ok,uncertain,uncertain,,"Многие основные ветви чёткие, но не уверен в границах слабых мелких ветвей в верхней и правой части.",disagreement
+6e3248a88ee6e3a5378d,14_08_2026_13_38_10_114.png,14_08_2026_13_38_10.avi,14452,human,uncertain,assistant,uncertain,not_ok,not_ok,,Мелкие ветви основной сети с размытыми границами на значительной части кадра.,disagreement
+6f95e763d9aa2dc425ea,12_08_2026_11_32_33_5.png,12_08_2026_11_32_33.avi,14406,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная общая расфокусировка, мелкая сеть не различима.",agreed_binary
+bab88bacee2f5d12f298,13_08_2026_14_33_33_54.png,13_08_2026_14_33_33.avi,14431,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+9c124738f8a180569c7a,14_08_2026_09_12_56_99.png,14_08_2026_09_12_56.avi,3179,human,not_ok,assistant,not_ok,not_ok,not_ok,,Выраженное размытие крупных и мелких сосудов.,agreed_binary
+610dd2ac2d56679fa091,12_08_2026_15_21_48_7.png,12_08_2026_15_21_48.avi,3807,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+80b87a9056b64fe4ab53,15_08_2026_08_58_58_94.png,15_08_2026_08_58_58.avi,14459,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Тонкие ветви резки в центре, но их продолжения сверху и снизу теряют резкость.",agreed_binary
+8917d42918d3faefd5e3,14_08_2026_08_01_29_215.png,14_08_2026_08_01_29.avi,14434,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+c496fef785ea60f92d32,11_08_2026_12_07_37_103.png,11_08_2026_12_07_37.avi,14389,human,ok,assistant,ok,not_ok,not_ok,,"Отдельные центральные сосуды различимы, мелкая сеть слева и снизу недостаточно резкая.",disagreement
+e8ab50857461c09395dd,11_08_2026_14_06_51_31.png,11_08_2026_14_06_51.avi,14391,human,uncertain,assistant,uncertain,not_ok,not_ok,,Сильное размытие и шум скрывают сосудистые границы.,disagreement
+35a0393b36482360f751,12_08_2026_11_31_55_78.png,12_08_2026_11_31_55.avi,14406,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Выраженная расфокусировка, мелкая сеть не различима.",agreed_binary
+15f3c387326c6015939f,14_08_2026_10_59_29_10.png,14_08_2026_10_59_29.avi,14443,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сосуды сильно расфокусированы по всему полю.,agreed_binary
+cf35e0b5c5c7255dede7,13_08_2026_14_46_57_113.png,13_08_2026_14_46_57.avi,14432,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Большой пересвеченный участок сверху, остальная основная сеть размыта.",agreed_binary
+6e55b492df6765646072,14_08_2026_11_09_32_85.png,14_08_2026_11_09_32.avi,14444,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+c4876e32ea6293a4d993,11_08_2026_10_40_48_6.png,11_08_2026_10_40_48.avi,5116,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+ee65676a55dc4bb6e025,12_08_2026_13_58_35_71.png,12_08_2026_13_58_35.avi,14413,human,ok,assistant,ok,uncertain,uncertain,,"Мелкая сеть прослеживается, но слабые центральные границы не позволяют уверенно подтвердить пригодность.",disagreement
+1294f45df71126edb0a4,13_08_2026_14_32_33_58.png,13_08_2026_14_32_33.avi,14431,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильное размытие основной сети по всему полю.,agreed_binary
+400a5d3063f03b37012b,14_08_2026_11_31_58_60.png,14_08_2026_11_31_58.avi,14445,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Мелкие ветви слишком слабые и размытые, границы теряются в шуме.",agreed_binary
+a57682d74088af24015d,12_08_2026_12_36_05_99.png,12_08_2026_12_36_05.avi,14411,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка, мелкие сосуды не различимы.",agreed_binary
+af4ca2615dd4ee680a1b,11_08_2026_11_49_17_14.png,11_08_2026_11_49_17.avi,14387,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+f39564319dd5b9b4c558,12_08_2026_11_55_24_19.png,12_08_2026_11_55_24.avi,14408,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+47b0fe78d0f9cbbaf63c,13_08_2026_11_45_29_4.png,13_08_2026_11_45_29.avi,14425,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+8726f43fdaee68367feb,11_08_2026_14_16_06_199.png,11_08_2026_14_16_06.avi,14392,human,uncertain,assistant,uncertain,uncertain,uncertain,,"Левые петли чёткие, правые ветви мягче; не уверен, относятся ли они только к глубокому слою.",uncertain_agreement
+2fbec53bd1c3319b7d88,15_08_2026_08_03_33_81.png,15_08_2026_08_03_33.avi,14455,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+3a7159381bfb83b695da,13_08_2026_11_15_20_94.png,13_08_2026_11_15_20.avi,14934,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+a12c2383feb40053549e,11_08_2026_14_07_27_186.png,11_08_2026_14_07_27.avi,14391,human,uncertain,assistant,uncertain,not_ok,not_ok,,Размыты тонкие ответвления и значительная часть основных петель.,disagreement
+fdc66911796cb6743adb,14_08_2026_09_12_31_88.png,14_08_2026_09_12_31.avi,3179,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+d4338e5f4cd6abbd171c,13_08_2026_11_25_26_61.png,13_08_2026_11_25_26.avi,14424,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+2335deb01362a73573d0,11_08_2026_11_45_47_38.png,11_08_2026_11_45_47.avi,14386,assistant,uncertain,human,uncertain,uncertain,uncertain,,,uncertain_agreement
+cff57fc1e006ed252db1,12_08_2026_10_05_47_22.png,12_08_2026_10_05_47.avi,14400,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+f7530dbb531352268b49,12_08_2026_08_13_21_59.png,12_08_2026_08_13_21.avi,14395,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+5af87b5b088730a06ddb,14_08_2026_09_50_44_39.png,14_08_2026_09_50_44.avi,14438,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+5528bd5400cb4786cf5a,13_08_2026_08_17_44_52.png,13_08_2026_08_17_44.avi,14417,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Основная сеть размыта, крупные блики в центре.",disagreement
+9256bb87dd972b538d18,12_08_2026_13_36_38_64.png,12_08_2026_13_36_38.avi,14412,human,uncertain,assistant,uncertain,not_ok,not_ok,,Тонкие нижние петли резче; верхняя половина основной сети явно размыта.,disagreement
+46e8e9feb37ea8aed731,11_08_2026_10_41_05_55.png,11_08_2026_10_41_05.avi,5116,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сеть слабо различима из-за размытия и шума, засветка сверху.",agreed_binary
+5e5b5c93ffeadb2e194e,13_08_2026_10_55_43_62.png,13_08_2026_10_55_43.avi,14423,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Различимы лишь отдельные нижние ветви, верхние основные сосуды размыты.",disagreement
+d0be24a945b8d93e5255,14_08_2026_09_23_16_13.png,14_08_2026_09_23_16.avi,14437,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильное размытие и блики, сосудистые границы не различимы.",agreed_binary
+c44dc98ca1f305851c2c,12_08_2026_11_28_43_9.png,12_08_2026_11_28_43.avi,5943,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Выраженное размытие, следы смаза и многочисленные блики.",agreed_binary
+eb701c4f47831fe31a4c,12_08_2026_10_30_03_101.png,12_08_2026_10_30_03.avi,14402,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+7084bf794fb51e602e68,11_08_2026_14_15_56_188.png,11_08_2026_14_15_56.avi,14392,human,not_ok,assistant,not_ok,not_ok,not_ok,,Резкость лишь у небольшого участка слева; остальная основная сеть размыта.,agreed_binary
+ad222719005127bd50e3,12_08_2026_09_18_22_94.png,12_08_2026_09_18_22.avi,14399,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+ea9251a3cd89d91cb311,11_08_2026_11_02_48_208.png,11_08_2026_11_02_48.avi,10070,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+973e49578ff19e356f4a,12_08_2026_12_04_10_50.png,12_08_2026_12_04_10.avi,14410,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+52022d1c71b1b5caef76,12_08_2026_11_37_46_156.png,12_08_2026_11_37_46.avi,10502,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+42ee2db5c3fea4fd1b6c,13_08_2026_10_19_02_210.png,13_08_2026_10_19_02.avi,8945,assistant,ok,human,ok,ok,ok,,,agreed_binary
+cb3005b8a5674b1142f4,15_08_2026_08_58_02_25.png,15_08_2026_08_58_02.avi,14459,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка, мелкие сосуды не различимы.",agreed_binary
+a6662ea03ab97e2ee687,11_08_2026_11_22_22_75.png,11_08_2026_11_22_22.avi,14385,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+39cf54b8e7152c46e8a0,13_08_2026_12_45_28_23.png,13_08_2026_12_45_28.avi,14429,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+f7584ff5e9c4494dedee,12_08_2026_11_41_22_111.png,12_08_2026_11_41_22.avi,14407,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+b6e3b769002d6aef468f,13_08_2026_08_45_31_86.png,13_08_2026_08_45_31.avi,14418,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Мелкие ветви основной сети имеют мягкие, размытые границы.",disagreement
+7573343669cbdcad96dc,14_08_2026_11_49_44_83.png,14_08_2026_11_49_44.avi,15200,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+7ab6c55a4652d5b200de,13_08_2026_09_21_25_55.png,13_08_2026_09_21_25.avi,14419,human,ok,assistant,ok,not_ok,not_ok,,"Обширная засветка сверху слева, неравномерная резкость мелкой сети.",disagreement
+26b092626f106c482395,11_08_2026_11_06_13_57.png,11_08_2026_11_06_13.avi,14383,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+022dd67c02829896357e,13_08_2026_10_18_27_105.png,13_08_2026_10_18_27.avi,8945,human,ok,assistant,ok,not_ok,not_ok,,"Основная мелкая сеть размыта, особенно справа и снизу; блики сверху.",disagreement
+974d4c1e2d9524fdfc30,14_08_2026_13_46_07_53.png,14_08_2026_13_46_07.avi,3180,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильное размытие и блики, границы сосудов не различимы.",agreed_binary
+acac3011328075a35c70,13_08_2026_12_44_28_80.png,13_08_2026_12_44_28.avi,14429,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+d3e0cce960a4be810f6a,11_08_2026_11_49_04_81.png,11_08_2026_11_49_04.avi,14387,assistant,ok,human,ok,ok,ok,,,agreed_binary
+7974871bd9d8261c7759,13_08_2026_11_15_43_109.png,13_08_2026_11_15_43.avi,14934,human,uncertain,assistant,uncertain,not_ok,not_ok,,Тонкие ветви основной сети размыты; отдельные блики перекрывают сосуды.,disagreement
+6bf830c9b33125959e66,11_08_2026_10_40_23_83.png,11_08_2026_10_40_23.avi,5116,human,not_ok,assistant,not_ok,not_ok,not_ok,,Мелкая сеть почти не различима в сильном шуме и размытии.,agreed_binary
+0d9ebe86965c9b1d29b4,14_08_2026_10_38_27_16.png,14_08_2026_10_38_27.avi,14441,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+63efc2dad1e43ae7a1e6,13_08_2026_11_25_49_70.png,13_08_2026_11_25_49.avi,14424,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+91ada1802fe42234d6b4,13_08_2026_08_45_31_193.png,13_08_2026_08_45_31.avi,14418,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+a05fbc4e191c37d90534,13_08_2026_10_56_08_108.png,13_08_2026_10_56_08.avi,14423,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Общее размытие основной сети, слабые границы тонких ветвей.",agreed_binary
+5a3193085145ba35dbc9,13_08_2026_14_47_25_2.png,13_08_2026_14_47_25.avi,14432,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+f5e74975fa10270de349,12_08_2026_08_14_20_9.png,12_08_2026_08_14_20.avi,14395,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+486970ec2bf27a7ce4e2,15_08_2026_08_07_37_15.png,15_08_2026_08_07_37.avi,14456,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+d1171e06bd35575a5ea7,14_08_2026_11_50_57_56.png,14_08_2026_11_50_57.avi,15200,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Слабая размытая сеть, мелкие границы теряются на фоне.",agreed_binary
+536b2638aa9018d229a4,11_08_2026_11_06_23_79.png,11_08_2026_11_06_23.avi,14383,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+e3d8f0208967384d9adc,12_08_2026_08_13_21_115.png,12_08_2026_08_13_21.avi,14395,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сосуды практически неразличимы в сильном шуме.,agreed_binary
+43a59d5eaa3a0882fdb2,12_08_2026_11_37_16_120.png,12_08_2026_11_37_16.avi,10502,human,not_ok,assistant,not_ok,not_ok,not_ok,,Большинство мелких петель и основных ветвей размыто.,agreed_binary
+605c046850da24520641,11_08_2026_14_39_20_26.png,11_08_2026_14_39_20.avi,14394,human,uncertain,assistant,uncertain,not_ok,not_ok,,Крупные блики сверху и общее размытие основной сети.,disagreement
+613abaf3869ef337cd65,14_08_2026_11_00_11_97.png,14_08_2026_11_00_11.avi,14443,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Резкость в основном справа сверху, основная сеть слева и снизу размыта.",agreed_binary
+102a0354191de33a5926,12_08_2026_13_49_51_188.png,12_08_2026_13_49_51.avi,10088,human,uncertain,assistant,uncertain,not_ok,not_ok,,Сильное размытие всех основных сосудов.,disagreement
+4ef557ed47ce6c11d4d3,13_08_2026_12_13_07_66.png,13_08_2026_12_13_07.avi,14427,human,uncertain,assistant,uncertain,not_ok,not_ok,,Большинство тонких ветвей и петель вне фокуса.,disagreement
+3e307fb07bf3db7905f2,13_08_2026_08_18_00_55.png,13_08_2026_08_18_00.avi,14417,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+fc8ae4c498f67ee21e0c,12_08_2026_08_20_17_38.png,12_08_2026_08_20_17.avi,14396,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Мелкая сеть едва различима, её границы теряются в шуме и размытии.",agreed_binary
+38e281d1edd5a3b3aaae,11_08_2026_10_21_49_138.png,11_08_2026_10_21_49.avi,14381,human,not_ok,assistant,not_ok,not_ok,not_ok,,Размытая тонкая сеть на сильно шумном фоне.,agreed_binary
+353157374d52e9d290dd,11_08_2026_10_40_35_48.png,11_08_2026_10_40_35.avi,5116,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+27c805e4a58139dcc194,12_08_2026_10_30_31_145.png,12_08_2026_10_30_31.avi,14402,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+3692c4c554a1cd911688,11_08_2026_11_02_38_26.png,11_08_2026_11_02_38.avi,10070,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+331942527f97f3d3ada6,12_08_2026_12_04_57_124.png,12_08_2026_12_04_57.avi,14410,human,ok,assistant,ok,not_ok,not_ok,,"Чёткие тонкие участки в центре, но основные ветви слева и снизу размыты.",disagreement
+264f98888882dd1ed84d,14_08_2026_08_55_27_62.png,14_08_2026_08_55_27.avi,14436,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+de20122d98afff8d109d,11_08_2026_14_22_34_79.png,11_08_2026_14_22_34.avi,14393,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Слабая мелкая сеть теряется в шуме, чёткость отдельных краевых сосудов недостаточна.",agreed_binary
+d25433c47298c11976a3,11_08_2026_11_09_55_6.png,11_08_2026_11_09_55.avi,14384,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+cbb7f1a05256fd04c61b,12_08_2026_10_23_19_32.png,12_08_2026_10_23_19.avi,14401,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+664755a145bef4102ae2,12_08_2026_13_36_27_34.png,12_08_2026_13_36_27.avi,14412,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+a59fd2f517643bdc487d,12_08_2026_12_04_20_107.png,12_08_2026_12_04_20.avi,14410,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+ba6c478d8c12f1831141,12_08_2026_10_06_13_35.png,12_08_2026_10_06_13.avi,14400,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильный шум и размытие, сосудистые границы не различимы.",agreed_binary
+bef0b1a1c25b1f497ed7,14_08_2026_09_12_56_25.png,14_08_2026_09_12_56.avi,3179,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+b4b2db475876a864f527,13_08_2026_14_46_48_25.png,13_08_2026_14_46_48.avi,14432,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+2d229d7f97c34f3d3881,13_08_2026_12_13_17_119.png,13_08_2026_12_13_17.avi,14427,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Тонкие диагональные ветви размыты, особенно в нижней части.",disagreement
+8b10968e0a1a857a8510,12_08_2026_08_20_49_120.png,12_08_2026_08_20_49.avi,14396,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+c1ba69111f77c7a28d4f,11_08_2026_14_16_06_114.png,11_08_2026_14_16_06.avi,14392,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+1f95c7ec98b78a061181,12_08_2026_11_56_31_172.png,12_08_2026_11_56_31.avi,14408,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+80f1d607ee8949301543,12_08_2026_08_43_00_27.png,12_08_2026_08_43_00.avi,14397,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+4e44c60c27000434415c,12_08_2026_14_24_54_29.png,12_08_2026_14_24_54.avi,14414,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная расфокусировка и засветка слева.,agreed_binary
+f4a1f868745afb0f4fab,14_08_2026_08_35_51_23.png,14_08_2026_08_35_51.avi,14435,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сосудистая сеть практически не различима из-за расфокусировки.,agreed_binary
+c972963330c80f0430a8,13_08_2026_14_33_33_101.png,13_08_2026_14_33_33.avi,14431,human,uncertain,assistant,uncertain,not_ok,not_ok,,Мелкие ветви и петли основной сети с размытыми границами.,disagreement
+a71b7612b5508816a556,11_08_2026_11_10_42_184.png,11_08_2026_11_10_42.avi,14384,assistant,ok,human,ok,ok,ok,,,agreed_binary
+fbfc118b12431f672a01,11_08_2026_12_08_40_140.png,11_08_2026_12_08_40.avi,14389,human,ok,assistant,ok,uncertain,uncertain,,"Основные петли различимы, но шум мешает уверенно оценить самые тонкие центральные ветви.",disagreement
+af2676f49f76d6c16c20,13_08_2026_11_24_55_16.png,13_08_2026_11_24_55.avi,14424,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+e210abdfd578a785fa46,14_08_2026_10_39_35_178.png,14_08_2026_10_39_35.avi,14441,human,ok,assistant,ok,not_ok,not_ok,,"Резкость неоднородна: нижние ветви чётче верхних, часть мелкой основной сети размыта.",disagreement
+10d3691f18e81f8911d9,11_08_2026_14_07_18_88.png,11_08_2026_14_07_18.avi,14391,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основная сеть размыта на шумном фоне, тонкие границы недостаточно различимы.",agreed_binary
+265abf50bfbee5da3b2b,12_08_2026_12_04_45_127.png,12_08_2026_12_04_45.avi,14410,assistant,ok,human,ok,ok,ok,,,agreed_binary
+cbf36fd3fa0f63995f7e,14_08_2026_11_41_52_108.png,14_08_2026_11_41_52.avi,14447,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+9f0747cdcc873794cc2b,11_08_2026_12_07_37_15.png,11_08_2026_12_07_37.avi,14389,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+bb08dbc86ddd14052cf2,12_08_2026_09_29_09_16.png,12_08_2026_09_29_09.avi,10753,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+ba95dd28cadb727a24d9,13_08_2026_12_06_45_80.png,13_08_2026_12_06_45.avi,15199,human,not_ok,assistant,not_ok,not_ok,not_ok,,Резкость только у отдельных верхних ветвей; остальная мелкая сеть размыта.,agreed_binary
+d11b23208782b6a8198c,12_08_2026_13_58_11_33.png,12_08_2026_13_58_11.avi,14413,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка и засветка, сеть не различима.",agreed_binary
+3dda231954ebed907272,13_08_2026_11_55_37_3.png,13_08_2026_11_55_37.avi,14426,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильное размытие, границы мелких сосудов отсутствуют.",agreed_binary
+44fd382aa1049c69c5a5,14_08_2026_11_42_28_19.png,14_08_2026_11_42_28.avi,14447,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Резкая правая часть сети, но основные ветви слева и снизу явно размыты.",disagreement
+c06ad2df26e6421f91fc,14_08_2026_08_35_39_88.png,14_08_2026_08_35_39.avi,14435,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Мелкая основная сеть размыта, особенно в левой половине.",disagreement
+a0f1813e1668582d2595,12_08_2026_09_18_11_47.png,12_08_2026_09_18_11.avi,14399,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+fb3a056072298229acd4,12_08_2026_11_22_53_5.png,12_08_2026_11_22_53.avi,14405,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Обширный блик закрывает сеть, вне блика сосуды тоже размыты.",disagreement
+0fb8e6e1ba80cea8e6b4,14_08_2026_09_23_05_73.png,14_08_2026_09_23_05.avi,14437,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+f87333385006261d60f4,12_08_2026_14_39_32_46.png,12_08_2026_14_39_32.avi,14415,human,not_ok,assistant,not_ok,not_ok,not_ok,,Основные сосуды и мелкие петли расфокусированы по всему кадру.,agreed_binary
+411d49c80bb0e9ada1b1,12_08_2026_10_29_42_102.png,12_08_2026_10_29_42.avi,14402,human,not_ok,assistant,not_ok,not_ok,not_ok,,Тонкая сеть теряется в шуме и размытии.,agreed_binary
+ed9b2acb06222f7940c3,13_08_2026_08_04_30_93.png,13_08_2026_08_04_30.avi,14416,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+b06723aa7a8b0cbd9628,13_08_2026_12_44_51_77.png,13_08_2026_12_44_51.avi,14429,human,ok,assistant,ok,uncertain,uncertain,,"Много различимых тонких ветвей, но не уверен в достаточной чёткости слабой центральной сети.",disagreement
+25494e136b8092a4742b,12_08_2026_12_04_57_59.png,12_08_2026_12_04_57.avi,14410,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+34f9576b35d0980b7cda,11_08_2026_11_22_34_47.png,11_08_2026_11_22_34.avi,14385,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+404660627718ff35e8fb,14_08_2026_11_00_11_33.png,14_08_2026_11_00_11.avi,14443,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+5548924b3c9174e66b3a,13_08_2026_08_45_06_114.png,13_08_2026_08_45_06.avi,14418,human,ok,assistant,ok,not_ok,not_ok,,"Резче нижние правые ветви, основная сеть слева и сверху размыта.",disagreement
+47409564050e7ee78c18,11_08_2026_11_01_50_56.png,11_08_2026_11_01_50.avi,10070,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Сильное размытие, мелкая сеть не различима.",disagreement
+5b9e6b6a65f3a7d3b94a,13_08_2026_12_29_30_66.png,13_08_2026_12_29_30.avi,14428,human,ok,assistant,ok,not_ok,not_ok,,"Отдельная центральная ветвь резче, остальные основные тонкие ветви размыты.",disagreement
+3945e44897c987ceedb5,13_08_2026_11_25_39_219.png,13_08_2026_11_25_39.avi,14424,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+94fcbcbc7fb8f687ad17,13_08_2026_11_56_02_55.png,13_08_2026_11_56_02.avi,14426,human,uncertain,assistant,uncertain,uncertain,uncertain,,"Петли справа различимы, но слабая центральная сеть вызывает сомнение в пригодности.",uncertain_agreement
+a03d49d56137571570c8,12_08_2026_11_42_15_184.png,12_08_2026_11_42_15.avi,14407,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Основные тонкие диагональные ветви размыты, резкость только у отдельных участков.",disagreement
+54af476fedbca66c9cd0,13_08_2026_10_05_51_80.png,13_08_2026_10_05_51.avi,14421,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильный шум и расфокусировка, сеть не различима.",agreed_binary
+96277d323f3ab9d308c7,12_08_2026_14_24_54_90.png,12_08_2026_14_24_54.avi,14414,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+1414e029656035698bdc,13_08_2026_14_28_07_31.png,13_08_2026_14_28_07.avi,14430,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная расфокусировка; сосудистые границы отсутствуют.,agreed_binary
+6aefba9f1fc7cdd9b940,12_08_2026_11_23_18_146.png,12_08_2026_11_23_18.avi,14405,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+c2849b8831c595761e1d,11_08_2026_11_05_33_102.png,11_08_2026_11_05_33.avi,14383,human,not_ok,assistant,not_ok,uncertain,uncertain,,"Тонкие петли различимы, но шум и слабые границы отдельных ветвей мешают уверенно оценить весь кадр.",disagreement
+490bba76ba150e7b8c4e,12_08_2026_13_49_26_40.png,12_08_2026_13_49_26.avi,10088,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильное общее размытие и блики, сеть не различима.",agreed_binary
+c7dfa4fa8deb570a7d19,11_08_2026_11_09_55_93.png,11_08_2026_11_09_55.avi,14384,human,ok,assistant,ok,not_ok,not_ok,,Сильный шум скрывает границы мелкой сети в центре и слева.,disagreement
+4650eb934ce74f935176,13_08_2026_14_46_48_68.png,13_08_2026_14_46_48.avi,14432,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Выраженный смаз по горизонтали, границы сосудов неразличимы.",agreed_binary
+d593158281811bd60507,12_08_2026_10_36_22_39.png,12_08_2026_10_36_22.avi,14403,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+e174fd20a88bfef24d74,14_08_2026_13_46_07_19.png,14_08_2026_13_46_07.avi,3180,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+2cd67cd3e9188be35c58,11_08_2026_11_46_02_44.png,11_08_2026_11_46_02.avi,14386,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Верхняя правая сеть резче, слева и снизу основные ветви размыты.",disagreement
+9e9dd906090e75d59ed2,13_08_2026_12_14_03_62.png,13_08_2026_12_14_03.avi,14427,human,not_ok,assistant,not_ok,not_ok,not_ok,,Основная мелкая сеть размыта по всему полю.,agreed_binary
+3f7d29bdad850ca268da,12_08_2026_13_49_04_106.png,12_08_2026_13_49_04.avi,10088,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+7ac0762dc8164f659e48,13_08_2026_12_45_17_158.png,13_08_2026_12_45_17.avi,14429,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+c5d9b19da2e4f3413b30,13_08_2026_09_56_45_13.png,13_08_2026_09_56_45.avi,14420,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка, тонкие сосуды не различимы.",agreed_binary
+9e73067575ca1f965003,12_08_2026_10_23_07_105.png,12_08_2026_10_23_07.avi,14401,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+74ef3debf9645e6b5d7a,12_08_2026_13_58_35_10.png,12_08_2026_13_58_35.avi,14413,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+308fb6a6caea165e5cf6,11_08_2026_11_10_15_115.png,11_08_2026_11_10_15.avi,14384,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Размытые границы основной сети, сильный шум и блики слева.",agreed_binary
+ebd53e30505ddfdfed2e,14_08_2026_13_34_07_112.png,14_08_2026_13_34_07.avi,14451,human,not_ok,assistant,not_ok,uncertain,uncertain,,"Тонкая центральная петля чёткая; не уверен, что остальные мягкие ветви относятся только к фону.",disagreement
+dde159265055058b322f,14_08_2026_12_04_54_134.png,14_08_2026_12_04_54.avi,14449,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+b30744c37b76880744da,12_08_2026_13_36_27_122.png,12_08_2026_13_36_27.avi,14412,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Резки отдельные ветви, но центральные и левые продолжения мелкой сети размыты.",disagreement
+8ee5559e75045ea083e9,14_08_2026_13_34_59_19.png,14_08_2026_13_34_59.avi,14451,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+1df82f2ded703c67bcc1,11_08_2026_11_45_08_76.png,11_08_2026_11_45_08.avi,14386,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Сильный шум скрывает границы слабой мелкой сети, особенно в нижней половине.",disagreement
+a6cd4930b43bf8b3c634,13_08_2026_12_13_27_110.png,13_08_2026_12_13_27.avi,14427,assistant,ok,human,ok,ok,ok,,,agreed_binary
+6abd93403437d289a5ed,14_08_2026_13_38_00_7.png,14_08_2026_13_38_00.avi,14452,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка, сосудистая сеть не различима.",agreed_binary
+d06bf1a7b786c71b1952,12_08_2026_08_20_49_89.png,12_08_2026_08_20_49.avi,14396,human,not_ok,assistant,not_ok,not_ok,not_ok,,Размытые основные сосуды и сильный шум.,agreed_binary
+7eb1d41df5f4f7a54cc6,14_08_2026_10_18_17_49.png,14_08_2026_10_18_17.avi,14440,assistant,ok,human,ok,ok,ok,,,agreed_binary
+fafcec897ea440cd514e,13_08_2026_10_06_35_65.png,13_08_2026_10_06_35.avi,14421,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильное размытие и засветка слева, сосудистых границ не видно.",agreed_binary
+ed1b9d24d097e4480d79,11_08_2026_14_15_56_115.png,11_08_2026_14_15_56.avi,14392,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+3000d09f35a24ec5728a,14_08_2026_12_18_39_91.png,14_08_2026_12_18_39.avi,14450,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Чётче отдельные левые ветви, справа и сверху основная сеть размыта.",agreed_binary
+4243e9a64e7e2d85bf79,15_08_2026_09_24_21_15.png,15_08_2026_09_24_21.avi,14460,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+67e8f34040e8b11d5695,14_08_2026_10_54_18_209.png,14_08_2026_10_54_18.avi,14442,assistant,ok,human,ok,ok,ok,,,agreed_binary
+ba0346e2eb0bfbbd8180,11_08_2026_11_53_44_96.png,11_08_2026_11_53_44.avi,14388,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильный шум и размытые границы мелкой сети.,agreed_binary
+eda00b954196fbafe3ff,12_08_2026_13_37_00_5.png,12_08_2026_13_37_00.avi,14412,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+c4d19a1fc44d9fcd436c,13_08_2026_09_32_44_124.png,13_08_2026_09_32_44.avi,10236,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+d1dc3639873176a889fa,14_08_2026_11_45_58_90.png,14_08_2026_11_45_58.avi,14448,assistant,ok,human,ok,ok,ok,,,agreed_binary
+3d81ee22691db43deb79,13_08_2026_14_34_10_166.png,13_08_2026_14_34_10.avi,14431,human,ok,assistant,ok,uncertain,uncertain,,Мелкая передняя сеть прослеживается на глубоком размытом фоне; не уверен в резкости её нижних продолжений.,disagreement
+d5516a5bef80dc7c10c2,12_08_2026_12_36_15_77.png,12_08_2026_12_36_15.avi,14411,human,uncertain,assistant,uncertain,not_ok,not_ok,,Большой блик справа закрывает сосуды; часть основной сети слева размыта.,disagreement
+1844925e07a8cf800806,14_08_2026_12_04_54_61.png,14_08_2026_12_04_54.avi,14449,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Большая часть основной сети вне фокуса, особенно тонкие ветви.",agreed_binary
+ce90e3b347c9de9a62c8,14_08_2026_13_46_46_137.png,14_08_2026_13_46_46.avi,3180,human,ok,assistant,ok,ok,ok,,Границы мелких ветвей и крупных петель основной сети различимы; глубокий фон не мешает.,agreed_binary
+8a4d646a9a8a66c16010,12_08_2026_11_55_55_19.png,12_08_2026_11_55_55.avi,14408,human,not_ok,assistant,not_ok,not_ok,not_ok,,Обширные блики и сильная расфокусировка скрывают сосуды.,agreed_binary
+bed3425673c22b9960bd,14_08_2026_11_32_09_27.png,14_08_2026_11_32_09.avi,14445,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+02272c8065e2288b55f0,13_08_2026_09_57_36_151.png,13_08_2026_09_57_36.avi,14420,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Резкая сеть только справа, основные ветви слева и снизу размыты.",disagreement
+790b2ad83022b16653c6,13_08_2026_15_02_13_92.png,13_08_2026_15_02_13.avi,14433,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Нижняя тонкая ветвь резче, но верхние основные петли и их продолжения размыты.",disagreement
+cb5fb45a82fbdc80d9e3,14_08_2026_11_38_03_52.png,14_08_2026_11_38_03.avi,14446,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+82abd60a59a49b217052,12_08_2026_13_58_11_101.png,12_08_2026_13_58_11.avi,14413,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+a407c1a9892107405998,13_08_2026_12_45_17_26.png,13_08_2026_12_45_17.avi,14429,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильное общее размытие, сосудистая сеть не различима.",agreed_binary
+37c52baa069a4b9bd7d1,11_08_2026_11_53_12_76.png,11_08_2026_11_53_12.avi,14388,human,not_ok,assistant,not_ok,not_ok,not_ok,,Мелкая сеть почти не различима из-за шума и размытия.,agreed_binary
+2a558648003fdfbbe0f9,12_08_2026_13_36_49_10.png,12_08_2026_13_36_49.avi,14412,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+4c4fdad6ffb97e19e0e5,14_08_2026_10_38_52_47.png,14_08_2026_10_38_52.avi,14441,human,not_ok,assistant,not_ok,not_ok,not_ok,,Основные сосуды и тонкие петли сильно размыты.,agreed_binary
+6d68ae3df62922e571ba,13_08_2026_12_14_03_178.png,13_08_2026_12_14_03.avi,14427,assistant,ok,human,ok,ok,ok,,,agreed_binary
+f0e2bd0f5c5c554a18d5,13_08_2026_12_44_41_123.png,13_08_2026_12_44_41.avi,14429,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+c05a6cd87218b2d0ab82,11_08_2026_14_06_39_42.png,11_08_2026_14_06_39.avi,14391,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильный шум, расфокусировка и блики; границы сосудов не видны.",agreed_binary
+aa9a3e3142e8490bab52,14_08_2026_13_38_37_192.png,14_08_2026_13_38_37.avi,14452,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Отдельные центральные участки видны лучше, но основная мелкая сеть размыта.",agreed_binary
+8b0731e898e2535ff9b0,13_08_2026_09_21_40_205.png,13_08_2026_09_21_40.avi,14419,assistant,ok,human,ok,ok,ok,,,agreed_binary
+894af9cd5e736615740c,14_08_2026_08_55_59_78.png,14_08_2026_08_55_59.avi,14436,human,not_ok,assistant,not_ok,not_ok,not_ok,,Размытые основные сосуды и множество мелких бликов.,agreed_binary
+0e11eab58459270518d7,14_08_2026_10_59_17_118.png,14_08_2026_10_59_17.avi,14443,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+9b30732fe27aca22c69c,13_08_2026_12_30_03_5.png,13_08_2026_12_30_03.avi,14428,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+469f6c902086611546c3,12_08_2026_10_06_47_113.png,12_08_2026_10_06_47.avi,14400,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+f37898639eebafd74b4b,12_08_2026_11_37_28_72.png,12_08_2026_11_37_28.avi,10502,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+6a84b3f879af2d942672,14_08_2026_13_45_42_43.png,14_08_2026_13_45_42.avi,3180,assistant,ok,human,ok,ok,ok,,,agreed_binary
+91c3b07100b96cda0744,11_08_2026_11_45_34_120.png,11_08_2026_11_45_34.avi,14386,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+5c704a2173f15ce3d4f9,11_08_2026_11_49_38_9.png,11_08_2026_11_49_38.avi,14387,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильный шум и общее размытие, мелкая сеть не различима.",agreed_binary
+1e4c89a14196cd43dee6,14_08_2026_12_18_39_39.png,14_08_2026_12_18_39.avi,14450,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+c76de71af01161479217,12_08_2026_12_00_12_77.png,12_08_2026_12_00_12.avi,14409,human,not_ok,assistant,not_ok,not_ok,not_ok,,Выраженная расфокусировка всех основных ветвей.,agreed_binary
+781101d19c60227d475a,11_08_2026_11_49_17_57.png,11_08_2026_11_49_17.avi,14387,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильный шум и размытие скрывают границы сосудов.,agreed_binary
+3496219018e68d9f443a,14_08_2026_09_57_43_103.png,14_08_2026_09_57_43.avi,14439,human,ok,assistant,ok,not_ok,not_ok,,"Резче правые верхние участки, нижние продолжения основной сети размыты.",disagreement
+09b45e5bf45f4f8b3c37,14_08_2026_11_38_14_108.png,14_08_2026_11_38_14.avi,14446,human,ok,assistant,ok,not_ok,not_ok,,"Чёткие отдельные нижние правые петли, остальная основная сеть размыта.",disagreement
+eea050aa6b9b8abcaa10,11_08_2026_11_45_34_75.png,11_08_2026_11_45_34.avi,14386,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильный шум, верхние и центральные мелкие сосуды размыты.",agreed_binary
+826342641cc7cefe5d4d,11_08_2026_11_50_06_175.png,11_08_2026_11_50_06.avi,14387,assistant,ok,human,ok,ok,ok,,,agreed_binary
+75adf5bbef0c77728536,11_08_2026_12_14_00_47.png,11_08_2026_12_14_00.avi,14390,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+b22c41d3ff4327b54f8a,14_08_2026_11_38_56_61.png,14_08_2026_11_38_56.avi,14446,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+49163e43afbf3483ca08,11_08_2026_14_38_44_22.png,11_08_2026_14_38_44.avi,14394,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильное размытие и шум скрывают сеть.,agreed_binary
+2c7802cb0e5cf67fd01a,12_08_2026_14_25_32_106.png,12_08_2026_14_25_32.avi,14414,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основные сосуды расфокусированы, мелкие границы не различимы.",agreed_binary
+ff360cc1c2a12e9631d9,14_08_2026_11_46_21_26.png,14_08_2026_11_46_21.avi,14448,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+8fb37e9f105648b3084c,12_08_2026_11_41_34_76.png,12_08_2026_11_41_34.avi,14407,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Правая сеть резче левой, центральные и левые тонкие ветви размыты.",agreed_binary
+17287581b73bf2030342,14_08_2026_09_12_45_138.png,14_08_2026_09_12_45.avi,3179,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+df6dab52b9d1287342ce,13_08_2026_09_32_32_45.png,13_08_2026_09_32_32.avi,10236,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+ec2193e6318ba2692268,13_08_2026_10_19_02_96.png,13_08_2026_10_19_02.avi,8945,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Общее размытие основной сети, мелкие границы не различимы.",agreed_binary
+054ce1308e14efbeee7f,14_08_2026_10_53_51_71.png,14_08_2026_10_53_51.avi,14442,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+c4bc0e32582ee6d381f5,14_08_2026_09_50_34_66.png,14_08_2026_09_50_34.avi,14438,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная расфокусировка и крупный блик в центре.,agreed_binary
+1a2cd76b91b5509bdfb0,11_08_2026_11_22_22_5.png,11_08_2026_11_22_22.avi,14385,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка и шум, границы сосудов не различимы.",agreed_binary
+c2cab8e38cdf52628f14,11_08_2026_12_13_32_121.png,11_08_2026_12_13_32.avi,14390,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Основная сеть размыта, тонкие ветви теряются в сильном шуме.",disagreement
+ccd1d1f6900158abad28,13_08_2026_10_56_22_24.png,13_08_2026_10_56_22.avi,14423,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+3aac6a8cf756e5a23164,14_08_2026_09_58_31_141.png,14_08_2026_09_58_31.avi,14439,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+53b289072269072f7340,13_08_2026_10_06_25_118.png,13_08_2026_10_06_25.avi,14421,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Большая часть мелкой сети размыта, отдельные верхние участки недостаточны.",agreed_binary
+8bd7e93d01a85b45af3d,14_08_2026_13_46_46_10.png,14_08_2026_13_46_46.avi,3180,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+6ab5f84ff8262ae31144,13_08_2026_10_55_59_52.png,13_08_2026_10_55_59.avi,14423,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+9b25f051556022ff1d31,12_08_2026_12_04_10_114.png,12_08_2026_12_04_10.avi,14410,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Мелкая сеть не видна, крупный сосуд сильно расфокусирован.",disagreement
+89aa6a7c2e26a4b4da3f,13_08_2026_08_18_12_97.png,13_08_2026_08_18_12.avi,14417,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильное общее размытие, границы сосудов не различимы.",agreed_binary
+efaf9b58abbdea64598a,14_08_2026_12_04_00_115.png,14_08_2026_12_04_00.avi,14449,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+1005b1879aa5cd4bb34a,13_08_2026_15_02_24_123.png,13_08_2026_15_02_24.avi,14433,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+00852672d220f7b4b655,13_08_2026_10_56_32_53.png,13_08_2026_10_56_32.avi,14423,human,uncertain,assistant,uncertain,not_ok,not_ok,,Все основные ветви и петли явно расфокусированы.,disagreement
+eea84f85f999914a0c77,11_08_2026_11_49_28_55.png,11_08_2026_11_49_28.avi,14387,human,uncertain,assistant,uncertain,not_ok,not_ok,,Мелкая сеть размыта и теряется в сильном шуме.,disagreement
+53d97843a4d01bfb463d,13_08_2026_08_17_23_36.png,13_08_2026_08_17_23.avi,14417,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+89f6454147e2d1f631ef,11_08_2026_12_08_00_107.png,11_08_2026_12_08_00.avi,14389,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+b4a6c0ecd4a89992db3e,13_08_2026_12_30_03_85.png,13_08_2026_12_30_03.avi,14428,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Границы тонких ветвей плохо различимы на большей части поля, есть смаз.",agreed_binary
+8627cd57dd6b85966518,12_08_2026_08_49_48_1.png,12_08_2026_08_49_48.avi,14398,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+8bf28310a8a2b9a58c95,14_08_2026_10_38_52_6.png,14_08_2026_10_38_52.avi,14441,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+d62a0f4ac7931c46b6c2,14_08_2026_10_19_06_219.png,14_08_2026_10_19_06.avi,14440,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+39809492c7581258d336,11_08_2026_11_10_05_20.png,11_08_2026_11_10_05.avi,14384,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильный шум и расфокусировка основной сети.,agreed_binary
+77868f971bf6a967f839,13_08_2026_10_55_33_91.png,13_08_2026_10_55_33.avi,14423,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Нижние ветви резче, верхняя половина основной сети размыта.",disagreement
+922e5fba2e0056544fab,14_08_2026_09_12_45_197.png,14_08_2026_09_12_45.avi,3179,human,not_ok,assistant,not_ok,not_ok,not_ok,,Большая часть основной сети сильно расфокусирована.,agreed_binary
+ce3d49e7698f18858d39,13_08_2026_11_25_49_141.png,13_08_2026_11_25_49.avi,14424,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Отдельные нижние участки резкие, мелкая основная сеть в центре и сверху размыта.",disagreement
+0ae31c052fd1fa5168ce,14_08_2026_09_50_12_3.png,14_08_2026_09_50_12.avi,14438,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильное общее размытие, мелкая сеть не различима.",agreed_binary
+db692007ac8dfd580e4f,12_08_2026_11_22_31_76.png,12_08_2026_11_22_31.avi,14405,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+e5fd0a72b1ac7db8be45,11_08_2026_10_41_05_131.png,11_08_2026_10_41_05.avi,5116,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+dc2794724bb1932f0790,14_08_2026_08_00_21_86.png,14_08_2026_08_00_21.avi,14434,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Отдельные нижние правые ветви резче, остальная основная сеть размыта.",disagreement
+05144675b6052c42bf99,14_08_2026_11_09_10_31.png,14_08_2026_11_09_10.avi,14444,human,not_ok,assistant,not_ok,not_ok,not_ok,,Все основные сосуды расфокусированы.,agreed_binary
+dfb1d3883d0616a92619,11_08_2026_11_53_35_0.png,11_08_2026_11_53_35.avi,14388,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+cdce49d2231f23840da2,13_08_2026_14_33_11_43.png,13_08_2026_14_33_11.avi,14431,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+0247d22f44ddb7d23de0,12_08_2026_10_36_46_2.png,12_08_2026_10_36_46.avi,14403,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+532943371d9731c0f7ba,13_08_2026_09_57_47_3.png,13_08_2026_09_57_47.avi,14420,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+9a4cca99bc421cceadac,13_08_2026_10_42_10_33.png,13_08_2026_10_42_10.avi,14422,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+c7b5decbc752a5eb045e,12_08_2026_08_13_33_27.png,12_08_2026_08_13_33.avi,14395,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+f0128863d648230ca936,12_08_2026_14_39_10_112.png,12_08_2026_14_39_10.avi,14415,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Тонкие ветви основной сети размыты, особенно их нижние продолжения.",agreed_binary
+01b62c793fea6dc9e968,13_08_2026_08_17_23_98.png,13_08_2026_08_17_23.avi,14417,human,ok,assistant,ok,not_ok,not_ok,,"Верхняя часть сети резче, нижние основные ветви заметно размыты.",disagreement
+620192373357c416cfe1,12_08_2026_10_45_17_104.png,12_08_2026_10_45_17.avi,14404,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+37233542e82982cbb965,14_08_2026_13_34_20_58.png,14_08_2026_13_34_20.avi,14451,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Мелкие петли и основные ветви с мягкими, размытыми границами.",agreed_binary
+9b859fbb5ec12c38fd39,11_08_2026_13_38_24_83.png,11_08_2026_13_38_24.avi,15197,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Чётче отдельные нижние участки; основная сеть с мягкими границами, блики справа.",disagreement
+d7e3669d9f76f5f67eac,14_08_2026_09_57_31_5.png,14_08_2026_09_57_31.avi,14439,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сосуды почти не различимы из-за сильного размытия.,agreed_binary
+48741039f02e47d5da8e,13_08_2026_10_18_03_6.png,13_08_2026_10_18_03.avi,8945,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка, видны только широкие сосудистые тени.",agreed_binary
+9bc3131600ddbbcce303,14_08_2026_08_55_59_16.png,14_08_2026_08_55_59.avi,14436,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+a91fa010dd1a018937d0,12_08_2026_11_41_34_9.png,12_08_2026_11_41_34.avi,14407,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+5d52222ef200e7da81be,12_08_2026_09_18_33_85.png,12_08_2026_09_18_33.avi,14399,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+1484e37ad0c298716036,12_08_2026_09_29_09_100.png,12_08_2026_09_29_09.avi,10753,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Одна ветвь видна хорошо, окружающая мелкая сеть теряется в шуме и размытии.",agreed_binary
+5eb671d55b70fb66325c,13_08_2026_11_55_50_54.png,13_08_2026_11_55_50.avi,14426,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная расфокусировка, сосудистая сеть не различима.",agreed_binary
+371170b79eabc847fd99,12_08_2026_13_49_51_16.png,12_08_2026_13_49_51.avi,10088,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+00075d1a56a0c0c8eced,14_08_2026_12_04_19_34.png,14_08_2026_12_04_19.avi,14449,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильное общее размытие, границ сосудов не видно.",agreed_binary
+6093a3533d884905922f,13_08_2026_10_18_03_79.png,13_08_2026_10_18_03.avi,8945,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+6dc7249e76ffd047dee9,12_08_2026_11_28_10_86.png,12_08_2026_11_28_10.avi,5943,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+4946f80306a319257757,15_08_2026_08_58_41_10.png,15_08_2026_08_58_41.avi,14459,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Чёткий участок справа вверху, но основная сеть слева и в центре размыта; границы прослеживаются не по всему кадру.",agreed_binary
+e0a3c281c77efc7b1273,14_08_2026_13_45_29_9.png,14_08_2026_13_45_29.avi,3180,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+8995af1dc3b65be0f832,14_08_2026_11_41_41_11.png,14_08_2026_11_41_41.avi,14447,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+a04e57d2cbe3b898cc1d,11_08_2026_12_08_15_96.png,11_08_2026_12_08_15.avi,14389,human,not_ok,assistant,not_ok,not_ok,not_ok,,Контуры основной сети мягкие и малоконтрастные; шум мешает различать границы мелких сосудов.,agreed_binary
+5eed82be90e9ff13ae66,13_08_2026_12_13_07_31.png,13_08_2026_12_13_07.avi,14427,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+b8951416a6dfca72256e,13_08_2026_11_55_37_107.png,13_08_2026_11_55_37.avi,14426,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+5db016701e8319dcecc6,12_08_2026_12_04_29_86.png,12_08_2026_12_04_29.avi,14410,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+169bcce4cd7abf467de9,12_08_2026_15_21_23_11.png,12_08_2026_15_21_23.avi,3807,human,not_ok,assistant,not_ok,not_ok,not_ok,,Большая засветка закрывает значительную часть основной сосудистой сети.,agreed_binary
+7aebdb8b4faf98c6584a,14_08_2026_10_59_42_71.png,14_08_2026_10_59_42.avi,14443,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+e6384579c431685bf595,14_08_2026_11_32_53_29.png,14_08_2026_11_32_53.avi,14445,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная общая расфокусировка: вместо различимых границ сосудов видны широкие размытые тени.,agreed_binary
+e9422adbf569ad2f04c6,11_08_2026_11_05_33_33.png,11_08_2026_11_05_33.avi,14383,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+111c133a159b989daafc,13_08_2026_11_15_10_62.png,13_08_2026_11_15_10.avi,14934,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+591c66cbd84b46e2f23d,14_08_2026_11_41_41_90.png,14_08_2026_11_41_41.avi,14447,human,ok,assistant,ok,not_ok,not_ok,,"В центре мелкие ветви различимы, но верхние петли основной сети и продолжения слева теряют чёткие границы.",disagreement
+7c92ddedaabb9cae28f5,14_08_2026_12_19_41_52.png,14_08_2026_12_19_41.avi,14450,assistant,uncertain,human,uncertain,uncertain,uncertain,,,uncertain_agreement
+0337021c33cab9f7634f,14_08_2026_10_53_39_1.png,14_08_2026_10_53_39.avi,14442,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная расфокусировка и крупные светлые помехи; границы основной сети неразличимы.,agreed_binary
+6086e15e909afb90c331,12_08_2026_15_21_37_100.png,12_08_2026_15_21_37.avi,3807,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Центральная тонкая ветвь различима, но крупные участки основной сети справа и слева имеют размытые границы.",disagreement
+d9ec4d5cffdab42fd523,12_08_2026_10_06_47_183.png,12_08_2026_10_06_47.avi,14400,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная зернистость и мягкие контуры сосудов; мелкие границы уверенно не отделяются от шума.,agreed_binary
+b8dfbdac842d2c01bb89,11_08_2026_14_22_46_71.png,11_08_2026_14_22_46.avi,14393,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сеть видна, но границы крупных и тонких ветвей размыты на большей части кадра.",agreed_binary
+387a0b697eab10582156,13_08_2026_11_15_57_20.png,13_08_2026_11_15_57.avi,14934,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+f8a3cd3a495be1ffce32,11_08_2026_14_39_20_85.png,11_08_2026_14_39_20.avi,14394,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+8105048bcfcbe64df99a,13_08_2026_09_57_09_30.png,13_08_2026_09_57_09.avi,14420,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+aca15df4d2ab01871fc3,13_08_2026_11_56_02_87.png,13_08_2026_11_56_02.avi,14426,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+509a11050f9812efbbf6,13_08_2026_09_57_20_40.png,13_08_2026_09_57_20.avi,14420,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+14b682105efe15cde45b,14_08_2026_11_37_48_30.png,14_08_2026_11_37_48.avi,14446,human,not_ok,assistant,not_ok,not_ok,not_ok,,Основная сеть почти не различима из-за расфокусировки и низкого контраста.,agreed_binary
+491b59c9dbb52a3f09b5,13_08_2026_11_15_43_9.png,13_08_2026_11_15_43.avi,14934,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+7fefb97f0d38c9446059,13_08_2026_12_05_56_100.png,13_08_2026_12_05_56.avi,15199,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная общая расфокусировка и засветка слева; различимых сосудистых границ нет.,agreed_binary
+c602e79b6cc265ac2d5d,14_08_2026_11_50_48_23.png,14_08_2026_11_50_48.avi,15200,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+3b3e78111c97f90fa4e2,12_08_2026_10_05_59_57.png,12_08_2026_10_05_59.avi,14400,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+6fb2fda2db9e98eb1626,14_08_2026_11_42_28_86.png,14_08_2026_11_42_28.avi,14447,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+db9522a69872e66353f2,14_08_2026_09_58_20_130.png,14_08_2026_09_58_20.avi,14439,human,ok,assistant,ok,uncertain,uncertain,,"Тонкая центральная сеть местами чёткая; не уверен, относятся ли мягкие верхние и нижние продолжения к основной сети или другой глубине.",disagreement
+414137decb4da16bb64d,11_08_2026_10_58_09_68.png,11_08_2026_10_58_09.avi,5702,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Несколько тонких отрезков различимы, но основная сеть в центре и слева размыта, шум скрывает мелкие границы.",disagreement
+3a61867709f0c514808e,14_08_2026_10_53_51_109.png,14_08_2026_10_53_51.avi,14442,human,not_ok,assistant,not_ok,not_ok,not_ok,,Крупные засветки слева и снизу закрывают сосуды; часть основной сети справа также теряет резкость.,agreed_binary
+cd74356bf7fcddc7d6c8,15_08_2026_08_58_41_51.png,15_08_2026_08_58_41.avi,14459,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+9dfbe0dbf1cfbbf9a695,13_08_2026_10_42_19_84.png,13_08_2026_10_42_19.avi,14422,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Резкость неоднородна: слева тонкие ветви различимы, справа их продолжения и пересечения размыты.",agreed_binary
+c9bd54e6b1f0c96a75a4,11_08_2026_13_38_35_200.png,11_08_2026_13_38_35.avi,15197,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+9ea4f08e5b329871ef90,12_08_2026_09_29_31_105.png,12_08_2026_09_29_31.avi,10753,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+77733428f816354c3710,13_08_2026_14_27_31_17.png,13_08_2026_14_27_31.avi,14430,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+903e44f823fb4149bcb2,14_08_2026_12_19_54_165.png,14_08_2026_12_19_54.avi,14450,human,not_ok,assistant,not_ok,not_ok,not_ok,,Верхняя и центральная сеть различима лучше; нижние продолжения основных петель теряют чёткие границы.,agreed_binary
+502be5aa8f98f01f1ab3,14_08_2026_09_51_15_40.png,14_08_2026_09_51_15.avi,14438,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+c4a980ccf705f2ec8459,13_08_2026_12_13_36_117.png,13_08_2026_12_13_36.avi,14427,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+5786b793c7c4759ef0c8,15_08_2026_08_08_14_95.png,15_08_2026_08_08_14.avi,14456,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Общая расфокусировка: крупные петли видны как широкие мягкие полосы, мелкие границы неразличимы.",agreed_binary
+17c0f4516749852264ba,13_08_2026_12_07_01_166.png,13_08_2026_12_07_01.avi,15199,human,uncertain,assistant,uncertain,not_ok,not_ok,,Сильная общая расфокусировка; сосуды представлены размытыми тенями.,disagreement
+6def3ada6d4e8575fb8d,13_08_2026_10_04_54_34.png,13_08_2026_10_04_54.avi,14421,human,not_ok,assistant,not_ok,not_ok,not_ok,,Засветка пересекает основную сеть сверху; контуры центральной петли и её продолжений мягкие.,agreed_binary
+77535b90a07a42a315e3,13_08_2026_08_45_06_45.png,13_08_2026_08_45_06.avi,14418,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+aac91918fb796f15083d,13_08_2026_11_25_39_62.png,13_08_2026_11_25_39.avi,14424,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Слева видны резкие отрезки, но те же основные ветви вправо заметно теряют фокус.",agreed_binary
+88864f6bfe393aef4b1c,14_08_2026_08_35_51_112.png,14_08_2026_08_35_51.avi,14435,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+77adc71170ba2c0c787a,14_08_2026_08_36_30_65.png,14_08_2026_08_36_30.avi,14435,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Общая расфокусировка, включая тонкие ветви и центральную петлю.",agreed_binary
+ae31605b902507b32f1d,14_08_2026_08_00_33_100.png,14_08_2026_08_00_33.avi,14434,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+bffb96f8f9f336fa9108,12_08_2026_13_58_25_41.png,12_08_2026_13_58_25.avi,14413,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сосудистая сеть не различима: почти однородное размытое поле.,agreed_binary
+da10ce854f5dde214919,14_08_2026_08_36_13_102.png,14_08_2026_08_36_13.avi,14435,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+35ac052f940aed993be5,12_08_2026_12_00_02_93.png,12_08_2026_12_00_02.avi,14409,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Контрастный крупный сосуд виден, но мелкая сеть слева и в центре размыта; резкость неоднородна.",agreed_binary
+48d3d1345c7ee2bc3968,12_08_2026_11_36_53_118.png,12_08_2026_11_36_53.avi,10502,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+88549e1985224dfa51e6,12_08_2026_11_37_46_83.png,12_08_2026_11_37_46.avi,10502,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная расфокусировка крупных и мелких сосудов; границы непригодны для уверенного выделения.,agreed_binary
+12e36786703302705bc8,12_08_2026_11_32_33_57.png,12_08_2026_11_32_33.avi,14406,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+1a799fc4ba72bec36cca,11_08_2026_11_53_44_46.png,11_08_2026_11_53_44.avi,14388,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+4268fef11c38e938c1f2,12_08_2026_15_20_49_79.png,12_08_2026_15_20_49.avi,3807,human,not_ok,assistant,not_ok,not_ok,not_ok,,Основные ветви малоконтрастные и размытые; их границы не прослеживаются уверенно.,agreed_binary
+c4752874b009c827d0d5,14_08_2026_08_00_33_30.png,14_08_2026_08_00_33.avi,14434,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Сильная общая расфокусировка, различимы лишь широкие тени сосудов.",disagreement
+bdb351389d2b0de59928,15_08_2026_08_03_33_27.png,15_08_2026_08_03_33.avi,14455,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сеть не различима из-за сильной расфокусировки и яркой засветки слева.,agreed_binary
+219feb5d319138dd3a09,14_08_2026_09_12_31_42.png,14_08_2026_09_12_31.avi,3179,human,ok,assistant,ok,not_ok,not_ok,,Несколько крупных засветок закрывают сеть слева; справа мелкие сосуды теряют чёткие границы.,disagreement
+69b5e322a9a731dbe54c,12_08_2026_11_31_55_123.png,12_08_2026_11_31_55.avi,14406,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+503f8650b6d6b9c5d2cf,13_08_2026_10_41_59_10.png,13_08_2026_10_41_59.avi,14422,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+89598b3f1f58c78b2f16,12_08_2026_12_36_15_17.png,12_08_2026_12_36_15.avi,14411,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+c90c698c520f32b52cd3,13_08_2026_08_17_44_113.png,13_08_2026_08_17_44.avi,14417,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+45707662e3b4df440247,13_08_2026_11_24_55_73.png,13_08_2026_11_24_55.avi,14424,human,ok,assistant,ok,uncertain,uncertain,,Основная тонкая сеть в целом прослеживается поверх размытого глубокого фона; сомневаюсь в достаточной чёткости нижней петли.,disagreement
+743cee500bd4caeec7a9,12_08_2026_11_42_05_126.png,12_08_2026_11_42_05.avi,14407,human,ok,assistant,ok,not_ok,not_ok,,Засветки закрывают основную сеть сверху слева; часть тонких продолжений в центре также мягкая.,disagreement
+55f891fa921605ce4eb1,14_08_2026_11_00_21_41.png,14_08_2026_11_00_21.avi,14443,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+1b64dc9e98871cd4a2e7,12_08_2026_12_36_25_110.png,12_08_2026_12_36_25.avi,14411,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+a552812f66fd736327a6,11_08_2026_11_02_48_56.png,11_08_2026_11_02_48.avi,10070,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильный шум скрывает границы большей части мелкой сети; различимы только отдельные контрастные отрезки.,agreed_binary
+5cbaf43984e0e7d92909,13_08_2026_10_18_16_58.png,13_08_2026_10_18_16.avi,8945,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Основные ветви в центре и снизу размыты; верхняя часть резче, но фокус неоднороден.",disagreement
+15311d91253127c03aa6,12_08_2026_14_24_26_13.png,12_08_2026_14_24_26.avi,14414,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+7de72e8e297a72ba08ed,11_08_2026_11_02_12_3.png,11_08_2026_11_02_12.avi,10070,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+5ccd5c288edbfa65287d,12_08_2026_10_45_37_5.png,12_08_2026_10_45_37.avi,14404,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+11bc6ff662e1a82d335a,13_08_2026_11_16_09_29.png,13_08_2026_11_16_09.avi,14934,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+9629d193b46e25862be4,12_08_2026_11_28_32_53.png,12_08_2026_11_28_32.avi,5943,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Часть тонких линий различима, но центральные ветви и крупная верхняя петля имеют мягкие, расплывчатые границы.",agreed_binary
+802d15f5d6c3056f73d0,15_08_2026_08_08_31_1.png,15_08_2026_08_08_31.avi,14456,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная общая расфокусировка и большая засветка; сосудистые границы не различимы.,agreed_binary
+a5298b19fa4b203a47c6,11_08_2026_11_49_38_84.png,11_08_2026_11_49_38.avi,14387,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+19f71bfd2801a30c2f49,12_08_2026_12_35_55_21.png,12_08_2026_12_35_55.avi,14411,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная общая расфокусировка: видны только размытые пятна и тени.,agreed_binary
+98d6cb8494aa31902abe,12_08_2026_11_32_12_101.png,12_08_2026_11_32_12.avi,14406,human,ok,assistant,ok,not_ok,not_ok,,"Верхние тонкие сосуды различимы, но основная сеть в центре и нижней части теряет фокус.",disagreement
+d071f9179e340e00cb20,13_08_2026_12_29_43_85.png,13_08_2026_12_29_43.avi,14428,human,ok,assistant,ok,ok,ok,,Мелкие и крупные ветви основной сети имеют различимые границы по полю; широкие размытые сосуды относятся к глубокому фону.,agreed_binary
+387ce24da1aa007d59e1,12_08_2026_10_35_58_64.png,12_08_2026_10_35_58.avi,14403,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильный шум и низкий контраст: большая часть мелких сосудов теряется, границы не прослеживаются.",agreed_binary
+bfba6a5f703e4caa595f,14_08_2026_10_53_39_84.png,14_08_2026_10_53_39.avi,14442,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+589927c99b7893632949,11_08_2026_11_09_42_18.png,11_08_2026_11_09_42.avi,14384,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+4cd64ec556c96dad02d3,13_08_2026_12_45_28_193.png,13_08_2026_12_45_28.avi,14429,human,not_ok,assistant,not_ok,not_ok,not_ok,,Основная сеть размыта; несколько более контрастных отрезков справа не компенсируют потерю границ в остальном поле.,agreed_binary
+eac6c6144ae6ed3970aa,13_08_2026_10_55_33_8.png,13_08_2026_10_55_33.avi,14423,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+7b45abbc77fc1c48f0f7,14_08_2026_08_01_03_60.png,14_08_2026_08_01_03.avi,14434,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+25c18d59f9c4fc0cfcf0,13_08_2026_08_18_12_35.png,13_08_2026_08_18_12.avi,14417,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+ef477f16418145946b23,13_08_2026_14_34_10_81.png,13_08_2026_14_34_10.avi,14431,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+d73ac07933617528c341,11_08_2026_11_23_16_155.png,11_08_2026_11_23_16.avi,14385,human,uncertain,assistant,uncertain,uncertain,uncertain,,"Центральные сосуды очерчены достаточно хорошо, но сильная зернистость затрудняет оценку мелких ветвей; не уверен в пригодности всего поля.",uncertain_agreement
+cd5b8a30e75b5c381036,13_08_2026_09_32_16_60.png,13_08_2026_09_32_16.avi,10236,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Слева сохранились отдельные тонкие линии, но большая часть основной сети сверху и справа расфокусирована.",agreed_binary
+2fe8198b338e2ec3ffb9,12_08_2026_08_42_38_81.png,12_08_2026_08_42_38.avi,14397,human,not_ok,assistant,not_ok,not_ok,not_ok,,Общая расфокусировка и выраженный шум; границы сосудов широкие и размытые.,agreed_binary
+bd9bc44a99cbb80f9025,14_08_2026_11_50_48_178.png,14_08_2026_11_50_48.avi,15200,human,not_ok,assistant,not_ok,not_ok,not_ok,,Основная сеть в центре и слева расфокусирована; отдельные тонкие отрезки справа резче остального поля.,agreed_binary
+eb0b4b1289395f0ebd14,14_08_2026_11_32_21_19.png,14_08_2026_11_32_21.avi,14445,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+9a5a8268af070191a675,11_08_2026_13_38_35_56.png,11_08_2026_13_38_35.avi,15197,human,not_ok,assistant,not_ok,not_ok,not_ok,,Мелкие ветви мягкие и теряются в шуме; засветка слева дополнительно закрывает часть сети.,agreed_binary
+fd39769d90b69669d255,15_08_2026_08_07_51_40.png,15_08_2026_08_07_51.avi,14456,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+4e1469d39eb379a1cac1,12_08_2026_11_37_56_57.png,12_08_2026_11_37_56.avi,10502,human,not_ok,assistant,not_ok,not_ok,not_ok,,Общая расфокусировка: границы крупных и мелких сосудов расплывчаты.,agreed_binary
+58ec587a6f7e6ef21802,12_08_2026_11_56_11_72.png,12_08_2026_11_56_11.avi,14408,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Тонкие участки слева различимы, но основные продолжения в центре и снизу заметно размыты.",disagreement
+3eb8dee4170498ef9e13,12_08_2026_11_32_12_46.png,12_08_2026_11_32_12.avi,14406,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+329a9466537a1832a227,11_08_2026_10_40_48_72.png,11_08_2026_10_40_48.avi,5116,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Сеть видна, однако контуры по всему полю мягкие, а шум скрывает мелкие границы.",disagreement
+f4998956670c540df1f6,11_08_2026_11_45_08_37.png,11_08_2026_11_45_08.avi,14386,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+f32ea180b86a88104afa,13_08_2026_10_41_46_58.png,13_08_2026_10_41_46.avi,14422,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+369322a3e68e2d518163,13_08_2026_12_44_51_9.png,13_08_2026_12_44_51.avi,14429,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+81e0f1921831296e1ad0,15_08_2026_08_08_03_97.png,15_08_2026_08_08_03.avi,14456,human,not_ok,assistant,not_ok,not_ok,not_ok,,Даже более тонкая верхняя сеть имеет мягкие границы; основная часть поля сильно расфокусирована.,agreed_binary
+700d29255c43adc5bf00,11_08_2026_11_45_21_43.png,11_08_2026_11_45_21.avi,14386,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная зернистость и расфокусировка; кроме нижних отдельных ветвей сеть и её границы не различимы.,agreed_binary
+d086be921d448f8e5ae8,13_08_2026_14_27_17_22.png,13_08_2026_14_27_17.avi,14430,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+f33796bff70c5341ce8b,12_08_2026_10_45_17_31.png,12_08_2026_10_45_17.avi,14404,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная общая расфокусировка и светлая полоса справа; сосудистые границы отсутствуют.,agreed_binary
+574524312e2500bb8034,13_08_2026_10_06_35_128.png,13_08_2026_10_06_35.avi,14421,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+c2a1e18fe4db2a8fe4c9,14_08_2026_13_38_10_13.png,14_08_2026_13_38_10.avi,14452,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+dc9af5ce437ad99c3773,14_08_2026_09_23_05_21.png,14_08_2026_09_23_05.avi,14437,human,not_ok,assistant,not_ok,not_ok,not_ok,,Крупные засветки и сильная расфокусировка; основная сеть не различима.,agreed_binary
+f6702090e0526e0ab396,13_08_2026_14_32_33_108.png,13_08_2026_14_32_33.avi,14431,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+42a8af40ffeae05796a8,12_08_2026_08_20_39_65.png,12_08_2026_08_20_39.avi,14396,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Границы основной сети размыты, мелкие ветви теряются в выраженном шуме.",disagreement
+d45d179b95b4b0310c5d,13_08_2026_11_45_39_95.png,13_08_2026_11_45_39.avi,14425,human,ok,assistant,ok,uncertain,uncertain,,"Многие тонкие ветви прослеживаются, но в местах наложения и слева снизу резкость неоднозначна; не уверен, что размыт только глубокий фон.",disagreement
+7edaa6f0de4d4b063de7,11_08_2026_12_14_10_6.png,11_08_2026_12_14_10.avi,14390,human,not_ok,assistant,not_ok,not_ok,not_ok,,Шум и низкий контраст скрывают мелкие границы; различимы лишь отдельные нижние отрезки.,agreed_binary
+07a599b2789462151fb7,15_08_2026_08_24_19_98.png,15_08_2026_08_24_19.avi,14457,assistant,uncertain,human,ok,uncertain,ok,,,disagreement
+ff2e2daed94d1f04b5f2,13_08_2026_14_28_17_32.png,13_08_2026_14_28_17.avi,14430,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная расфокусировка и засветка слева; различимых сосудистых границ нет.,agreed_binary
+1175f2cab17e6fdf86a5,13_08_2026_15_02_33_3.png,13_08_2026_15_02_33.avi,14433,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сеть не различима, кадр сильно расфокусирован и частично засвечен.",agreed_binary
+76d1dbcbeb6fa38868e8,13_08_2026_12_06_24_106.png,13_08_2026_12_06_24.avi,15199,human,ok,assistant,ok,uncertain,uncertain,,Центральные и верхние тонкие петли чёткие поверх глубокого размытого сосуда; не уверен в достаточной резкости их левых периферических продолжений.,disagreement
+a4c8e589ffce16fbd751,12_08_2026_08_50_37_87.png,12_08_2026_08_50_37.avi,14398,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Отдельные центральные отрезки тонких сосудов видны, но остальная основная сеть размыта и теряется в шуме.",disagreement
+2c3d983c05169add6c70,14_08_2026_08_55_38_48.png,14_08_2026_08_55_38.avi,14436,human,not_ok,assistant,not_ok,not_ok,not_ok,,Основные ветви имеют широкие мягкие границы; мелкая сеть не различима.,agreed_binary
+9bba0d77467b2cae8036,11_08_2026_11_10_31_203.png,11_08_2026_11_10_31.avi,14384,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Верхняя тонкая петля различима, но её нижние продолжения и пересечения слева размыты; выраженный шум.",disagreement
+767f2f2fcdfbcee1dc9f,12_08_2026_13_59_09_86.png,12_08_2026_13_59_09.avi,14413,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+98c1b9812c6c85d89f2f,12_08_2026_10_36_56_199.png,12_08_2026_10_36_56.avi,14403,human,ok,assistant,ok,not_ok,not_ok,,"Правая тонкая сеть различима лучше, но её продолжения влево и вниз теряются в шуме и расфокусировке.",disagreement
+77d51544f03960cbf9ae,12_08_2026_11_56_31_83.png,12_08_2026_11_56_31.avi,14408,human,ok,assistant,ok,not_ok,not_ok,,"Резкость неоднородна: справа сеть чётче, слева основные ветви размыты; блик закрывает часть сосудов справа.",disagreement
+29486178df7646484fd9,12_08_2026_12_35_55_98.png,12_08_2026_12_35_55.avi,14411,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+5538a449a160ef6559a7,14_08_2026_08_36_41_26.png,14_08_2026_08_36_41.avi,14435,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+c43457475902b95757bd,13_08_2026_09_21_40_79.png,13_08_2026_09_21_40.avi,14419,human,uncertain,assistant,uncertain,not_ok,not_ok,,Чёткие отрезки слева и снизу соседствуют с размытыми продолжениями основной сети сверху и справа.,disagreement
+df33d746dde3feefccd2,12_08_2026_13_37_15_79.png,12_08_2026_13_37_15.avi,14412,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная общая расфокусировка: различимы только широкие тени сосудов.,agreed_binary
+71434884c13f0de23691,12_08_2026_14_39_10_71.png,12_08_2026_14_39_10.avi,14415,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+0f8d228c9f054806969a,12_08_2026_12_36_05_6.png,12_08_2026_12_36_05.avi,14411,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+0d59bfa60fde6b26bfaf,12_08_2026_11_22_19_56.png,12_08_2026_11_22_19.avi,14405,human,ok,assistant,ok,not_ok,not_ok,,"Центральная тонкая петля различима, но её нижнее продолжение и верхние крупные участки сети размыты.",disagreement
+ee6b0ad403c895a9e13e,12_08_2026_11_28_23_118.png,12_08_2026_11_28_23.avi,5943,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+23379dfb8badfc618ea2,14_08_2026_09_50_44_103.png,14_08_2026_09_50_44.avi,14438,human,ok,assistant,ok,not_ok,not_ok,,Две большие засветки перекрывают сосудистую сеть; резкость остальных участков также неоднородна.,disagreement
+ebda44c6f2e006b80f66,12_08_2026_12_00_38_213.png,12_08_2026_12_00_38.avi,14409,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+998d060a2d8935244885,12_08_2026_08_43_24_208.png,12_08_2026_08_43_24.avi,14397,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+3b55b1eb9b6811356024,11_08_2026_12_07_48_70.png,11_08_2026_12_07_48.avi,14389,human,ok,assistant,ok,not_ok,not_ok,,"Верхние тонкие сосуды различимы частично, но их нижние продолжения размываются и теряются в шуме.",disagreement
+f7d73b93d8aa9f21ae8a,13_08_2026_10_18_36_4.png,13_08_2026_10_18_36.avi,8945,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+1f324da931083cda205c,13_08_2026_09_56_45_107.png,13_08_2026_09_56_45.avi,14420,assistant,ok,human,ok,ok,ok,,,agreed_binary
+40b7557bf2161d8ce205,14_08_2026_12_04_28_60.png,14_08_2026_12_04_28.avi,14449,human,not_ok,assistant,not_ok,not_ok,not_ok,,Общая расфокусировка основной сети; чётких мелких границ нет.,agreed_binary
+dc8e398c4e77005b15fe,12_08_2026_14_39_42_72.png,12_08_2026_14_39_42.avi,14415,human,not_ok,assistant,not_ok,not_ok,not_ok,,Основная сеть имеет мягкие границы по большей части поля; крупная засветка сверху слева.,agreed_binary
+189ad5b1129dcdc3d1f2,13_08_2026_08_17_33_102.png,13_08_2026_08_17_33.avi,14417,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+b6511fc4728caf12e39e,13_08_2026_11_15_57_152.png,13_08_2026_11_15_57.avi,14934,human,ok,assistant,ok,not_ok,not_ok,,"Центральные контрастные участки видны, но нижние и верхние продолжения основных сосудов теряют резкость.",disagreement
+e85cc3bd6841255733f1,14_08_2026_11_45_46_117.png,14_08_2026_11_45_46.avi,14448,assistant,ok,human,ok,ok,ok,,,agreed_binary
+f9e38375273ba903a3f9,12_08_2026_13_49_14_17.png,12_08_2026_13_49_14.avi,10088,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+6f43e8ba2422cdbb887a,12_08_2026_10_23_39_123.png,12_08_2026_10_23_39.avi,14401,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+69a2407390070753f379,14_08_2026_11_09_47_83.png,14_08_2026_11_09_47.avi,14444,human,uncertain,assistant,uncertain,not_ok,not_ok,,Справа сеть значительно резче; левая часть основной сети и нижние петли расфокусированы.,disagreement
+bd049dfdcf6cc956b27f,12_08_2026_12_36_25_63.png,12_08_2026_12_36_25.avi,14411,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная расфокусировка основной сети и обширная верхняя засветка.,agreed_binary
+7606f52ccb470c6bb9ec,11_08_2026_10_21_49_28.png,11_08_2026_10_21_49.avi,14381,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+84f5d1316a34a184e40f,11_08_2026_11_54_00_46.png,11_08_2026_11_54_00.avi,14388,human,ok,assistant,ok,not_ok,not_ok,,"Центральная петля видна лучше, но верхние, нижние и правые участки основной сети мягкие; шум мешает мелким границам.",disagreement
+2176a8169081b931876e,12_08_2026_10_36_11_123.png,12_08_2026_10_36_11.avi,14403,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+9a2aaccac338c2c19ecc,13_08_2026_10_30_25_96.png,13_08_2026_10_30_25.avi,15198,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+533637555f49f3f5c6e7,12_08_2026_12_00_12_39.png,12_08_2026_12_00_12.avi,14409,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+c123d0a1a8d6af52a7c9,12_08_2026_08_49_59_124.png,12_08_2026_08_49_59.avi,14398,assistant,uncertain,human,ok,uncertain,ok,,,disagreement
+aa771d3387e1453b1558,12_08_2026_10_05_47_106.png,12_08_2026_10_05_47.avi,14400,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильный шум и низкая резкость скрывают мелкую сеть; контуры большинства сосудов расплывчаты.,agreed_binary
+39f23153bcfea64997b9,14_08_2026_08_01_19_209.png,14_08_2026_08_01_19.avi,14434,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Контрастные ветви в центре различимы, но мелкие петли слева и снизу имеют размытые границы.",disagreement
+b25f976c8e9e982edd9f,11_08_2026_11_46_12_177.png,11_08_2026_11_46_12.avi,14386,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+7254c19e25c2ea564ee0,11_08_2026_14_23_15_29.png,11_08_2026_14_23_15.avi,14393,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+7495c39d8c0a7af11cf4,15_08_2026_08_03_21_42.png,15_08_2026_08_03_21.avi,14455,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+7d1aab90ce48446c32c0,12_08_2026_10_06_13_100.png,12_08_2026_10_06_13.avi,14400,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+fcf9e63d468ea84fdf54,12_08_2026_11_37_04_74.png,12_08_2026_11_37_04.avi,10502,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Резкость неоднородна: отдельные верхние тонкие линии видны, нижняя основная сеть размыта.",agreed_binary
+d78eb74b09d7d97a98fa,14_08_2026_12_19_07_32.png,14_08_2026_12_19_07.avi,14450,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+0a059d674cc88a8a85fe,15_08_2026_08_07_51_73.png,15_08_2026_08_07_51.avi,14456,human,not_ok,assistant,not_ok,not_ok,not_ok,,Низкий контраст и расфокусировка большей части основной сети; чёткие границы не прослеживаются.,agreed_binary
+440f62b17bfb39cfb7a9,13_08_2026_14_46_26_116.png,13_08_2026_14_46_26.avi,14432,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+6850142123e27801e6b8,13_08_2026_14_33_43_12.png,13_08_2026_14_33_43.avi,14431,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+9918f1f5d46399d90d48,12_08_2026_11_37_16_9.png,12_08_2026_11_37_16.avi,10502,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+58dfad41faf7de2b18d1,12_08_2026_10_29_42_6.png,12_08_2026_10_29_42.avi,14402,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+4c20d99189681310b49f,11_08_2026_14_15_09_124.png,11_08_2026_14_15_09.avi,14392,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+d4f2f24c73893a9717d1,14_08_2026_10_59_17_48.png,14_08_2026_10_59_17.avi,14443,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная общая расфокусировка; видны широкие тени сосудов без различимых границ.,agreed_binary
+dfba8733dcfc4b485d67,14_08_2026_13_37_49_36.png,14_08_2026_13_37_49.avi,14452,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная общая расфокусировка; сосуды видны только как широкие тени.,agreed_binary
+2fd4a6737749279ea46e,12_08_2026_09_30_10_213.png,12_08_2026_09_30_10.avi,10753,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+ede3b2cad7aab5b57b15,13_08_2026_12_29_53_9.png,13_08_2026_12_29_53.avi,14428,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+58f0a5d48ff9d3578b12,13_08_2026_08_03_41_88.png,13_08_2026_08_03_41.avi,14416,human,ok,assistant,ok,not_ok,not_ok,,"Тонкие петли справа чёткие, но диагональные основные ветви к нижнему левому краю заметно теряют фокус.",disagreement
+3dd69b35b88a0c6ae2c5,12_08_2026_09_18_22_62.png,12_08_2026_09_18_22.avi,14399,human,uncertain,assistant,uncertain,not_ok,not_ok,,Общая расфокусировка и сильный шум; границы сосудов расплывчаты.,disagreement
+a01d17966eec300e39ee,14_08_2026_11_45_58_0.png,14_08_2026_11_45_58.avi,14448,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Большая тёмная помеха закрывает большую часть кадра, нижний участок засвечен; сеть полноценно не видна.",agreed_binary
+aacf846bfb6f1a9cd497,12_08_2026_11_28_23_55.png,12_08_2026_11_28_23.avi,5943,human,uncertain,assistant,uncertain,not_ok,not_ok,,Мелкая сеть в центре малоконтрастная и размытая; резкими остаются лишь отдельные периферические отрезки.,disagreement
+2af77edf6732775e6b25,12_08_2026_12_36_48_167.png,12_08_2026_12_36_48.avi,14411,assistant,ok,human,ok,ok,ok,,,agreed_binary
+58589def8a9b867dfec3,13_08_2026_09_31_34_121.png,13_08_2026_09_31_34.avi,10236,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+dbd441645bb42b44befb,11_08_2026_13_38_08_116.png,11_08_2026_13_38_08.avi,15197,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+e8257151ef424187977c,12_08_2026_15_20_49_20.png,12_08_2026_15_20_49.avi,3807,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+68c20982b88c2ba8956a,14_08_2026_10_53_28_74.png,14_08_2026_10_53_28.avi,14442,human,ok,assistant,ok,not_ok,not_ok,,"Часть тонких линий прослеживается, но крупные верхние ветви и нижняя основная сеть имеют мягкие границы.",disagreement
+1dd80132aad8a88fdfa4,14_08_2026_13_34_20_117.png,14_08_2026_13_34_20.avi,14451,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+1ddee3895389b577bc43,13_08_2026_10_18_27_58.png,13_08_2026_10_18_27.avi,8945,assistant,ok,human,uncertain,ok,uncertain,,,disagreement
+58ab795327ac5619011c,13_08_2026_12_13_36_39.png,13_08_2026_12_13_36.avi,14427,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Основная сеть сильно расфокусирована, несколько засветок перекрывают сосуды.",agreed_binary
+8908422cb8577a7c51ad,14_08_2026_11_32_09_122.png,14_08_2026_11_32_09.avi,14445,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Верхняя тонкая сеть различима, но основные нижние продолжения размыты и малоконтрастны.",agreed_binary
+dfa5b24cdfb07ca022fa,13_08_2026_10_06_25_1.png,13_08_2026_10_06_25.avi,14421,assistant,not_ok,human,ok,not_ok,ok,,,disagreement
+2751d981b7c7cb5c1f96,13_08_2026_11_16_09_107.png,13_08_2026_11_16_09.avi,14934,human,ok,assistant,ok,uncertain,uncertain,,Отдельные участки тонкой сети очерчены хорошо поверх глубоких сосудов; из-за прерывистости изображения не уверен в различимости границ по всему полю.,disagreement
+96a8adf25e605e294b08,12_08_2026_13_58_44_70.png,12_08_2026_13_58_44.avi,14413,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+ba49c23f74c043d83644,14_08_2026_13_45_56_95.png,14_08_2026_13_45_56.avi,3180,assistant,uncertain,human,ok,uncertain,ok,,,disagreement
+a5651ae01e884dd18a88,14_08_2026_08_00_21_52.png,14_08_2026_08_00_21.avi,14434,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+b890b7e3436eb6eb7c24,12_08_2026_14_40_07_138.png,12_08_2026_14_40_07.avi,14415,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Крупные ветви прослеживаются, но границы мелкой сети сверху и справа мягкие; резкость неоднородна.",disagreement
+2e921771c27e9fc58e75,13_08_2026_09_32_04_100.png,13_08_2026_09_32_04.avi,10236,assistant,ok,human,ok,ok,ok,,,agreed_binary
+6d88774f88f126fe6f07,14_08_2026_10_38_40_14.png,14_08_2026_10_38_40.avi,14441,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильная общая расфокусировка, засветки и шум; сосудистые границы не различимы.",agreed_binary
+4b11cfecdbefc8e2578d,12_08_2026_11_37_56_200.png,12_08_2026_11_37_56.avi,10502,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+2b8da9818751d808723f,11_08_2026_14_22_12_35.png,11_08_2026_14_22_12.avi,14393,human,ok,assistant,ok,not_ok,not_ok,,"Слева отдельный сосуд резче, но мелкие ветви в центре и справа размыты и скрываются в шуме.",disagreement
+83cb68358b78c17dcc65,11_08_2026_12_08_15_37.png,11_08_2026_12_08_15.avi,14389,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+dfaf9e3eb4b14b49ab9f,12_08_2026_13_58_25_107.png,12_08_2026_13_58_25.avi,14413,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+448517f2bb4faec9bbef,14_08_2026_11_46_21_99.png,14_08_2026_11_46_21.avi,14448,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Справа тонкая сеть различима лучше, но её центральные и левые продолжения размыты; чёткость основной сети неоднородна.",disagreement
+3109d67f250c4b7a6e00,13_08_2026_10_56_32_191.png,13_08_2026_10_56_32.avi,14423,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+a6f7dcdac4a05963a682,12_08_2026_14_25_32_177.png,12_08_2026_14_25_32.avi,14414,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+2dde7a3d810820e20ae6,13_08_2026_14_27_41_66.png,13_08_2026_14_27_41.avi,14430,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Часть мелких ветвей чёткая, но центральные и правые петли основной сети теряют различимые границы.",disagreement
+5286f3a63fb15968db32,11_08_2026_14_06_51_113.png,11_08_2026_14_06_51.avi,14391,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+c2e657daa8ff3237b7de,12_08_2026_09_19_09_215.png,12_08_2026_09_19_09.avi,14399,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+6d9bf67c53dd4d265d7e,13_08_2026_11_46_21_23.png,13_08_2026_11_46_21.avi,14425,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+80b345b891d008d49a78,14_08_2026_13_38_49_136.png,14_08_2026_13_38_49.avi,14452,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+5b1912baf4d0c96165fc,11_08_2026_12_14_00_182.png,11_08_2026_12_14_00.avi,14390,human,not_ok,assistant,not_ok,not_ok,not_ok,,Мелкие сосуды почти теряются в сильном шуме; основная сеть имеет мягкие границы.,agreed_binary
+1a81168c43e280351460,12_08_2026_09_29_31_2.png,12_08_2026_09_29_31.avi,10753,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сосудистая сеть не различима, сильная расфокусировка и зернистость.",agreed_binary
+e518277f8192a987dd60,11_08_2026_10_40_23_18.png,11_08_2026_10_40_23.avi,5116,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+9f660631a0f77054db06,13_08_2026_08_44_46_4.png,13_08_2026_08_44_46.avi,14418,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+c646e79bfec3cb6dacb7,14_08_2026_11_49_59_78.png,14_08_2026_11_49_59.avi,15200,human,uncertain,assistant,uncertain,not_ok,not_ok,,"Центральные тонкие петли видны лучше, но их основные продолжения сверху слева и снизу размыты.",disagreement
+982368ee879b38c82529,11_08_2026_14_22_46_118.png,11_08_2026_14_22_46.avi,14393,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+e752f7e80c5c80ffb47e,13_08_2026_10_31_02_194.png,13_08_2026_10_31_02.avi,15198,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+993a9b1711e0fb880ae9,11_08_2026_11_05_57_19.png,11_08_2026_11_05_57.avi,14383,human,ok,assistant,ok,not_ok,not_ok,,Общая мягкость сосудистых границ и сильный шум; мелкую сеть уверенно выделить нельзя.,disagreement
+fcacddef38445e19f189,13_08_2026_11_25_18_35.png,13_08_2026_11_25_18.avi,14424,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+1818ae2ba6cea760ec6d,13_08_2026_11_25_07_25.png,13_08_2026_11_25_07.avi,14424,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+8db9589e1da5a5e1c2e8,12_08_2026_11_29_08_140.png,12_08_2026_11_29_08.avi,5943,assistant,uncertain,human,not_ok,uncertain,not_ok,,,disagreement
+1aef30bed99aec7eaaed,12_08_2026_10_36_11_64.png,12_08_2026_10_36_11.avi,14403,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Сильный шум и низкий контраст скрывают мелкие сосудистые границы, сеть прослеживается только фрагментами.",agreed_binary
+5e0475f468ccf8c8d4f7,14_08_2026_08_00_52_34.png,14_08_2026_08_00_52.avi,14434,human,not_ok,assistant,not_ok,not_ok,not_ok,,Сильная общая расфокусировка; сосуды представлены широкими размытыми тенями.,agreed_binary
+b283445ae1ffdf387488,13_08_2026_09_56_57_91.png,13_08_2026_09_56_57.avi,14420,human,ok,assistant,ok,uncertain,uncertain,,"Крупные передние ветви очерчены, часть тонких сосудов различима; не уверен, что мягкая сеть слева и снизу целиком относится к другой глубине.",disagreement
+8604b85293c872e880a3,13_08_2026_10_42_43_81.png,13_08_2026_10_42_43.avi,14422,human,uncertain,assistant,uncertain,uncertain,uncertain,,Тонкая сеть видна поверх крупного глубокого сосуда; сомневаюсь в достаточной чёткости верхних и правых продолжений основной сети.,uncertain_agreement
+93af70f828d7153cd278,13_08_2026_12_06_35_88.png,13_08_2026_12_06_35.avi,15199,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+e358c09882afc09f4432,12_08_2026_10_45_06_60.png,12_08_2026_10_45_06.avi,14404,assistant,ok,human,not_ok,ok,not_ok,,,disagreement
+2835393a11c6b3d6ab99,14_08_2026_13_34_59_109.png,14_08_2026_13_34_59.avi,14451,human,not_ok,assistant,not_ok,not_ok,not_ok,,"Центральная тонкая ветвь резче, но мелкие продолжения слева и снизу теряют чёткие границы.",agreed_binary
+f5cc517d7a8bfb5223ef,14_08_2026_09_12_07_15.png,14_08_2026_09_12_07.avi,3179,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary
+b510808b8e43d56442f1,12_08_2026_12_00_27_140.png,12_08_2026_12_00_27.avi,14409,human,uncertain,assistant,uncertain,not_ok,not_ok,,Основные ветви мягкие и малоконтрастные; мелкие границы не прослеживаются уверенно по всему полю.,disagreement
+5ba45d62991398556c99,11_08_2026_11_01_50_0.png,11_08_2026_11_01_50.avi,10070,assistant,not_ok,human,not_ok,not_ok,not_ok,,,agreed_binary

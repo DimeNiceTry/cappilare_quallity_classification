@@ -1,0 +1,11 @@
+{
+  "focus_classifier/artifacts/models_features.joblib": "678886255d786f38eec47fa392fcf67ec35860cf8f9f24d58afb35223c9243fe",
+  "focus_classifier/artifacts/models_neural.joblib": "b025b226c554ee55bda73b78a3c279507b4f28036da4af7742eb87e339edb358",
+  "focus_classifier/artifacts/mobilenet_v3_small_imagenet.pt": "2508f2ceb313f09e10e02667773e04cfc026a10ba988e515765801f789dc95f5",
+  "focus_classifier/artifacts/gallery.json": "52d7e0a52f4f76c1bf8af6b5a6d31b80eb9fd30e92b71c30fae034fa754d8fd9",
+  "focus_classifier/artifacts/features.csv": "6273f4637a87c8ae258ccefbbac5c1538e28a55cf5404eac2f7bc2470fcb25ae",
+  "focus_classifier/artifacts/metrics.json": "9d10acf854f29800297ceef3b693567c1ee0bc8d7404923e857fb5c04baf0459",
+  "focus_classifier/artifacts/predictions_features.npz": "d12bb12c3c8c08989b491610bbd8fb52c11b5971b731c5ab564b765f8d77066d",
+  "focus_classifier/artifacts/predictions_neural.npz": "1b1c898bf9511a1ec9303f31ae263cb7804746cc712aa48c8148488832c12add",
+  "focus_classifier/artifacts/folds.json": "4a7422961627d366f50044b8dcb5b2ef4f4a7eea81281fb84d9ec5d44df5cf04"
+}

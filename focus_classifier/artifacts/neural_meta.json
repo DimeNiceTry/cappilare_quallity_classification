@@ -1,0 +1,21 @@
+{
+  "architecture": "MobileNetV3 Small",
+  "weights": "ImageNet1K V1",
+  "frozen_backbone": true,
+  "learned_part": "StandardScaler + L2 logistic head; inner sigmoid calibration",
+  "input_wh": [
+    512,
+    384
+  ],
+  "native_wh": [
+    1024,
+    768
+  ],
+  "crop": false,
+  "dimensions": 576,
+  "torch": "2.5.1+cpu",
+  "threads": 2,
+  "extraction_p50_ms": 39.11480000169831,
+  "extraction_p95_ms": 55.0985900008527,
+  "note": "Pretrained backbone never fitted on this dataset; only head and calibration fitted within patient folds."
+}

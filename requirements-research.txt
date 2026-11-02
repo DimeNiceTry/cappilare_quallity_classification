@@ -1,0 +1,8 @@
+-r requirements.txt
+pandas==2.2.3
+matplotlib==3.9.3
+nbformat==5.10.4
+nbclient==0.10.1
+nbconvert==7.16.4
+ipykernel==6.29.5
+python-pptx==1.0.2

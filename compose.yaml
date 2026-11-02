@@ -1,0 +1,8 @@
+services:
+  capillary-quality:
+    build: .
+    ports:
+      - "127.0.0.1:8767:8767"
+    volumes:
+      - ./capillary_quality_1000/pictures:/app/capillary_quality_1000/pictures:ro
+    restart: unless-stopped
