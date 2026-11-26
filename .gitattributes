@@ -12,3 +12,4 @@ capillary_quality_1000/* -text
 data/annotations/* -text
 deployment/review_snapshot/* -text
 focus_classifier/artifacts/* -text
+fast_focus_4/artifacts/* -text

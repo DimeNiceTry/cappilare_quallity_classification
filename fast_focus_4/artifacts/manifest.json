@@ -1,0 +1,44 @@
+{
+  "format_version": 1,
+  "feature_version": "native-quality-v1",
+  "models": [
+    "logistic_basic",
+    "trees_basic"
+  ],
+  "features": [
+    "laplacian_raw",
+    "laplacian_smooth",
+    "tenengrad_smooth",
+    "local_tenengrad_p75"
+  ],
+  "python": "3.10 or 3.11",
+  "numpy": "2.0.2",
+  "sklearn": "1.5.2",
+  "opencv": "4.11.0",
+  "training": {
+    "n": 565,
+    "ok": 62,
+    "not_ok": 503,
+    "patients": 93
+  },
+  "source_model_sha256": "678886255d786f38eec47fa392fcf67ec35860cf8f9f24d58afb35223c9243fe",
+  "artifacts": {
+    "dataset.csv": {
+      "bytes": 408609,
+      "sha256": "889925436e6aa38fd68b18d8d9322c26e5d673a0c06dedb2c0d53abd6e5a0ff8"
+    },
+    "metrics.json": {
+      "bytes": 12481,
+      "sha256": "a6ee0bc83854b669c290327ee08e8205fe0ca568a1cc9cbb4458967daae92960"
+    },
+    "models.joblib": {
+      "bytes": 619930,
+      "sha256": "bfafb7c988d781971adcf413230f9c60f004ca6cdcde66b9d7d8d252415dfe3c"
+    },
+    "speed.json": {
+      "bytes": 1208,
+      "sha256": "ee6fea3352077240a484516c3af8f450b4719462ef89b3a278c5fce1d1190663"
+    }
+  },
+  "note": "Original fitted weights, no retraining. Logistic FunctionTransformer points to fast_focus_4.core.log_features."
+}

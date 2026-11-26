@@ -1,11 +1,9 @@
-"""Shared notebook utilities; production feature extraction stays in focus_classifier.
-
-Run from the repository, not as a standalone copy of this directory.
-"""
+"""Standalone notebook utilities; all models and tabular data live in this folder."""
 import hashlib
 import io
 import json
 import platform
+import os
 import time
 from pathlib import Path
 
@@ -16,39 +14,34 @@ import pandas as pd
 import sklearn
 from PIL import Image
 
-from focus_classifier.features import BASIC, from_gray
-from focus_classifier.modeling import fit_bundle, group_splits, predict_bundle
-from focus_classifier.report import decision_metrics, probability_metrics
-from focus_classifier.train import dataset
+from .core import BASIC, VERSION, from_gray, fit_bundle, group_splits, predict_bundle
+from .core import decision_metrics, probability_metrics
 
-ROOT = Path(__file__).resolve().parents[1]
 HERE = Path(__file__).resolve().parent
-ART = ROOT / 'focus_classifier' / 'artifacts'
-PICTURES = ROOT / 'capillary_quality_1000' / 'pictures'
+ART = HERE / 'artifacts'
+PICTURES = Path(os.environ.get('CAPILLARY_PICTURES', HERE / 'pictures')).expanduser()
 SEED = 20261102
 MODEL_IDS = ('logistic_basic', 'trees_basic')
 
 
 def load_data():
-    """Align by filename, check targets and preserve the original outer folds."""
-    rows, y, patients, _ = dataset()
-    table = pd.DataFrame(rows)
-    features = pd.read_csv(ART / 'features.csv').set_index('file')
-    x = features.loc[table['file'], BASIC].to_numpy(dtype=float)
-    with np.load(ART / 'predictions_features.npz') as stored:
-        oof = {key: stored[key].copy() for key in stored.files}
-    assert np.array_equal(oof['files'], table['file'].to_numpy())
-    assert np.array_equal(oof['y'], y)
-    assert np.array_equal(oof['patients'], patients)
-    assert np.isfinite(x).all()
-    table['y'] = y
-    table['fold'] = oof['fold']
-    for i, feature in enumerate(BASIC):
-        table[feature] = x[:, i]
-    for model in MODEL_IDS:
-        for key in ('p', 'raw', 'balanced', 'precise'):
-            table[f'{model}__{key}'] = oof[f'{model}__{key}']
+    """Portable snapshot with four features, labels, groups, hashes, and OOF scores."""
+    table = pd.read_csv(ART / 'dataset.csv', dtype={'file': str, 'patient_id': str}).fillna({'review_comment': ''})
+    assert table.file.is_unique and len(table) == 1000
+    assert (table.y == 1).sum() == 62 and (table.y == 0).sum() == 503
+    assert set(table.y) == {-1, 0, 1}
+    assert np.isfinite(table[BASIC].to_numpy(float)).all()
     return table
+
+
+def verify_artifacts():
+    manifest = json.loads((ART / 'manifest.json').read_text(encoding='utf-8'))
+    for name, expected in manifest['artifacts'].items():
+        path = ART / name
+        raw = path.read_bytes()
+        if len(raw) != expected['bytes'] or hashlib.sha256(raw).hexdigest() != expected['sha256']:
+            raise ValueError(f'Artifact checksum mismatch: {name}')
+    return manifest
 
 
 def baseline_table():
@@ -73,7 +66,7 @@ def baseline_table():
 def load_model(model='logistic_basic'):
     if model not in MODEL_IDS:
         raise ValueError(f'Choose one of {MODEL_IDS}')
-    bundle = joblib.load(ART / 'models_features.joblib')[model]
+    bundle = joblib.load(ART / 'models.joblib')[model]
     assert bundle['features'] == BASIC
     return bundle
 
@@ -92,10 +85,8 @@ def predict_files(files, model='logistic_basic', mode='balanced', threshold=None
         raise ValueError('Manual threshold must lie in [0, 1]')
     b = load_model(model)
     t = b['thresholds'][mode] if threshold is None else float(threshold)
-    cached = pd.read_csv(ART / 'features.csv')
-    annotations = pd.read_csv(ROOT / 'data/annotations/all_comparisons.csv')
-    training_files = set(annotations.loc[annotations.status == 'agreed_binary', 'file'])
-    known = set(cached.loc[cached.file.isin(training_files), 'sha256'])
+    cached = load_data()
+    known = set(cached.loc[cached.y >= 0, 'sha256'])
     dataset_hashes = set(cached.sha256)
     cv2.setNumThreads(1)
     result = []
@@ -206,12 +197,11 @@ def run_ablations(table, output_dir=None):
         result.to_csv(out/'ablation_metrics.csv', index=False, encoding='utf-8-sig')
         pd.DataFrame(predictions).to_csv(out/'ablation_oof.csv', index=False, encoding='utf-8-sig')
         pd.DataFrame(fold_metrics).to_csv(out/'ablation_folds.csv', index=False, encoding='utf-8-sig')
-        sources = [ART/'features.csv', ART/'predictions_features.npz',
-                   ROOT/'data/annotations/all_comparisons.csv']
+        sources = [ART/'dataset.csv', ART/'models.joblib']
         metadata = dict(seed=SEED, python=platform.python_version(), sklearn=sklearn.__version__,
                         numpy=np.__version__, outer_folds=5, inner_folds=3,
-                        feature_version='native-quality-v1',
-                        sources_sha256={p.relative_to(ROOT).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
+                        feature_version=VERSION,
+                        sources_sha256={p.relative_to(HERE).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
                                         for p in sources},
                         note='Exploratory patient-grouped ablations. No final model replaced; no external test.')
         (out/'run_metadata.json').write_text(json.dumps(metadata, ensure_ascii=False, indent=2), encoding='utf-8')
@@ -240,6 +230,6 @@ def photo_grid(table, model='logistic_basic', per_case=2):
                 with Image.open(path) as im:
                     ax.imshow(im)
             else:
-                ax.text(.5, .5, 'Download original images: download_data.cmd', ha='center', wrap=True)
+                ax.text(.5, .5, 'Original image not included. Set CAPILLARY_PICTURES.', ha='center', wrap=True)
             ax.set_title(f'{title}; OOF P(ok)={row.p:.3f}\n{row["file"]}', fontsize=9)
     return fig
