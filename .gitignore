@@ -5,6 +5,7 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .ipynb_checkpoints/
+fast_focus_4/local_outputs/
 *.log
 server-error.log
 .env

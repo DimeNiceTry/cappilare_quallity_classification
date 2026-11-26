@@ -56,6 +56,7 @@ python -m focus_classifier.serve --open
 
 ## Материалы
 
+- **[Отдельная папка: быстрый классификатор на 4 признаках](fast_focus_4/README.md)** — три выполненных ноутбука: признаки и ошибки, воспроизведение и удаление признаков, свои фотографии и скорость. Для дальнейшего улучшения `logistic_basic` без PyTorch.
 - **[Короткие выводы для обсуждения с научным руководителем](CONCLUSIONS_RU.md).**
 - [Подробные выводы и интервалы](focus_classifier/artifacts/RESULTS_RU.md).
 - [Выполненный ноутбук](focus_classifier/CAPILLARY_COMPARISON_RU.ipynb) и [автономная HTML-копия](focus_classifier/CAPILLARY_COMPARISON_RU.html).
